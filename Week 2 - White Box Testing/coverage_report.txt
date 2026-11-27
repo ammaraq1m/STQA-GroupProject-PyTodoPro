@@ -1,0 +1,63 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+rootdir: /home/claude/wk
+plugins: platformdirs-4.13.0, cov-7.1.0
+collecting ... collected 42 items
+
+test_helpers.py::test_u1_no_due_date_returns_no_due_date[None] PASSED    [  2%]
+test_helpers.py::test_u1_no_due_date_returns_no_due_date[] PASSED        [  4%]
+test_helpers.py::test_u2_past_date_is_overdue PASSED                     [  7%]
+test_helpers.py::test_u3_one_day_away_is_due_soon PASSED                 [  9%]
+test_helpers.py::test_u4_three_days_away_is_upcoming PASSED              [ 11%]
+test_helpers.py::test_u5_due_today_returns_due_today XFAIL (DEFECT h...) [ 14%]
+test_helpers.py::test_u6_two_days_away_is_due_soon PASSED                [ 16%]
+test_helpers.py::test_u6b_month_boundary_is_handled PASSED               [ 19%]
+test_helpers.py::test_u7_malformed_date_raises_value_error PASSED        [ 21%]
+test_helpers.py::test_u8_non_string_due_date_raises_type_error PASSED    [ 23%]
+test_helpers.py::test_c1_not_completed_returns_false[None] PASSED        [ 26%]
+test_helpers.py::test_c1_not_completed_returns_false[] PASSED            [ 28%]
+test_helpers.py::test_c2_now_omitted_uses_real_clock PASSED              [ 30%]
+test_helpers.py::test_c3_completed_yesterday_counts PASSED               [ 33%]
+test_helpers.py::test_c4_completed_eight_days_ago_does_not_count PASSED  [ 35%]
+test_helpers.py::test_c5_future_timestamp_does_not_count PASSED          [ 38%]
+test_helpers.py::test_c6_exactly_seven_days_ago_counts XFAIL (DEFECT...) [ 40%]
+test_helpers.py::test_c7_just_inside_window_counts PASSED                [ 42%]
+test_helpers.py::test_c7b_just_outside_window_does_not_count PASSED      [ 45%]
+test_helpers.py::test_c8_completed_at_exactly_now_counts XFAIL (PROB...) [ 47%]
+test_helpers.py::test_c9_custom_window_size_is_respected PASSED          [ 50%]
+test_helpers.py::test_c10_malformed_timestamp_raises_value_error PASSED  [ 52%]
+test_helpers.py::test_p1_non_string_password_is_invalid[None] PASSED     [ 54%]
+test_helpers.py::test_p1_non_string_password_is_invalid[12345678] PASSED [ 57%]
+test_helpers.py::test_p1_non_string_password_is_invalid[value2] PASSED   [ 59%]
+test_helpers.py::test_p2_eight_character_password_is_valid XFAIL (DE...) [ 61%]
+test_helpers.py::test_p3_nine_character_password_is_valid PASSED         [ 64%]
+test_helpers.py::test_p4_short_password_is_invalid[abcdefg] PASSED       [ 66%]
+test_helpers.py::test_p4_short_password_is_invalid[] PASSED              [ 69%]
+test_helpers.py::test_username_partitions_and_boundaries[None-False] PASSED [ 71%]
+test_helpers.py::test_username_partitions_and_boundaries[123-False] PASSED [ 73%]
+test_helpers.py::test_username_partitions_and_boundaries[-False] PASSED  [ 76%]
+test_helpers.py::test_username_partitions_and_boundaries[ab-False] PASSED [ 78%]
+test_helpers.py::test_username_partitions_and_boundaries[abc-True] PASSED [ 80%]
+test_helpers.py::test_username_partitions_and_boundaries[aaaaaaaaaaaaaaaaaaaa-True] PASSED [ 83%]
+test_helpers.py::test_username_partitions_and_boundaries[aaaaaaaaaaaaaaaaaaaaa-False] PASSED [ 85%]
+test_helpers.py::test_username_partitions_and_boundaries[abc123-True] PASSED [ 88%]
+test_helpers.py::test_username_partitions_and_boundaries[a_b-True] PASSED [ 90%]
+test_helpers.py::test_username_partitions_and_boundaries[a b-False] PASSED [ 92%]
+test_helpers.py::test_username_partitions_and_boundaries[a-b-False] PASSED [ 95%]
+test_helpers.py::test_username_partitions_and_boundaries[a@b-False] PASSED [ 97%]
+test_helpers.py::test_username_non_ascii_letter_currently_accepted PASSED [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.3-final-0 ________________
+
+Name         Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------
+helpers.py      31      0     18      0   100%
+--------------------------------------------------------
+TOTAL           31      0     18      0   100%
+=========================== short test summary info ============================
+XFAIL test_helpers.py::test_u5_due_today_returns_due_today - DEFECT helpers.py L33: `due <= today` classifies today as Overdue; spec says 'Due Today', and no code path ever returns that label.
+XFAIL test_helpers.py::test_c6_exactly_seven_days_ago_counts - DEFECT helpers.py L75: `age.days < n` excludes exactly N days ago; spec says the window is inclusive of exactly N days.
+XFAIL test_helpers.py::test_c8_completed_at_exactly_now_counts - PROBABLE DEFECT helpers.py L75: `total_seconds() > 0` excludes a task completed at exactly `now`. Spec is unclear, but 'within the last N days' should include a task completed this very second.
+XFAIL test_helpers.py::test_p2_eight_character_password_is_valid - DEFECT helpers.py L49: `len(password) > 8` rejects 8-character passwords; spec says at least 8.
+======================== 38 passed, 4 xfailed in 0.19s =========================
