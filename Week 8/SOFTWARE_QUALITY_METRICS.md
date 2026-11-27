@@ -55,6 +55,16 @@ The RTM has 23 requirements with failing evidence, 11 with only passing verdicts
 
 ![Requirement coverage](charts/requirement_coverage.svg)
 
+## Supplementary Week 1 manual metrics
+
+The 27 November 2026 MYT Microsoft Edge session adds human execution evidence to Week 1. Its figures use nine planned cases and nine verdicts. The historical 480-record population remains the denominator for the headline comparison.
+
+| Planned | Executed | Pass | Fail | Blocked | Not Run | Execution rate | Pass rate | Fail rate |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 9 | 9 | 8 | 1 | 0 | 0 | 100.00% (9/9) | 88.89% (8/9) | 11.11% (1/9) |
+
+M04 reconfirmed DEF-001, so the consolidated defect total remains 29. M07’s Open screenshot verifies the final state, while the tester's observation records the preceding Done state. [Supplementary manual results](../01_Black_Box/SUPPLEMENTARY_MANUAL_TESTING.md)
+
 ## Defects
 
 | Dimension | Counts |

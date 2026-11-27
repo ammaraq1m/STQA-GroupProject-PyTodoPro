@@ -15,7 +15,7 @@ PyTodo Pro is the Flask and SQLite task manager evaluated for Software Testing a
 
 | Week | Deliverable |
 | --- | --- |
-| 1 | [Black-box test design, results and findings](01_Black_Box/Blackbox%20Testing.md) |
+| 1 | [Historical black-box report](01_Black_Box/Blackbox%20Testing.md), [application analysis and test scope](01_Black_Box/APPLICATION_ANALYSIS_AND_SCOPE.md), [decision and state-transition designs](01_Black_Box/BLACK_BOX_TEST_DESIGN.md) and [supplementary manual test results](01_Black_Box/SUPPLEMENTARY_MANUAL_TESTING.md) |
 | 2 | [White-box analysis and reported helper coverage](Week%202%20-%20White%20Box%20Testing/White-Box-Testing.md) and [supplementary helper verification](Week%202%20-%20White%20Box%20Testing/RECOVERED_EVIDENCE.md) |
 | 3 | [GUI, compatibility, usability and accessibility results](Week%203%20-%20GUI%20Compatibility%20Usability%20Accessibility%20Testing/WEEK_3_TEST_REPORT.md) |
 | 4 | [Web, REST API and cross-interface testing](Week%204%20-%20Web%20and%20API%20Testing/WEEK_4_TEST_REPORT.md) |

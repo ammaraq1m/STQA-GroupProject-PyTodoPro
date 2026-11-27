@@ -21,6 +21,24 @@ Pass rate = Pass ÷ (Pass + Fail). Planned or recorded observations include Not 
 
 The initial attempt includes four pytest source-check infrastructure errors and twelve browser checks that did not start. They are recorded as Blocked. The Week 3 sandbox startup failure is recorded as a run-level incident because no case-level outcomes were produced. Week 3 manual records include eight explicitly deferred cases and 33 checklist designs. Each of the seven COM configurations contributes one bundled checklist design with five workflow checkpoints. [Week 3 sandbox incident](../Week%203%20-%20GUI%20Compatibility%20Usability%20Accessibility%20Testing/logs/sandbox-execution.log) · [Full execution history](Execution%20History.csv)
 
+## Week 1 supplementary manual verification
+
+A group tester executed the nine Week 1 supplementary cases in Microsoft Edge on 27 November 2026 MYT using revision 1e11392 and an isolated temporary SQLite database. There were 9 planned, 9 executed, 8 Pass, 1 Fail, 0 Blocked and 0 Not Run. Execution was 100.00% (9/9) and the pass rate was 88.89% (8/9). The historical 480-record baseline and original requirement and design denominators remain the basis of the preceding results. [Case procedures, observations and screenshots](../01_Black_Box/SUPPLEMENTARY_MANUAL_TESTING.md)
+
+| Supplementary case | Requirements | Design rule | Verdict | Defect or evidence note |
+| --- | --- | --- | --- | --- |
+| W1-M01 | F01 | Registration R2, two-character username | Pass | Expected username error observed. |
+| W1-M02 | F02 | Registration R3, seven-character password | Pass | Expected password error observed. |
+| W1-M03 | F01, F02 | Registration R4, both inputs invalid | Pass | Username error appeared first. |
+| W1-M04 | F01, F02, F03 | Registration R1, eight-character boundary | Fail | Reconfirmed existing DEF-001. |
+| W1-M05 | F01, F02, F03 | Registration R1, nine-character control | Pass | My Tasks opened as p09. |
+| W1-M06 | F16 | Filter T7, title and Done status | Pass | Only Phase Alpha Review shown with search alpha and All categories. |
+| W1-M07 | F08, F14 | S1–S3, create, complete and reopen | Pass | Reopen captured. Completion observation supplied by the tester. The planned Done screenshot is unavailable. |
+| W1-M08 | F15 | S5–S6, cancel and confirm deletion | Pass | The task remained after Cancel and disappeared after confirmation. |
+| W1-M09 | F08 | S7, open a stale web Edit URL | Pass | My Tasks opened and the deleted task remained absent. |
+
+DEF-001 remains open in the consolidated register. M04 adds human verification of the same failure. [Master defect register](Master%20Defect%20Register.csv)
+
 ## Design and requirement coverage
 
 | Measure | Result |

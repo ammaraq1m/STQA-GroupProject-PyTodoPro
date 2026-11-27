@@ -12,7 +12,7 @@ Assign names to presenter roles A–D and rehearse slide 11 with the evidence ta
 
 ### Slide 3 · Presenter A · 65 seconds
 
-“Week 1 used equivalence partitions and boundaries, recording 32 passes out of 42. Week 2 reported 31 of 31 statements and 18 of 18 measured branches in `helpers.py`. Four tests still failed, including a case where today was labelled Overdue. The original coverage output is unavailable. In Week 3, all 88 emulated core GUI checks passed, while two of 16 emulated layout checks passed. The screenshot shows a layout problem a successful task action can miss.”
+“The original Week 1 report recorded 32 passes out of 42. Later, a group tester applied partitions, boundaries, decision tables and state transitions in Edge. Week 2 reported 31 of 31 statements and 18 of 18 measured branches in the helper module, and four assertions failed. In Week 3, all 88 emulated core GUI checks passed while two of 16 emulated layout checks passed.”
 
 ### Slide 4 · Presenter B · 55 seconds
 
@@ -24,7 +24,7 @@ Assign names to presenter roles A–D and rehearse slide 11 with the evidence ta
 
 ### Slide 6 · Presenter B · 55 seconds
 
-“The baseline and final view contains 480 planned verdict records. Of 421 executed, 325 passed and 96 failed. That is an execution rate of 87.71% and a pass rate of 77.20% among executed records. Fifty-nine are Not Run. The 225 source test designs include four performance measurement designs and retain documented overlaps. Repeated configurations and reruns contribute to the execution counts. The archived initial Week 6 attempt had 16 blocks.”
+“The historical baseline contains 480 planned records. Of 421 executed, 325 passed and 96 failed. That is 87.71% execution and 77.20% passing among executed records. Fifty-nine were Not Run. The supplementary Week 1 manual session adds its own nine verdicts, with eight passes and one failure. Registration rejected a password at the advertised eight-character minimum, reconfirming DEF-001.”
 
 ### Slide 7 · Presenter C · 60 seconds
 

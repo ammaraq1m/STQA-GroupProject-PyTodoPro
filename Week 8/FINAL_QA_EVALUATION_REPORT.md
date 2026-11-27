@@ -30,6 +30,10 @@ This is the Week 8 quality evaluation for TEB3433 / TFB3433. It covers the suppl
 
 Browser configurations and reused regression cases contribute observations without creating new designs. The archived initial attempt accounts for 16 blocks, including four source-check infrastructure errors and 12 browser checks that could not start. Both workload runs count separately from verdicts. [Formulas, evidence and charts](SOFTWARE_QUALITY_METRICS.md)
 
+## Supplementary Week 1 manual verification
+
+During finalisation, a group tester executed nine browser cases in Microsoft Edge on 27 November 2026 MYT at revision 1e11392. Eight passed and one failed, with zero Blocked and zero Not Run. The pass rate was 88.89% (8/9) and the execution rate was 100.00% (9/9). M04 reconfirmed DEF-001 when the web form rejected an eight-character password. The 480-record historical baseline remains the source of the headline rates. The supplementary session used one browser and disposable data. The screenshot of the Done stage in M07 is unavailable. The tester recorded that stage and the reopened state is visible in a screenshot. [Manual results and evidence](../01_Black_Box/SUPPLEMENTARY_MANUAL_TESTING.md) · [Supplementary traceability](../Week%207/Execution%20and%20Regression%20Summary.md#week-1-supplementary-manual-verification)
+
 ## Integrated product assessment
 
 | Quality attribute | Verified finding and impact | Confidence boundary |
