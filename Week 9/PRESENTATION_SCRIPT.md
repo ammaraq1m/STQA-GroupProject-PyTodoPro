@@ -12,7 +12,7 @@ Assign names to presenter roles A–D and rehearse slide 11 with the evidence ta
 
 ### Slide 3 · Presenter A · 65 seconds
 
-“Week 1 used equivalence partitions and boundaries, recording 32 passes out of 42. Week 2 followed helper control flow. It reported every measured statement and branch in scope, yet four tests failed. For example, today was labelled Overdue. Week 3 separated interactions from presentation: the 88 emulated core GUI checks passed, while only two of 16 emulated layout checks passed. The screenshot shows the kind of layout problem a successful task action can miss.”
+“Week 1 used equivalence partitions and boundaries, recording 32 passes out of 42. Week 2 reported 31 of 31 statements and 18 of 18 measured branches in `helpers.py`. Four tests still failed, including a case where today was labelled Overdue. The original coverage output is unavailable. In Week 3, all 88 emulated core GUI checks passed, while two of 16 emulated layout checks passed. The screenshot shows a layout problem a successful task action can miss.”
 
 ### Slide 4 · Presenter B · 55 seconds
 
@@ -24,7 +24,7 @@ Assign names to presenter roles A–D and rehearse slide 11 with the evidence ta
 
 ### Slide 6 · Presenter B · 55 seconds
 
-“We planned 480 verdict records in the baseline and final view. Of 421 executed, 325 passed and 96 failed. That is an execution rate of 87.71% and a pass rate of 77.20% among executed records. Fifty-nine are Not Run. The 225 unique designs include four performance measurement designs. Repeated configurations and reruns account for the difference in denominators. The initial Week 6 attempt had 16 blocks and is archived independently.”
+“The baseline and final view contains 480 planned verdict records. Of 421 executed, 325 passed and 96 failed. That is an execution rate of 87.71% and a pass rate of 77.20% among executed records. Fifty-nine are Not Run. The 225 source test designs include four performance measurement designs and retain documented overlaps. Repeated configurations and reruns contribute to the execution counts. The archived initial Week 6 attempt had 16 blocks.”
 
 ### Slide 7 · Presenter C · 60 seconds
 
@@ -44,7 +44,7 @@ Assign names to presenter roles A–D and rehearse slide 11 with the evidence ta
 
 ### Slide 11 · Presenter D · 4 minutes
 
-“Here is a disposable account. I create a task, complete it and view its dashboard count. Now the test client runs A01 and GAP02. The registration control passes. With a frozen clock, the inclusive seven-day case fails as expected for this baseline. Both dashboards return zero where the requirement expects one. Here is the F19 RTM row and DEF-003 evidence. The full helper coverage and the failing assertion can coexist.” Follow the runbook. If setup fails, state what stopped and switch to archived evidence.
+“Here is a disposable account. I create a task, complete it and view its dashboard count. Now the test client runs A01 and GAP02. The registration control passes. With a frozen clock, the inclusive seven-day case reproduces the known failure. Both dashboards return zero where the requirement expects one. Here is the F19 RTM row and DEF-003 evidence. The reported full coverage of the measured helper branches coexists with this incorrect result.” Follow the runbook. If setup fails, state what stopped and switch to archived evidence.
 
 ### Slide 12 · Presenter D · 60 seconds
 

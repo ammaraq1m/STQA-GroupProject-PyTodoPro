@@ -37,7 +37,7 @@ N09,Inferred,Supply session signing secret through managed external configuratio
 N10,Inferred,Require CSRF validation on web mutations and POST for logout,Failed evidence,W5-S19,Source finding; runtime control verification pending.
 N11,Inferred,"Retain durable mutation audit events with actor, target and result",Failed evidence,W5-S18,See linked case scope and expected results.
 N12,Inferred,Render untrusted title as literal text at runtime,Untested — Not Run only,W5-N03,Week 5 STRIDE T08 confirms an escaping override in source; runtime verification Not Run.
-N13,Inferred,Enforce TLS in deployed environment,Untested — Not Run only,W5-N04,See linked case scope and expected results.
+N13,Inferred,Enforce TLS in deployed environment,Untested — Not Run only,W5-N04,Deployment TLS verification remains Not Run. Local cookie metadata is tracked separately under N07.
 N14,Inferred,"Measure latency, throughput and errors for paced authenticated reads",Measured — limits apply,W5-LOAD-01; W5-LOAD-05; W5-LOAD-10; W5-LOAD-25,Paced loopback reads measured; deployment objectives tracked under N15.
 N15,Inferred,"Meet approved deployment latency, error and capacity targets under representative read/write load",Untested — no case,,Design and execute a dedicated case; no mapped historical case.
 N16,Inferred,Validate first-use and error recovery with participants,Untested — Not Run only,W3-U-M01; W3-U-M02,Participant access and consent required.

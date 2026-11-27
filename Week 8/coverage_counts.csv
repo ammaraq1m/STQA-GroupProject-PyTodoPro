@@ -1,9 +1,9 @@
 ﻿Dimension,Category,Count
-Unique design outcomes,Pass,116
-Unique design outcomes,Fail,56
-Unique design outcomes,Mixed Pass/Fail,2
-Unique design outcomes,Not Run,47
-Unique design outcomes,Measured,4
+Source design outcomes,Pass,116
+Source design outcomes,Fail,56
+Source design outcomes,Mixed Pass/Fail,2
+Source design outcomes,Not Run,47
+Source design outcomes,Measured,4
 Requirement evidence,Passing evidence,11
 Requirement evidence,Failed evidence,23
 Requirement evidence,Untested — no case,5

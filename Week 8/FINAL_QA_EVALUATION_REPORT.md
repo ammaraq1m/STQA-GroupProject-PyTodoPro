@@ -20,7 +20,7 @@ This is the Week 8 quality evaluation for TEB3433 / TFB3433. It covers the suppl
 | --- | --- |
 | Baseline and final verdict records | 480 planned, 421 executed, 325 passed, 96 failed, zero blocked and 59 Not Run |
 | Execution, pass and failure rates | 87.71% execution (421/480), 77.20% pass (325/421), 22.80% fail (96/421) |
-| Unique test designs | 225 including four measurement designs. 174 with a verdict, four measured and 47 unexecuted |
+| Source test designs | 225 including four measurement designs. 174 with a verdict, four measured and 47 unexecuted |
 | Requirement coverage | 39/44 mapped (88.64%), 35/44 with a verdict or measurement (79.55%), including 23 with failures and nine with no execution evidence |
 | Automation coverage | 106/225 repository assertion designs (47.11%), 110/225 with load (48.89%), 178/225 including historical report-only automation and load (79.11%) |
 | Structural coverage | Reported helper statements 31/31 and branches 18/18. Four helper tests failed |

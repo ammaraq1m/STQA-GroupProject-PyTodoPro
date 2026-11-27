@@ -30,8 +30,8 @@ All verdict records incl. initial execution rate,450,537,83.8,Executed / planned
 All verdict records incl. initial pass rate,341,450,75.78,Pass / executed
 All verdict records incl. initial failure rate,109,450,24.22,Fail / executed
 W3 manual and templates execution rate,0,41,0.0,Executed / planned verdict records
-Unique verdict-case execution rate,174,221,78.73,Designs with Pass or Fail / verdict designs
-Unique all-design evidence coverage,178,225,79.11,Designs with verdict or measurement / all designs
+Verdict execution rate by source design,174,221,78.73,Designs with Pass or Fail / verdict designs
+All-design evidence coverage,178,225,79.11,Designs with verdict or measurement / all designs
 Requirement design coverage,39,44,88.64,Requirements mapped to designs / all requirements
 Requirement verdict coverage,34,44,77.27,Requirements with Pass or Fail evidence / all requirements
 Requirement execution coverage,35,44,79.55,Requirements with verdict or measurement / all requirements

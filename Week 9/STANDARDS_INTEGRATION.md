@@ -4,7 +4,7 @@ The course brief places Week 9 in course Week 12 as an integration and presentat
 
 ## ISO 9001 quality management principles
 
-ISO 9001:2015 specifies quality management system requirements. The quality management principles described by ISO form a basis for those requirements. The project artifacts show examples of applying the principles within a testing project. [ISO 9001:2015 overview](https://committee.iso.org/sites/tc176sc2/home/projects/published/iso-9001-2015.html) · [ISO quality management principles](https://www.iso.org/quality-management/principles)
+This project draws on ISO's quality management principles and process approach, using the ISO 9001:2015 guidance as a reference for the examples below. ISO 9001:2026 is the published successor. The project brief identifies no course edition. [ISO 9001:2015 guidance](https://committee.iso.org/sites/tc176sc2/home/projects/published/iso-9001-2015.html) · [ISO 9001:2026](https://www.iso.org/standard/9001) · [ISO quality management principles](https://www.iso.org/quality-management)
 
 | Principle | Project evidence | Practical improvement |
 | --- | --- | --- |
@@ -13,14 +13,14 @@ ISO 9001:2015 specifies quality management system requirements. The quality mana
 | Engagement of people | Week 7 proposes QA, design, tooling and metrics responsibilities. Named assignments are unavailable. | Name owners and deputies, rotate peer reviews and reserve time for manual accessibility and device work. [Roles](../Week%207/Software%20Test%20Plan.md#roles-and-responsibilities) |
 | Process approach | Week 7 connects requirements, cases, observations and defects. Week 8 reconciled the evidence. | Use the same handoffs for requirement changes, defect confirmation and release disposition. [Week 8 RTM](../Week%208/RTM_TEMPLATE_VIEW.csv) |
 | Improvement | Week 6 corrected staging and reran the same suite. The final run had zero infrastructure blocks and 20 product failures. | Track infrastructure recovery separately from product remediation. Evaluate corrective action through linked confirmation and regression. [Week 6 report](../Week%206%20-%20Test%20Automation%20and%20Regression/WEEK_6_TEST_REPORT.md) |
-| Evidence-based decision making | Week 8 separates 421 verdicts, 225 unique designs and eight load-stage measurements. Release gates use failures and gaps alongside positive results. | Review trends against comparable builds, environments and case sets. Preserve raw artifacts by build. [Metrics](../Week%208/SOFTWARE_QUALITY_METRICS.md) |
+| Evidence-based decision making | Week 8 reports 421 verdicts from 480 planned records, 225 source test designs and eight load-stage measurements. Release gates use failures and gaps alongside positive results. | Review trends against comparable builds, environments and case sets. Preserve raw artifacts by build. [Metrics](../Week%208/SOFTWARE_QUALITY_METRICS.md) |
 | Relationship management | Roles and requirements sources are documented. Participant access, native device access and deployed environment acceptance remain pending. | Agree with stakeholders on user recruitment, test environments, acceptance thresholds and who can approve exceptions. [Residual risks](../Week%208/RESIDUAL_RISK_ASSESSMENT.md) |
 
 The project illustrates Plan–Do–Check–Act. Week 7 formalises the plan based on earlier work. Weeks 1–6 supply execution evidence. Week 8 checks results against risk and exit criteria. The next Act cycle needs owned corrections, verification and sign-off. [ISO process approach](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso9001-2015-process-appr.pdf)
 
 ## CMMI practice-area alignment
 
-The names below follow ISACA's CMMI model practice-area references. Each row describes available work products and a next practice. An appraisal would require broader evidence about how consistently the organisation performs and sustains the practices. [CMMI Model Quick Reference Guide](https://cmmiinstitute.com/resource-files/public/cmmi-model-quick-reference-guide) · [ISACA practice-area reference](https://dev13.cmmiinstitute.com/getattachment/4addb5b3-12ee-4f05-8aee-1d61e2b45e50/ISACA-CMMI-Domain-Chart_fnl.pdf)
+The names below follow ISACA's CMMI model practice-area references. Each row describes available work products and a next practice. An appraisal would require broader evidence about how consistently the organisation performs and sustains the practices. [CMMI Model Quick Reference Guide](https://cmmiinstitute.com/resource-files/public/cmmi-model-quick-reference-guide) · [ISACA practice-area reference](https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2022/edwards-from-a-compliance-mindset-to-a-performance-mindset)
 
 | Practice area | Evidence and weakness | Improvement and verification |
 | --- | --- | --- |

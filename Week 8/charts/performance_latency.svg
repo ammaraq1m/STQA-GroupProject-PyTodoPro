@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="780" height="239" viewBox="0 0 780 239" role="img" aria-label="Pinned aggregate P95 by simulated users (ms)">
 <rect width="780" height="239" fill="#ffffff"/>
 <text x="20" y="35" font-size="22" font-weight="bold" font-family="sans-serif" fill="#16283b">Pinned aggregate P95 by simulated users (ms)</text>
-<text x="20" y="72" fill="#16283b" font-family="sans-serif" font-size="14">1 simulated users</text>
+<text x="20" y="72" fill="#16283b" font-family="sans-serif" font-size="14">1 simulated user</text>
 <rect x="300" y="55" width="33.33" height="22" rx="3" fill="#256a88"/>
 <text x="343.33" y="72" fill="#16283b" font-family="sans-serif" font-size="14">10</text>
-<text x="20" y="111" fill="#16283b" font-family="sans-serif" font-size="14">1 simulated users</text>
-<rect x="300" y="94" width="33.33" height="22" rx="3" fill="#256a88"/>
-<text x="343.33" y="111" fill="#16283b" font-family="sans-serif" font-size="14">10</text>
-<text x="20" y="150" fill="#16283b" font-family="sans-serif" font-size="14">1 simulated users</text>
-<rect x="300" y="133" width="33.33" height="22" rx="3" fill="#256a88"/>
-<text x="343.33" y="150" fill="#16283b" font-family="sans-serif" font-size="14">10</text>
+<text x="20" y="111" fill="#16283b" font-family="sans-serif" font-size="14">5 simulated users</text>
+<rect x="300" y="94" width="120.0" height="22" rx="3" fill="#256a88"/>
+<text x="430.0" y="111" fill="#16283b" font-family="sans-serif" font-size="14">36</text>
+<text x="20" y="150" fill="#16283b" font-family="sans-serif" font-size="14">10 simulated users</text>
+<rect x="300" y="133" width="200.0" height="22" rx="3" fill="#256a88"/>
+<text x="510.0" y="150" fill="#16283b" font-family="sans-serif" font-size="14">60</text>
 <text x="20" y="189" fill="#16283b" font-family="sans-serif" font-size="14">25 simulated users</text>
 <rect x="300" y="172" width="400.0" height="22" rx="3" fill="#256a88"/>
 <text x="710.0" y="189" fill="#16283b" font-family="sans-serif" font-size="14">120</text>

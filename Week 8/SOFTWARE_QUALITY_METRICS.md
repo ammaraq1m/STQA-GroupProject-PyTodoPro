@@ -31,7 +31,7 @@ Each row gives the inputs to numerator ÷ denominator × 100. Per-run execution,
 | Headline execution | Executed verdict records ÷ planned verdict records = 421 ÷ 480 | 87.71% |
 | Headline pass | Passed ÷ executed = 325 ÷ 421 | 77.20% |
 | Headline failure | Failed ÷ executed = 96 ÷ 421 | 22.80% |
-| Unique verdict-case execution | Designs with a verdict ÷ verdict designs = 174 ÷ 221 | 78.73% |
+| Verdict execution by source design | Designs with a verdict ÷ verdict designs = 174 ÷ 221 | 78.73% |
 | All-design evidence coverage | Designs with verdict or measurement ÷ all designs = 178 ÷ 225 | 79.11% |
 | Requirement design coverage | Requirements with mapped designs ÷ all requirements = 39 ÷ 44 | 88.64% |
 | Requirement verdict coverage | Requirements with a Pass/Fail ÷ all requirements = 34 ÷ 44 | 77.27% |
@@ -49,7 +49,7 @@ Each row gives the inputs to numerator ÷ denominator × 100. Per-run execution,
 | Persistent failures in reused subset | Still failing ÷ reused cases = 17 ÷ 39 | 43.59% |
 | Request failure, each Week 5 workload | Failed timed requests ÷ timed requests = 0 ÷ 2,460 | 0.00% |
 
-Of 225 distinct designs, 116 have only passing verdicts, 56 only failing verdicts, two mixed verdicts across configurations, four measurements and 47 no execution. There are 247 repeated Pass/Fail executions beyond the first verdict per tested design (421 − 174). There are 12 repeated Not Run records beyond the 47 unexecuted designs. Configuration repeats and Week 6 reruns retain their master IDs. Designs that exercise the same requirement at different interfaces or with different oracles retain separate IDs. Deferred historical designs with overlap retain their source identity. [Coverage counts CSV](coverage_counts.csv) · [Master test cases](MASTER_TEST_CASES.csv)
+Of 225 source test designs, 116 have only passing verdicts, 56 only failing verdicts, two mixed verdicts across configurations, four measurements and 47 no execution. There are 247 repeated Pass/Fail executions beyond the first verdict per tested design (421 − 174). There are 12 repeated Not Run records beyond the 47 unexecuted designs. Configuration repeats and Week 6 reruns retain their master IDs. Designs that exercise the same requirement at different interfaces or with different oracles retain separate IDs. Overlapping source designs retain their IDs, so these totals represent the inventory by master ID. The overlap field records cases that share scenarios or boundary conditions. [Coverage counts CSV](coverage_counts.csv) · [Master test cases](MASTER_TEST_CASES.csv)
 
 The RTM has 23 requirements with failing evidence, 11 with only passing verdicts among those executed, one measurement-only, four mapped with only Not Run evidence and five without mapped designs. A requirement can have a passing or failing verdict and still have unverified scope. [Requirement coverage CSV](requirement_coverage.csv)
 

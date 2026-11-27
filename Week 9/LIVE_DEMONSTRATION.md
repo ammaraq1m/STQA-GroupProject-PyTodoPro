@@ -42,7 +42,7 @@ Expected output includes `.F`, `1 failed, 1 passed` and `Pytest exit: 1`. A01 pa
 
 1. Open the [RTM](../Week%208/RTM_TEMPLATE_VIEW.csv) and find F19 / W6-GAP02. Open [DEF-003](../Week%208/MASTER_DEFECT_REGISTER.csv) by searching for its ID.
 2. Compare the expected/actual counts with the focused regression result or the new JUnit and console output. The open defect records the boundary and both affected dashboards. [Week 6 defect evidence](../Week%206%20-%20Test%20Automation%20and%20Regression/DEFECT_REPORT.md#r17)
-3. Show [Week 2 helper coverage](../Week%202%20-%20White%20Box%20Testing/White-Box-Testing.md#5-execution-and-measured-coverage) (31/31 statements and 18/18 branches in `helpers.py`, four failed assertions). Alternatively show the [pinned load chart](../Week%208/charts/performance_latency.svg) (120 ms P95 at 25 paced users, 0/2,460 timed failures) and its [workload limits](../Week%205%20-%20Security%20and%20Performance%20Testing/PERFORMANCE_TESTING.md).
+3. Show the reported Week 2 result of 31/31 statements and 18/18 measured branches in `helpers.py` with four failed assertions. Alternatively, show 120 ms P95 at 25 paced users and 0 failures in 2,460 timed requests. [Week 2 report](../Week%202%20-%20White%20Box%20Testing/White-Box-Testing.md#5-execution-and-measured-coverage) · [Pinned load chart](../Week%208/charts/performance_latency.svg) · [Workload limits](../Week%205%20-%20Security%20and%20Performance%20Testing/PERFORMANCE_TESTING.md)
 
 ## Optional full regression rehearsal
 
