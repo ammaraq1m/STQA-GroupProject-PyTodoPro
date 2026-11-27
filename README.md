@@ -4,14 +4,19 @@ PyTodo Pro is the Flask and SQLite task manager evaluated for Software Testing a
 
 ## Team members
 
-Team member names are pending confirmation.
+| Team member | Student ID | Project role |
+| --- | --- | --- |
+| Muhammad Adam Muzir bin Mohamad Azmi | 22006801 | QA/Test Lead |
+| Muhammad Ammar Aqim bin Mohd Alwi | 22003435 | Test Design Coordinator |
+| Ahmad Zamani Ridzwan bin Mohd Zawawi | 22006275 | Automation/Tool Coordinator |
+| Ikmal Hakim bin Mohd Fahmi | 22005529 | Defect & Metrics Coordinator |
 
 ## Project deliverables
 
 | Week | Deliverable |
 | --- | --- |
 | 1 | [Black-box test design, results and findings](01_Black_Box/Blackbox%20Testing.md) |
-| 2 | [White-box analysis and reported helper coverage](Week%202%20-%20White%20Box%20Testing/White-Box-Testing.md) |
+| 2 | [White-box analysis and reported helper coverage](Week%202%20-%20White%20Box%20Testing/White-Box-Testing.md) and [supplementary helper verification](Week%202%20-%20White%20Box%20Testing/RECOVERED_EVIDENCE.md) |
 | 3 | [GUI, compatibility, usability and accessibility results](Week%203%20-%20GUI%20Compatibility%20Usability%20Accessibility%20Testing/WEEK_3_TEST_REPORT.md) |
 | 4 | [Web, REST API and cross-interface testing](Week%204%20-%20Web%20and%20API%20Testing/WEEK_4_TEST_REPORT.md) |
 | 5 | [STRIDE, defensive security checks and local performance results](Week%205%20-%20Security%20and%20Performance%20Testing/WEEK_5_TEST_REPORT.md) |
@@ -59,7 +64,7 @@ The runner can return a nonzero exit code when an assertion fails or an infrastr
 | Week 4 web and REST API | [Playwright and pytest commands](Week%204%20-%20Web%20and%20API%20Testing/WEEK_4_TEST_REPORT.md#reproduce-the-run) |
 | Week 5 security and performance | [Defensive checks and local Locust commands](Week%205%20-%20Security%20and%20Performance%20Testing/WEEK_5_TEST_REPORT.md#reproduce) |
 
-Weeks 1 and 2 retain historical reports. Their original scripts and raw execution and coverage output are unavailable in this checkout.
+The original scripts and raw outputs behind the Weeks 1–2 baseline reports remain unavailable. The separately verified Week 2 helper suite provides supplementary evidence. [Week 2 reproduction commands](Week%202%20-%20White%20Box%20Testing/RECOVERED_EVIDENCE.md#reproduce)
 
 ## Application overview
 

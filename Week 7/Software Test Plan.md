@@ -46,14 +46,14 @@ Initialize disposable SQLite files and seed the four categories. Use an isolated
 
 ## Roles and responsibilities
 
-The brief proposes four student coordination roles and expects shared participation. Names, rotations, availability and approvals remain TBD.
+The four student coordination roles are assigned below. The brief expects shared participation across the project. Rotations, availability and approvals remain to be confirmed.
 
 | Role | Responsibility | Assigned person |
 | --- | --- | --- |
-| QA/Test Lead | Scope, schedule, gate review and integrated QA reporting | TBD |
-| Test Design Coordinator | Requirements, RTM, manual procedures, oracles and coverage gaps | TBD |
-| Automation/Tool Coordinator | Fixtures, harness, API/UI runs, code coverage and raw evidence | TBD |
-| Defect & Metrics Coordinator | Triage, deduplication, metrics, risk updates and tracking retests | TBD |
+| QA/Test Lead | Scope, schedule, gate review and integrated QA reporting | Muhammad Adam Muzir bin Mohamad Azmi |
+| Test Design Coordinator | Requirements, RTM, manual procedures, oracles and coverage gaps | Muhammad Ammar Aqim bin Mohd Alwi |
+| Automation/Tool Coordinator | Fixtures, harness, API/UI runs, code coverage and raw evidence | Ahmad Zamani Ridzwan bin Mohd Zawawi |
+| Defect & Metrics Coordinator | Triage, deduplication, metrics, risk updates and tracking retests | Ikmal Hakim bin Mohd Fahmi |
 | Remediation owner and acceptance authority | Prioritize remediation and disposition residual risks | TBD |
 
 ## Schedule and milestones

@@ -8,7 +8,7 @@ This is the Week 8 quality evaluation for TEB3433 / TFB3433. It covers the suppl
 
 | Verification layer | Reconciliation |
 | --- | --- |
-| Week 1 and 2 | Compared all 68 historical verdict IDs and statuses with the source report rows. Raw logs, test files and the raw structural report are absent from the checkout. |
+| Week 1 and 2 | Compared all 68 historical verdict IDs and statuses with the source report rows. The original raw evidence for those reports remains unavailable. The later 42-invocation helper verification corroborates the Week 2 findings and sits outside these metrics. [Supplementary verification](../Week%202%20-%20White%20Box%20Testing/RECOVERED_EVIDENCE.md) |
 | Week 3 | Matched all 245 case/configuration/status observations to the engine and device JSON. Reviewed eight deferred manual cases and 33 historical checklist designs against the documented records. The sandbox incident had no case-level results. |
 | Weeks 4 and 5 | Matched case verdicts to API/security JUnit and web result JSON. Checked deferred records against source tables. Matched eight measurement observations to the original stage metadata and performance CSVs. |
 | Week 6 | Matched initial and final regression records to merged JSON, pytest JUnit and browser JSON. Reconciled initial infrastructure failures and unlaunched browser checks with the runner's classification. |

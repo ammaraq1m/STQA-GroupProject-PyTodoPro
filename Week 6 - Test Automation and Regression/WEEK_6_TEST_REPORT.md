@@ -13,7 +13,7 @@
 | Source | Completed documented work | Manual, deferred or reuse decision |
 | --- | --- | --- |
 | Week 1 | 42 tests reported via pytest and Flask client, 32 pass and 10 fail. Report contains black-box equivalence and boundary cases. | Historical scripts named in the report are absent from this checkout. Retain original IDs and trace equivalent requirements. |
-| Week 2 | 26 pytest checks, 22 pass and 4 fail. White-box helper boundaries and measured coverage. | Historical script named in the report is absent. Its completion boundary oracles informed GAP01–GAP04. The nested Week 3 manual checklists are templates marked Not run. |
+| Week 2 | 26 pytest checks, 22 pass and 4 fail. White-box helper boundaries and measured coverage. | The script named in the historical report is unavailable. The reported completion boundary oracles informed GAP01–GAP04. [Supplementary helper verification](../Week%202%20-%20White%20Box%20Testing/RECOVERED_EVIDENCE.md) |
 | Week 3 | 141 automated cases (115 pass, 26 fail), plus 104 emulated-device cases (90 pass, 14 fail). Playwright and axe evidence reviewed. | Eight manual cases remain Not Run. Reuse Week 4 browser workflows with overlapping GUI coverage. Device and accessibility matrices are separate from this regression. |
 | Week 4 | 43 automated cases, 29 pass and 14 fail. Two security runtime cases Not Run. | Reuse 20 API and 12 browser/comparison cases. Preserve A31/A32 as deferred. |
 | Week 5 | 20 executed runtime or defensive source checks, 12 pass and 8 fail. Four runtime cases Not Run. Four Locust stages completed. | Reuse seven security cases. The threat model and source review are human analytical work. They do not establish completion of the manual workflow checklists. Load testing remains separate. |

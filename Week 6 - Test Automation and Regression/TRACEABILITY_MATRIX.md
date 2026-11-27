@@ -4,7 +4,7 @@ Historical results are preserved. The archived manual GUI checklist contains pro
 
 ## Manual scenario to automated coverage
 
-[Week 3 GUI checklist stored under Week 2](../Week%202%20-%20White%20Box%20Testing/Week%203%20GUI%2C%20Accesibility%2C%20Usability%20and%20Accesibility%20Testing/GUI_TESTING.md)
+[Archived Week 3 GUI checklist](../Week%203%20-%20GUI%20Compatibility%20Usability%20Accessibility%20Testing/historical-checklists/GUI_TESTING.md)
 
 | Original manual ID | Workflow expectation | Source execution status | Automated equivalents selected in Week 6 |
 | --- | --- | --- | --- |

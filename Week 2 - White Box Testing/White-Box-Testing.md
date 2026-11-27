@@ -142,3 +142,7 @@ The selected business logic was fully covered at statement and measured branch l
 
 Source references: supplied helpers.py (lines 12–75), app(1).py (registration and dashboard usage), and Project Week 2 assignment instructions.
 
+## Supplementary evidence
+
+The uploaded 42-invocation helper suite and its verification are documented separately from this 26-case historical report. [Supplementary helper verification](RECOVERED_EVIDENCE.md)
+
