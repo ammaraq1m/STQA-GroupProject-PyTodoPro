@@ -1,0 +1,595 @@
+﻿Requirement ID,Master test ID,Source week,Execution ID,Execution week,Run,Configuration,Status,Related defect IDs,Evidence reference
+F01,W1-TC01,1,EX-0001,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 72
+F01,W1-TC02,1,EX-0002,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 73
+F01,W1-TC03,1,EX-0003,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 74
+F01,W1-TC04,1,EX-0004,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 75
+F01,W1-TC05,1,EX-0005,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 76
+F01,W1-TC06,1,EX-0006,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 77
+F01,W1-TC07,1,EX-0007,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 78
+F01,W1-TC08,1,EX-0008,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 79
+F01,W1-TC29,1,EX-0029,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 100
+F01,W1-TC30,1,EX-0030,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 101
+F01,W2-N01,2,EX-0054,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 81
+F01,W2-N02,2,EX-0055,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 82
+F01,W2-N03,2,EX-0056,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 83
+F01,W2-N04,2,EX-0057,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 84
+F01,W2-N05,2,EX-0058,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 85
+F01,W2-N06,2,EX-0059,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 86
+F01,W2-N07,2,EX-0060,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 87
+F01,W3-G12,3,EX-0082,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G12
+F01,W3-G13,3,EX-0083,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G13
+F01,W3-GUI-03,3,EX-0332,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 26"
+F01,W4-W02,4,EX-0356,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: W02
+F01,W4-W03,4,EX-0357,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 9; Week 4 - Web and API Testing/logs/web-results.json :: W03
+F01,W4-A02,4,EX-0368,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 25; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A02
+F01,W4-A03,4,EX-0369,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 26; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A03
+F01,W4-A04,4,EX-0370,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 27; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A04
+F01,W4-W02,4,EX-0523,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W02; Week 6 - Test Automation and Regression/screenshots/web/W02.png
+F01,W4-W03,4,EX-0524,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W03; Week 6 - Test Automation and Regression/screenshots/web/W03.png
+F02,W1-TC09,1,EX-0009,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 80
+F02,W1-TC10,1,EX-0010,1,Baseline,,Fail,DEF-001,01_Black_Box/Blackbox Testing.md :: line 81
+F02,W1-TC11,1,EX-0011,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 82
+F02,W1-TC12,1,EX-0012,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 83
+F02,W1-TC13,1,EX-0013,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 84
+F02,W1-TC28,1,EX-0028,1,Baseline,,Fail,DEF-001,01_Black_Box/Blackbox Testing.md :: line 99
+F02,W1-TC31,1,EX-0031,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 102
+F02,W2-P01,2,EX-0050,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 77
+F02,W2-P02,2,EX-0051,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 78
+F02,W2-P03,2,EX-0052,2,Baseline,,Fail,DEF-001,Week 2 - White Box Testing/White-Box-Testing.md :: line 79
+F02,W2-P04,2,EX-0053,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 80
+F02,W3-G13,3,EX-0083,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G13
+F02,W3-G14,3,EX-0084,3,Engine matrix,chromium-desktop,Fail,DEF-001,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G14
+F02,W3-GUI-03,3,EX-0332,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 26"
+F02,W4-W02,4,EX-0356,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: W02
+F02,W4-W07,4,EX-0361,4,Baseline,,Fail,DEF-001,Week 4 - Web and API Testing/WEB_TESTING.md :: line 13; Week 4 - Web and API Testing/logs/web-results.json :: W07
+F02,W4-A05,4,EX-0371,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 28; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A05
+F02,W4-A07,4,EX-0373,4,Baseline,,Fail,DEF-001,Week 4 - Web and API Testing/API_TESTING.md :: line 30; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A07
+F02,W4-A07,4,EX-0490,6,Final regression,api,Fail,DEF-001,Week 6 - Test Automation and Regression/logs/regression-results.json :: A07
+F02,W4-W02,4,EX-0523,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W02; Week 6 - Test Automation and Regression/screenshots/web/W02.png
+F02,W4-W07,4,EX-0528,6,Final regression,browser,Fail,DEF-001,Week 6 - Test Automation and Regression/logs/regression-results.json :: W07; Week 6 - Test Automation and Regression/screenshots/web/W07.png
+F03,W1-TC29,1,EX-0029,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 100
+F03,W3-G01,3,EX-0069,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G01
+F03,W3-G01,3,EX-0106,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G01
+F03,W3-G01,3,EX-0119,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G01
+F03,W3-G01,3,EX-0132,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G01
+F03,W3-G01,3,EX-0145,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G01
+F03,W3-G01,3,EX-0158,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G01
+F03,W3-G01,3,EX-0171,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G01
+F03,W3-G01,3,EX-0184,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G01
+F03,W3-G01,3,EX-0197,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G01
+F03,W3-G01,3,EX-0210,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G01
+F03,W3-G01,3,EX-0223,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G01
+F03,W3-G01,3,EX-0236,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G01
+F03,W3-G01,3,EX-0249,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G01
+F03,W3-G01,3,EX-0262,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G01
+F03,W3-G01,3,EX-0275,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G01
+F03,W3-G01,3,EX-0288,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G01
+F03,W3-G01,3,EX-0301,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G01
+F03,W4-W01,4,EX-0355,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 7; Week 4 - Web and API Testing/logs/web-results.json :: W01
+F03,W4-I01,4,EX-0363,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 7; Week 4 - Web and API Testing/logs/web-results.json :: I01
+F03,W4-A01,4,EX-0367,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 24; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A01
+F03,W4-A01,4,EX-0489,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A01
+F03,W4-W01,4,EX-0522,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W01; Week 6 - Test Automation and Regression/screenshots/web/W01.png
+F03,W4-I01,4,EX-0530,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I01; Week 6 - Test Automation and Regression/screenshots/comparison/I01.png
+F04,W1-TC32,1,EX-0032,1,Baseline,,Fail,DEF-005,01_Black_Box/Blackbox Testing.md :: line 103
+F04,W4-A08,4,EX-0374,4,Baseline,,Fail,DEF-005,Week 4 - Web and API Testing/API_TESTING.md :: line 31; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A08
+F04,W4-A08,4,EX-0491,6,Final regression,api,Fail,DEF-005,Week 6 - Test Automation and Regression/logs/regression-results.json :: A08
+F05,W3-G03,3,EX-0071,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G03
+F05,W3-G11,3,EX-0079,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G11
+F05,W3-G03,3,EX-0108,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G03
+F05,W3-G11,3,EX-0116,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G11
+F05,W3-G03,3,EX-0121,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G03
+F05,W3-G11,3,EX-0129,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G11
+F05,W3-G03,3,EX-0134,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G03
+F05,W3-G11,3,EX-0142,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G11
+F05,W3-G03,3,EX-0147,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G03
+F05,W3-G11,3,EX-0155,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G11
+F05,W3-G03,3,EX-0160,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G03
+F05,W3-G11,3,EX-0168,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G11
+F05,W3-G03,3,EX-0173,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G03
+F05,W3-G11,3,EX-0181,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G11
+F05,W3-G03,3,EX-0186,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G03
+F05,W3-G11,3,EX-0194,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G11
+F05,W3-G03,3,EX-0199,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G03
+F05,W3-G11,3,EX-0207,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G11
+F05,W3-G03,3,EX-0212,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G03
+F05,W3-G11,3,EX-0220,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G11
+F05,W3-G03,3,EX-0225,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G03
+F05,W3-G11,3,EX-0233,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G11
+F05,W3-G03,3,EX-0238,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G03
+F05,W3-G11,3,EX-0246,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G11
+F05,W3-G03,3,EX-0251,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G03
+F05,W3-G11,3,EX-0259,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G11
+F05,W3-G03,3,EX-0264,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G03
+F05,W3-G11,3,EX-0272,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G11
+F05,W3-G03,3,EX-0277,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G03
+F05,W3-G11,3,EX-0285,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G11
+F05,W3-G03,3,EX-0290,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G03
+F05,W3-G11,3,EX-0298,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G11
+F05,W3-G03,3,EX-0303,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G03
+F05,W3-G11,3,EX-0311,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G11
+F05,W3-GUI-01,3,EX-0330,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 24"
+F05,W3-GUI-10,3,EX-0339,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 33"
+F05,W4-W01,4,EX-0355,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 7; Week 4 - Web and API Testing/logs/web-results.json :: W01
+F05,W4-I04,4,EX-0366,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 10; Week 4 - Web and API Testing/logs/web-results.json :: I04
+F05,W4-A09,4,EX-0375,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 32; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A09
+F05,W5-S03,5,EX-0402,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 9; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S03
+F05,W4-A09,4,EX-0492,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A09
+F05,W4-W01,4,EX-0522,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W01; Week 6 - Test Automation and Regression/screenshots/web/W01.png
+F05,W4-I04,4,EX-0533,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I04; Week 6 - Test Automation and Regression/screenshots/comparison/I04.png
+F06,W3-G02,3,EX-0070,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G02
+F06,W3-G02,3,EX-0107,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G02
+F06,W3-G02,3,EX-0120,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G02
+F06,W3-G02,3,EX-0133,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G02
+F06,W3-G02,3,EX-0146,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G02
+F06,W3-G02,3,EX-0159,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G02
+F06,W3-G02,3,EX-0172,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G02
+F06,W3-G02,3,EX-0185,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G02
+F06,W3-G02,3,EX-0198,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G02
+F06,W3-G02,3,EX-0211,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G02
+F06,W3-G02,3,EX-0224,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G02
+F06,W3-G02,3,EX-0237,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G02
+F06,W3-G02,3,EX-0250,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G02
+F06,W3-G02,3,EX-0263,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G02
+F06,W3-G02,3,EX-0276,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G02
+F06,W3-G02,3,EX-0289,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G02
+F06,W3-G02,3,EX-0302,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G02
+F06,W3-GUI-02,3,EX-0331,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 25"
+F06,W3-USA-05,3,EX-0346,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 28"
+F06,W4-W02,4,EX-0356,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: W02
+F06,W4-A10,4,EX-0376,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 33; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A10
+F06,W5-S01,5,EX-0400,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 7; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S01
+F06,W4-A10,4,EX-0493,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A10
+F06,W4-W02,4,EX-0523,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W02; Week 6 - Test Automation and Regression/screenshots/web/W02.png
+F07,W1-TC33,1,EX-0033,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 104
+F07,W3-G11,3,EX-0079,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G11
+F07,W3-G11,3,EX-0116,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G11
+F07,W3-G11,3,EX-0129,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G11
+F07,W3-G11,3,EX-0142,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G11
+F07,W3-G11,3,EX-0155,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G11
+F07,W3-G11,3,EX-0168,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G11
+F07,W3-G11,3,EX-0181,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G11
+F07,W3-G11,3,EX-0194,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G11
+F07,W3-G11,3,EX-0207,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G11
+F07,W3-G11,3,EX-0220,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G11
+F07,W3-G11,3,EX-0233,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G11
+F07,W3-G11,3,EX-0246,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G11
+F07,W3-G11,3,EX-0259,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G11
+F07,W3-G11,3,EX-0272,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G11
+F07,W3-G11,3,EX-0285,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G11
+F07,W3-G11,3,EX-0298,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G11
+F07,W3-G11,3,EX-0311,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G11
+F07,W4-W01,4,EX-0355,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 7; Week 4 - Web and API Testing/logs/web-results.json :: W01
+F07,W4-I04,4,EX-0366,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 10; Week 4 - Web and API Testing/logs/web-results.json :: I04
+F07,W4-A09,4,EX-0375,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 32; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A09
+F07,W4-A12,4,EX-0378,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 35; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A12
+F07,W5-S02,5,EX-0401,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 8; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S02
+F07,W5-S03,5,EX-0402,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 9; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S03
+F07,W4-A09,4,EX-0492,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A09
+F07,W4-A12,4,EX-0494,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A12
+F07,W4-W01,4,EX-0522,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W01; Week 6 - Test Automation and Regression/screenshots/web/W01.png
+F07,W4-I04,4,EX-0533,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I04; Week 6 - Test Automation and Regression/screenshots/comparison/I04.png
+F08,W1-TC34,1,EX-0034,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 105
+F08,W3-G04,3,EX-0072,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G04
+F08,W3-G05,3,EX-0073,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G05
+F08,W3-G04,3,EX-0109,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G04
+F08,W3-G05,3,EX-0110,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G05
+F08,W3-G04,3,EX-0122,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G04
+F08,W3-G05,3,EX-0123,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G05
+F08,W3-G04,3,EX-0135,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G04
+F08,W3-G05,3,EX-0136,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G05
+F08,W3-G04,3,EX-0148,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G04
+F08,W3-G05,3,EX-0149,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G05
+F08,W3-G04,3,EX-0161,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G04
+F08,W3-G05,3,EX-0162,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G05
+F08,W3-G04,3,EX-0174,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G04
+F08,W3-G05,3,EX-0175,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G05
+F08,W3-G04,3,EX-0187,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G04
+F08,W3-G05,3,EX-0188,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G05
+F08,W3-G04,3,EX-0200,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G04
+F08,W3-G05,3,EX-0201,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G05
+F08,W3-G04,3,EX-0213,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G04
+F08,W3-G05,3,EX-0214,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G05
+F08,W3-G04,3,EX-0226,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G04
+F08,W3-G05,3,EX-0227,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G05
+F08,W3-G04,3,EX-0239,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G04
+F08,W3-G05,3,EX-0240,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G05
+F08,W3-G04,3,EX-0252,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G04
+F08,W3-G05,3,EX-0253,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G05
+F08,W3-G04,3,EX-0265,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G04
+F08,W3-G05,3,EX-0266,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G05
+F08,W3-G04,3,EX-0278,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G04
+F08,W3-G05,3,EX-0279,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G05
+F08,W3-G04,3,EX-0291,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G04
+F08,W3-G05,3,EX-0292,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G05
+F08,W3-G04,3,EX-0304,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G04
+F08,W3-G05,3,EX-0305,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G05
+F08,W3-GUI-04,3,EX-0333,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 27"
+F08,W3-GUI-06,3,EX-0335,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 29"
+F08,W4-W04,4,EX-0358,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 10; Week 4 - Web and API Testing/logs/web-results.json :: W04
+F08,W4-I01,4,EX-0363,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 7; Week 4 - Web and API Testing/logs/web-results.json :: I01
+F08,W4-I02,4,EX-0364,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: I02
+F08,W4-A13,4,EX-0379,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 36; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A13
+F08,W4-A20,4,EX-0386,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 43; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A20
+F08,W4-A13,4,EX-0495,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A13
+F08,W4-A20,4,EX-0499,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A20
+F08,W4-W04,4,EX-0525,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W04; Week 6 - Test Automation and Regression/screenshots/web/W04.png
+F08,W4-I01,4,EX-0530,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I01; Week 6 - Test Automation and Regression/screenshots/comparison/I01.png
+F08,W4-I02,4,EX-0531,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I02; Week 6 - Test Automation and Regression/screenshots/comparison/I02.png
+F09,W1-TC35,1,EX-0035,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 106
+F09,W3-G15,3,EX-0085,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G15
+F09,W3-G16,3,EX-0086,3,Engine matrix,chromium-desktop,Fail,DEF-010,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G16
+F09,W3-G17,3,EX-0087,3,Engine matrix,chromium-desktop,Fail,DEF-010,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G17
+F09,W3-GUI-05,3,EX-0334,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 28"
+F09,W3-USA-04,3,EX-0345,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 27"
+F09,W4-W03,4,EX-0357,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 9; Week 4 - Web and API Testing/logs/web-results.json :: W03
+F09,W4-W08,4,EX-0362,4,Baseline,,Fail,DEF-010,Week 4 - Web and API Testing/WEB_TESTING.md :: line 14; Week 4 - Web and API Testing/logs/web-results.json :: W08
+F09,W4-I03,4,EX-0365,4,Baseline,,Fail,DEF-010,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 9; Week 4 - Web and API Testing/logs/web-results.json :: I03
+F09,W4-A14,4,EX-0380,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 37; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A14
+F09,W4-A15,4,EX-0381,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 38; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A15
+F09,W4-A21,4,EX-0387,4,Baseline,,Fail,DEF-022,Week 4 - Web and API Testing/API_TESTING.md :: line 44; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A21
+F09,W5-S11,5,EX-0410,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 17; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S11
+F09,W4-A15,4,EX-0496,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A15
+F09,W4-A21,4,EX-0500,6,Final regression,api,Fail,DEF-022,Week 6 - Test Automation and Regression/logs/regression-results.json :: A21
+F09,W4-W03,4,EX-0524,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W03; Week 6 - Test Automation and Regression/screenshots/web/W03.png
+F09,W4-W08,4,EX-0529,6,Final regression,browser,Fail,DEF-010,Week 6 - Test Automation and Regression/logs/regression-results.json :: W08; Week 6 - Test Automation and Regression/screenshots/web/W08.png
+F09,W4-I03,4,EX-0532,6,Final regression,browser,Fail,DEF-010,Week 6 - Test Automation and Regression/logs/regression-results.json :: I03; Week 6 - Test Automation and Regression/screenshots/comparison/I03.png
+F10,W4-A06,4,EX-0372,4,Baseline,,Fail,DEF-021,Week 4 - Web and API Testing/API_TESTING.md :: line 29; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A06
+F10,W4-A16,4,EX-0382,4,Baseline,,Fail,DEF-021,Week 4 - Web and API Testing/API_TESTING.md :: line 39; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A16
+F10,W4-A17,4,EX-0383,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 40; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A17
+F10,W4-A19,4,EX-0385,4,Baseline,,Fail,DEF-021,Week 4 - Web and API Testing/API_TESTING.md :: line 42; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A19
+F10,W4-A22,4,EX-0388,4,Baseline,,Fail,DEF-023,Week 4 - Web and API Testing/API_TESTING.md :: line 45; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A22
+F10,W4-A23,4,EX-0389,4,Baseline,,Fail,DEF-024,Week 4 - Web and API Testing/API_TESTING.md :: line 46; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A23
+F10,W5-S12,5,EX-0411,5,Baseline,,Fail,DEF-021,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 18; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S12
+F10,W4-A16,4,EX-0497,6,Final regression,api,Fail,DEF-021,Week 6 - Test Automation and Regression/logs/regression-results.json :: A16
+F10,W4-A22,4,EX-0501,6,Final regression,api,Fail,DEF-023,Week 6 - Test Automation and Regression/logs/regression-results.json :: A22
+F10,W4-A23,4,EX-0502,6,Final regression,api,Fail,DEF-024,Week 6 - Test Automation and Regression/logs/regression-results.json :: A23
+F11,W1-TC20,1,EX-0020,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 91
+F11,W1-TC42,1,EX-0042,1,Baseline,,Fail,DEF-009,01_Black_Box/Blackbox Testing.md :: line 113
+F11,W4-A13,4,EX-0379,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 36; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A13
+F11,W4-A18,4,EX-0384,4,Baseline,,Fail,DEF-009,Week 4 - Web and API Testing/API_TESTING.md :: line 41; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A18
+F11,W4-A13,4,EX-0495,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A13
+F11,W4-A18,4,EX-0498,6,Final regression,api,Fail,DEF-009,Week 6 - Test Automation and Regression/logs/regression-results.json :: A18
+F11,W6-GAP05,6,EX-0520,6,Final regression,new,Fail,DEF-009,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP05
+F12,W1-TC42,1,EX-0042,1,Baseline,,Fail,DEF-009,01_Black_Box/Blackbox Testing.md :: line 113
+F12,W4-A18,4,EX-0384,4,Baseline,,Fail,DEF-009,Week 4 - Web and API Testing/API_TESTING.md :: line 41; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A18
+F12,W4-A18,4,EX-0498,6,Final regression,api,Fail,DEF-009,Week 6 - Test Automation and Regression/logs/regression-results.json :: A18
+F12,W6-GAP05,6,EX-0520,6,Final regression,new,Fail,DEF-009,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP05
+F13,W1-TC14,1,EX-0014,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 85
+F13,W1-TC15,1,EX-0015,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 86
+F13,W1-TC16,1,EX-0016,1,Baseline,,Fail,DEF-002,01_Black_Box/Blackbox Testing.md :: line 87
+F13,W1-TC17,1,EX-0017,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 88
+F13,W1-TC18,1,EX-0018,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 89
+F13,W1-TC19,1,EX-0019,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 90
+F13,W2-U01,2,EX-0043,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 70
+F13,W2-U02,2,EX-0044,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 71
+F13,W2-U03,2,EX-0045,2,Baseline,,Fail,DEF-002,Week 2 - White Box Testing/White-Box-Testing.md :: line 72
+F13,W2-U04,2,EX-0046,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 73
+F13,W2-U05,2,EX-0047,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 74
+F13,W2-U06,2,EX-0048,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 75
+F13,W2-U07,2,EX-0049,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 76
+F13,W3-G06,3,EX-0074,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G06
+F13,W3-G18,3,EX-0088,3,Engine matrix,chromium-desktop,Fail,DEF-002,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G18
+F13,W3-G06,3,EX-0111,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G06
+F13,W3-G06,3,EX-0124,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G06
+F13,W3-G06,3,EX-0137,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G06
+F13,W3-G06,3,EX-0150,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G06
+F13,W3-G06,3,EX-0163,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G06
+F13,W3-G06,3,EX-0176,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G06
+F13,W3-G06,3,EX-0189,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G06
+F13,W3-G06,3,EX-0202,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G06
+F13,W3-G06,3,EX-0215,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G06
+F13,W3-G06,3,EX-0228,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G06
+F13,W3-G06,3,EX-0241,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G06
+F13,W3-G06,3,EX-0254,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G06
+F13,W3-G06,3,EX-0267,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G06
+F13,W3-G06,3,EX-0280,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G06
+F13,W3-G06,3,EX-0293,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G06
+F13,W3-G06,3,EX-0306,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G06
+F13,W4-W04,4,EX-0358,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 10; Week 4 - Web and API Testing/logs/web-results.json :: W04
+F13,W4-A30,4,EX-0396,4,Baseline,,Fail,DEF-002,Week 4 - Web and API Testing/API_TESTING.md :: line 53; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A30
+F13,W4-A30,4,EX-0507,6,Final regression,api,Fail,DEF-002,Week 6 - Test Automation and Regression/logs/regression-results.json :: A30
+F13,W4-W04,4,EX-0525,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W04; Week 6 - Test Automation and Regression/screenshots/web/W04.png
+F14,W3-G06,3,EX-0074,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G06
+F14,W3-G06,3,EX-0111,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G06
+F14,W3-G06,3,EX-0124,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G06
+F14,W3-G06,3,EX-0137,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G06
+F14,W3-G06,3,EX-0150,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G06
+F14,W3-G06,3,EX-0163,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G06
+F14,W3-G06,3,EX-0176,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G06
+F14,W3-G06,3,EX-0189,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G06
+F14,W3-G06,3,EX-0202,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G06
+F14,W3-G06,3,EX-0215,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G06
+F14,W3-G06,3,EX-0228,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G06
+F14,W3-G06,3,EX-0241,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G06
+F14,W3-G06,3,EX-0254,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G06
+F14,W3-G06,3,EX-0267,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G06
+F14,W3-G06,3,EX-0280,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G06
+F14,W3-G06,3,EX-0293,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G06
+F14,W3-G06,3,EX-0306,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G06
+F14,W3-GUI-07,3,EX-0336,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 30"
+F14,W4-W04,4,EX-0358,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 10; Week 4 - Web and API Testing/logs/web-results.json :: W04
+F14,W4-I02,4,EX-0364,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: I02
+F14,W4-A20,4,EX-0386,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 43; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A20
+F14,W4-A22,4,EX-0388,4,Baseline,,Fail,DEF-023,Week 4 - Web and API Testing/API_TESTING.md :: line 45; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A22
+F14,W4-A20,4,EX-0499,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A20
+F14,W4-A22,4,EX-0501,6,Final regression,api,Fail,DEF-023,Week 6 - Test Automation and Regression/logs/regression-results.json :: A22
+F14,W4-W04,4,EX-0525,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W04; Week 6 - Test Automation and Regression/screenshots/web/W04.png
+F14,W4-I02,4,EX-0531,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I02; Week 6 - Test Automation and Regression/screenshots/comparison/I02.png
+F15,W3-G10,3,EX-0078,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G10
+F15,W3-G10,3,EX-0115,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G10
+F15,W3-G10,3,EX-0128,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G10
+F15,W3-G10,3,EX-0141,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G10
+F15,W3-G10,3,EX-0154,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G10
+F15,W3-G10,3,EX-0167,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G10
+F15,W3-G10,3,EX-0180,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G10
+F15,W3-G10,3,EX-0193,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G10
+F15,W3-G10,3,EX-0206,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G10
+F15,W3-G10,3,EX-0219,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G10
+F15,W3-G10,3,EX-0232,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G10
+F15,W3-G10,3,EX-0245,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G10
+F15,W3-G10,3,EX-0258,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G10
+F15,W3-G10,3,EX-0271,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G10
+F15,W3-G10,3,EX-0284,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G10
+F15,W3-G10,3,EX-0297,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G10
+F15,W3-G10,3,EX-0310,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G10
+F15,W3-GUI-08,3,EX-0337,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 31"
+F15,W3-USA-04,3,EX-0345,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 27"
+F15,W4-W04,4,EX-0358,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 10; Week 4 - Web and API Testing/logs/web-results.json :: W04
+F15,W4-I02,4,EX-0364,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: I02
+F15,W4-A20,4,EX-0386,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 43; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A20
+F15,W5-S09,5,EX-0408,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 15; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S09
+F15,W4-A20,4,EX-0499,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A20
+F15,W4-W04,4,EX-0525,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W04; Week 6 - Test Automation and Regression/screenshots/web/W04.png
+F15,W4-I02,4,EX-0531,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I02; Week 6 - Test Automation and Regression/screenshots/comparison/I02.png
+F16,W1-TC38,1,EX-0038,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 109
+F16,W1-TC39,1,EX-0039,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 110
+F16,W3-G07,3,EX-0075,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G07
+F16,W3-G08,3,EX-0076,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G08
+F16,W3-G07,3,EX-0112,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G07
+F16,W3-G08,3,EX-0113,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G08
+F16,W3-G07,3,EX-0125,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G07
+F16,W3-G08,3,EX-0126,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G08
+F16,W3-G07,3,EX-0138,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G07
+F16,W3-G08,3,EX-0139,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G08
+F16,W3-G07,3,EX-0151,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G07
+F16,W3-G08,3,EX-0152,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G08
+F16,W3-G07,3,EX-0164,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G07
+F16,W3-G08,3,EX-0165,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G08
+F16,W3-G07,3,EX-0177,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G07
+F16,W3-G08,3,EX-0178,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G08
+F16,W3-G07,3,EX-0190,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G07
+F16,W3-G08,3,EX-0191,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G08
+F16,W3-G07,3,EX-0203,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G07
+F16,W3-G08,3,EX-0204,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G08
+F16,W3-G07,3,EX-0216,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G07
+F16,W3-G08,3,EX-0217,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G08
+F16,W3-G07,3,EX-0229,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G07
+F16,W3-G08,3,EX-0230,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G08
+F16,W3-G07,3,EX-0242,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G07
+F16,W3-G08,3,EX-0243,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G08
+F16,W3-G07,3,EX-0255,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G07
+F16,W3-G08,3,EX-0256,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G08
+F16,W3-G07,3,EX-0268,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G07
+F16,W3-G08,3,EX-0269,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G08
+F16,W3-G07,3,EX-0281,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G07
+F16,W3-G08,3,EX-0282,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G08
+F16,W3-G07,3,EX-0294,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G07
+F16,W3-G08,3,EX-0295,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G08
+F16,W3-G07,3,EX-0307,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G07
+F16,W3-G08,3,EX-0308,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G08
+F16,W4-W05,4,EX-0359,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 11; Week 4 - Web and API Testing/logs/web-results.json :: W05
+F16,W4-A28,4,EX-0394,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 51; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A28
+F16,W5-S14,5,EX-0413,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 20; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S14
+F16,W4-A28,4,EX-0505,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A28
+F16,W4-W05,4,EX-0526,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W05; Week 6 - Test Automation and Regression/screenshots/web/W05.png
+F17,W1-TC36,1,EX-0036,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 107
+F17,W1-TC37,1,EX-0037,1,Baseline,,Fail,DEF-008,01_Black_Box/Blackbox Testing.md :: line 108
+F17,W4-A26,4,EX-0392,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 49; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A26
+F17,W4-A27,4,EX-0393,4,Baseline,,Fail,DEF-008,Week 4 - Web and API Testing/API_TESTING.md :: line 50; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A27
+F17,W5-S20,5,EX-0419,5,Baseline,,Fail,DEF-008,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 26; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S20
+F17,W4-A26,4,EX-0503,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A26
+F17,W4-A27,4,EX-0504,6,Final regression,api,Fail,DEF-008,Week 6 - Test Automation and Regression/logs/regression-results.json :: A27
+F18,W4-A11,4,EX-0377,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 34; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A11
+F19,W1-TC21,1,EX-0021,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 92
+F19,W1-TC22,1,EX-0022,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 93
+F19,W1-TC23,1,EX-0023,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 94
+F19,W1-TC24,1,EX-0024,1,Baseline,,Fail,DEF-003,01_Black_Box/Blackbox Testing.md :: line 95
+F19,W1-TC25,1,EX-0025,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 96
+F19,W1-TC26,1,EX-0026,1,Baseline,,Fail,DEF-004,01_Black_Box/Blackbox Testing.md :: line 97
+F19,W1-TC27,1,EX-0027,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 98
+F19,W2-C01,2,EX-0061,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 91
+F19,W2-C02,2,EX-0062,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 92
+F19,W2-C03,2,EX-0063,2,Baseline,,Fail,DEF-004,Week 2 - White Box Testing/White-Box-Testing.md :: line 93
+F19,W2-C04,2,EX-0064,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 94
+F19,W2-C05,2,EX-0065,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 95
+F19,W2-C06,2,EX-0066,2,Baseline,,Fail,DEF-003,Week 2 - White Box Testing/White-Box-Testing.md :: line 96
+F19,W2-C07,2,EX-0067,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 97
+F19,W2-C08,2,EX-0068,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 98
+F19,W3-G09,3,EX-0077,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G09
+F19,W3-G09,3,EX-0114,3,Engine matrix,chromium-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / G09
+F19,W3-G09,3,EX-0127,3,Engine matrix,chromium-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / G09
+F19,W3-G09,3,EX-0140,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / G09
+F19,W3-G09,3,EX-0153,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / G09
+F19,W3-G09,3,EX-0166,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / G09
+F19,W3-G09,3,EX-0179,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / G09
+F19,W3-G09,3,EX-0192,3,Engine matrix,webkit-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / G09
+F19,W3-G09,3,EX-0205,3,Engine matrix,webkit-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / G09
+F19,W3-G09,3,EX-0218,3,Device emulation,pixel-7-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / G09
+F19,W3-G09,3,EX-0231,3,Device emulation,pixel-7-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / G09
+F19,W3-G09,3,EX-0244,3,Device emulation,galaxy-s24-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / G09
+F19,W3-G09,3,EX-0257,3,Device emulation,galaxy-s24-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / G09
+F19,W3-G09,3,EX-0270,3,Device emulation,iphone-15-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / G09
+F19,W3-G09,3,EX-0283,3,Device emulation,iphone-15-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / G09
+F19,W3-G09,3,EX-0296,3,Device emulation,ipad-pro-11-portrait,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / G09
+F19,W3-G09,3,EX-0309,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / G09
+F19,W3-GUI-09,3,EX-0338,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 32"
+F19,W4-W06,4,EX-0360,4,Baseline,,Pass,,Week 4 - Web and API Testing/WEB_TESTING.md :: line 12; Week 4 - Web and API Testing/logs/web-results.json :: W06
+F19,W4-I02,4,EX-0364,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: I02
+F19,W4-A29,4,EX-0395,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 52; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A29
+F19,W4-A29,4,EX-0506,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A29
+F19,W6-GAP01,6,EX-0516,6,Final regression,new,Fail,DEF-004,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP01
+F19,W6-GAP02,6,EX-0517,6,Final regression,new,Fail,DEF-003,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP02
+F19,W6-GAP03,6,EX-0518,6,Final regression,new,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP03
+F19,W6-GAP04,6,EX-0519,6,Final regression,new,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP04
+F19,W4-W06,4,EX-0527,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: W06; Week 6 - Test Automation and Regression/screenshots/web/W06.png
+F19,W4-I02,4,EX-0531,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I02; Week 6 - Test Automation and Regression/screenshots/comparison/I02.png
+F20,W1-TC26,1,EX-0026,1,Baseline,,Fail,DEF-004,01_Black_Box/Blackbox Testing.md :: line 97
+F20,W1-TC27,1,EX-0027,1,Baseline,,Pass,,01_Black_Box/Blackbox Testing.md :: line 98
+F20,W2-C02,2,EX-0062,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 92
+F20,W2-C03,2,EX-0063,2,Baseline,,Fail,DEF-004,Week 2 - White Box Testing/White-Box-Testing.md :: line 93
+F20,W2-C04,2,EX-0064,2,Baseline,,Pass,,Week 2 - White Box Testing/White-Box-Testing.md :: line 94
+F20,W6-GAP01,6,EX-0516,6,Final regression,new,Fail,DEF-004,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP01
+F20,W6-GAP04,6,EX-0519,6,Final regression,new,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP04
+F21,W1-TC41,1,EX-0041,1,Baseline,,Fail,DEF-007,01_Black_Box/Blackbox Testing.md :: line 112
+F21,W4-A24,4,EX-0390,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 47; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A24
+F21,W4-A33,4,EX-0397,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 54; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A33
+F21,W4-A32,4,EX-0399,4,Baseline,,Not Run,DEF-007,Week 4 - Web and API Testing/API_TESTING.md :: line 63
+F21,W5-S07,5,EX-0406,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 13; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S07
+F21,W5-S08,5,EX-0407,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 14; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S08
+F21,W5-S16,5,EX-0415,5,Baseline,,Fail,DEF-007,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 22; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S16
+F21,W5-N02,5,EX-0421,5,Baseline,,Not Run,DEF-007,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 31
+F21,W4-A33,4,EX-0508,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A33
+F21,W5-S16,5,EX-0513,6,Final regression,security,Fail,DEF-007,Week 6 - Test Automation and Regression/logs/regression-results.json :: S16
+F21,W6-GAP06,6,EX-0521,6,Final regression,new,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: GAP06
+F21,W4-A32,4,EX-0543,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A32
+F22,W4-I01,4,EX-0363,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 7; Week 4 - Web and API Testing/logs/web-results.json :: I01
+F22,W4-I02,4,EX-0364,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 8; Week 4 - Web and API Testing/logs/web-results.json :: I02
+F22,W4-I03,4,EX-0365,4,Baseline,,Fail,DEF-010,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 9; Week 4 - Web and API Testing/logs/web-results.json :: I03
+F22,W4-I04,4,EX-0366,4,Baseline,,Pass,,Week 4 - Web and API Testing/UI_API_COMPARISON.md :: line 10; Week 4 - Web and API Testing/logs/web-results.json :: I04
+F22,W4-A09,4,EX-0375,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 32; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A09
+F22,W4-A09,4,EX-0492,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A09
+F22,W4-I01,4,EX-0530,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I01; Week 6 - Test Automation and Regression/screenshots/comparison/I01.png
+F22,W4-I02,4,EX-0531,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I02; Week 6 - Test Automation and Regression/screenshots/comparison/I02.png
+F22,W4-I03,4,EX-0532,6,Final regression,browser,Fail,DEF-010,Week 6 - Test Automation and Regression/logs/regression-results.json :: I03; Week 6 - Test Automation and Regression/screenshots/comparison/I03.png
+F22,W4-I04,4,EX-0533,6,Final regression,browser,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: I04; Week 6 - Test Automation and Regression/screenshots/comparison/I04.png
+F23,W4-A25,4,EX-0391,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 48; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A25
+N01,W3-G19,3,EX-0089,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / G19
+N01,W3-U01,3,EX-0090,3,Engine matrix,chromium-desktop,Fail,DEF-011,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / U01
+N01,W3-U02,3,EX-0091,3,Engine matrix,chromium-desktop,Fail,DEF-012,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / U02
+N01,W3-U03,3,EX-0092,3,Engine matrix,chromium-desktop,Fail,DEF-013,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / U03
+N01,W3-GUI-11,3,EX-0340,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 34"
+N01,W3-GUI-12,3,EX-0341,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 35"
+N01,W3-USA-01,3,EX-0342,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 24"
+N01,W3-USA-02,3,EX-0343,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 25"
+N01,W3-USA-03,3,EX-0344,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 26"
+N01,W3-USA-06,3,EX-0347,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 29"
+N02,W3-C01,3,EX-0080,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / C01
+N02,W3-C02,3,EX-0081,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / C02
+N02,W3-C01,3,EX-0117,3,Engine matrix,chromium-tablet,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / C01
+N02,W3-C02,3,EX-0118,3,Engine matrix,chromium-tablet,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-tablet / C02
+N02,W3-C01,3,EX-0130,3,Engine matrix,chromium-mobile,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / C01
+N02,W3-C02,3,EX-0131,3,Engine matrix,chromium-mobile,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-mobile / C02
+N02,W3-C01,3,EX-0143,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / C01
+N02,W3-C02,3,EX-0144,3,Engine matrix,firefox-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-desktop / C02
+N02,W3-C01,3,EX-0156,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / C01
+N02,W3-C02,3,EX-0157,3,Engine matrix,firefox-tablet,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-tablet / C02
+N02,W3-C01,3,EX-0169,3,Engine matrix,firefox-mobile,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / C01
+N02,W3-C02,3,EX-0170,3,Engine matrix,firefox-mobile,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: firefox-mobile / C02
+N02,W3-C01,3,EX-0182,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / C01
+N02,W3-C02,3,EX-0183,3,Engine matrix,webkit-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-desktop / C02
+N02,W3-C01,3,EX-0195,3,Engine matrix,webkit-tablet,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / C01
+N02,W3-C02,3,EX-0196,3,Engine matrix,webkit-tablet,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-tablet / C02
+N02,W3-C01,3,EX-0208,3,Engine matrix,webkit-mobile,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / C01
+N02,W3-C02,3,EX-0209,3,Engine matrix,webkit-mobile,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: webkit-mobile / C02
+N02,W3-C01,3,EX-0221,3,Device emulation,pixel-7-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / C01
+N02,W3-C02,3,EX-0222,3,Device emulation,pixel-7-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-portrait / C02
+N02,W3-C01,3,EX-0234,3,Device emulation,pixel-7-landscape,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / C01
+N02,W3-C02,3,EX-0235,3,Device emulation,pixel-7-landscape,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: pixel-7-landscape / C02
+N02,W3-C01,3,EX-0247,3,Device emulation,galaxy-s24-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / C01
+N02,W3-C02,3,EX-0248,3,Device emulation,galaxy-s24-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-portrait / C02
+N02,W3-C01,3,EX-0260,3,Device emulation,galaxy-s24-landscape,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / C01
+N02,W3-C02,3,EX-0261,3,Device emulation,galaxy-s24-landscape,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: galaxy-s24-landscape / C02
+N02,W3-C01,3,EX-0273,3,Device emulation,iphone-15-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / C01
+N02,W3-C02,3,EX-0274,3,Device emulation,iphone-15-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-portrait / C02
+N02,W3-C01,3,EX-0286,3,Device emulation,iphone-15-landscape,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / C01
+N02,W3-C02,3,EX-0287,3,Device emulation,iphone-15-landscape,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: iphone-15-landscape / C02
+N02,W3-C01,3,EX-0299,3,Device emulation,ipad-pro-11-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / C01
+N02,W3-C02,3,EX-0300,3,Device emulation,ipad-pro-11-portrait,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-portrait / C02
+N02,W3-C01,3,EX-0312,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / C01
+N02,W3-C02,3,EX-0313,3,Device emulation,ipad-pro-11-landscape,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/devices-results.json :: ipad-pro-11-landscape / C02
+N02,W3-C-M01,3,EX-0317,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/COMPATIBILITY_TESTING.md :: line 30
+N02,W3-C-M02,3,EX-0318,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/COMPATIBILITY_TESTING.md :: line 31
+N02,W3-C-M03,3,EX-0319,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/COMPATIBILITY_TESTING.md :: line 32
+N02,W3-COM-01,3,EX-0348,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 26"
+N02,W3-COM-02,3,EX-0349,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 27"
+N02,W3-COM-03,3,EX-0350,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 28"
+N02,W3-COM-04,3,EX-0351,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 29"
+N02,W3-COM-05,3,EX-0352,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 30"
+N02,W3-COM-06,3,EX-0353,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 31"
+N02,W3-COM-07,3,EX-0354,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 32"
+N02,W3-C-M01,3,EX-0534,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: C-M01
+N02,W3-C-M02,3,EX-0535,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: C-M02
+N02,W3-C-M03,3,EX-0536,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: C-M03
+N03,W3-A-axe-login,3,EX-0093,3,Engine matrix,chromium-desktop,Fail,DEF-014,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-login
+N03,W3-A-axe-register,3,EX-0094,3,Engine matrix,chromium-desktop,Fail,DEF-014,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-register
+N03,W3-A-axe-empty-tasks,3,EX-0095,3,Engine matrix,chromium-desktop,Fail,DEF-015; DEF-016,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-empty-tasks
+N03,W3-A-axe-populated-tasks,3,EX-0096,3,Engine matrix,chromium-desktop,Fail,DEF-015; DEF-016; DEF-017,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-populated-tasks
+N03,W3-A-axe-new-task,3,EX-0098,3,Engine matrix,chromium-desktop,Fail,DEF-014,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-new-task
+N03,W3-A-axe-edit-task,3,EX-0099,3,Engine matrix,chromium-desktop,Fail,DEF-014,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-edit-task
+N03,W3-A13,3,EX-0105,3,Engine matrix,chromium-desktop,Fail,DEF-020,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A13
+N03,W3-ACC-04,3,EX-0325,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 27"
+N03,W3-ACC-05,3,EX-0326,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 28"
+N04,W3-A-axe-dashboard,3,EX-0097,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-dashboard
+N04,W3-A08,3,EX-0100,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A08
+N04,W3-A09,3,EX-0101,3,Engine matrix,chromium-desktop,Pass,,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A09
+N04,W3-A10,3,EX-0102,3,Engine matrix,chromium-desktop,Fail,DEF-018,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A10
+N04,W3-A-M01,3,EX-0314,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 35
+N04,W3-A-M02,3,EX-0315,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 36
+N04,W3-ACC-01,3,EX-0322,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 24"
+N04,W3-ACC-02,3,EX-0323,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 25"
+N04,W3-ACC-07,3,EX-0328,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 30"
+N04,W3-ACC-08,3,EX-0329,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 31"
+N04,W3-A-M01,3,EX-0539,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A-M01
+N04,W3-A-M02,3,EX-0540,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A-M02
+N05,W3-A-axe-empty-tasks,3,EX-0095,3,Engine matrix,chromium-desktop,Fail,DEF-015; DEF-016,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-empty-tasks
+N05,W3-A-axe-populated-tasks,3,EX-0096,3,Engine matrix,chromium-desktop,Fail,DEF-015; DEF-016; DEF-017,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A-axe-populated-tasks
+N05,W3-A11,3,EX-0103,3,Engine matrix,chromium-desktop,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A11
+N05,W3-A12,3,EX-0104,3,Engine matrix,chromium-desktop,Fail,DEF-019,Week 3 - GUI Compatibility Usability Accessibility Testing/logs/results.json :: chromium-desktop / A12
+N05,W3-A-M02,3,EX-0315,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 36
+N05,W3-A-M03,3,EX-0316,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 37
+N05,W3-ACC-03,3,EX-0324,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 26"
+N05,W3-ACC-06,3,EX-0327,3,Baseline,,Not Run,,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 29"
+N05,W3-A-M02,3,EX-0540,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A-M02
+N05,W3-A-M03,3,EX-0541,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A-M03
+N06,W4-A01,4,EX-0367,4,Baseline,,Pass,,Week 4 - Web and API Testing/API_TESTING.md :: line 24; Week 4 - Web and API Testing/logs/api-responses.ndjson :: A01
+N06,W5-S04,5,EX-0403,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 10; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S04
+N06,W5-S10,5,EX-0409,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 16; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S10
+N06,W5-S13,5,EX-0412,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 19; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S13
+N06,W4-A01,4,EX-0489,6,Final regression,api,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A01
+N06,W5-S04,5,EX-0509,6,Final regression,security,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: S04
+N07,W5-S05,5,EX-0404,5,Baseline,,Pass,,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 11; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S05
+N07,W5-S06,5,EX-0405,5,Baseline,,Fail,DEF-025,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 12; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S06
+N07,W5-N04,5,EX-0423,5,Baseline,,Not Run,DEF-025,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 33
+N07,W5-S05,5,EX-0510,6,Final regression,security,Pass,,Week 6 - Test Automation and Regression/logs/regression-results.json :: S05
+N07,W5-S06,5,EX-0511,6,Final regression,security,Fail,DEF-025,Week 6 - Test Automation and Regression/logs/regression-results.json :: S06
+N07,W5-N04,5,EX-0545,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: N04
+N08,W1-TC40,1,EX-0040,1,Baseline,,Fail,DEF-006,01_Black_Box/Blackbox Testing.md :: line 111
+N08,W4-A31,4,EX-0398,4,Baseline,,Not Run,DEF-006,Week 4 - Web and API Testing/API_TESTING.md :: line 62
+N08,W5-S15,5,EX-0414,5,Baseline,,Fail,DEF-006,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 21; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S15
+N08,W5-N01,5,EX-0420,5,Baseline,,Not Run,DEF-006,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 30
+N08,W5-S15,5,EX-0512,6,Final regression,security,Fail,DEF-006,Week 6 - Test Automation and Regression/logs/regression-results.json :: S15
+N08,W4-A31,4,EX-0542,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A31
+N09,W5-S17,5,EX-0416,5,Baseline,,Fail,DEF-026,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 23; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S17
+N09,W5-S17,5,EX-0514,6,Final regression,security,Fail,DEF-026,Week 6 - Test Automation and Regression/logs/regression-results.json :: S17
+N10,W5-S19,5,EX-0418,5,Baseline,,Fail,DEF-028,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 25; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S19
+N10,W5-S19,5,EX-0515,6,Final regression,security,Fail,DEF-028,Week 6 - Test Automation and Regression/logs/regression-results.json :: S19
+N11,W5-S18,5,EX-0417,5,Baseline,,Fail,DEF-027,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 24; Week 5 - Security and Performance Testing/logs/security-evidence.ndjson :: S18
+N12,W5-N03,5,EX-0422,5,Baseline,,Not Run,DEF-029,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 32
+N12,W5-N03,5,EX-0544,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: N03
+N13,W5-N04,5,EX-0423,5,Baseline,,Not Run,DEF-025,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 33
+N13,W5-N04,5,EX-0545,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: N04
+N14,W5-LOAD-01,5,EX-0424,5,Preliminary workload,1 users,Measured,,Week 5 - Security and Performance Testing/results/preliminary/performance.csv :: 1 users / Aggregated
+N14,W5-LOAD-05,5,EX-0425,5,Preliminary workload,5 users,Measured,,Week 5 - Security and Performance Testing/results/preliminary/performance.csv :: 5 users / Aggregated
+N14,W5-LOAD-10,5,EX-0426,5,Preliminary workload,10 users,Measured,,Week 5 - Security and Performance Testing/results/preliminary/performance.csv :: 10 users / Aggregated
+N14,W5-LOAD-25,5,EX-0427,5,Preliminary workload,25 users,Measured,,Week 5 - Security and Performance Testing/results/preliminary/performance.csv :: 25 users / Aggregated
+N14,W5-LOAD-01,5,EX-0428,5,Pinned workload,1 users,Measured,,Week 5 - Security and Performance Testing/results/performance.csv :: 1 users / Aggregated
+N14,W5-LOAD-05,5,EX-0429,5,Pinned workload,5 users,Measured,,Week 5 - Security and Performance Testing/results/performance.csv :: 5 users / Aggregated
+N14,W5-LOAD-10,5,EX-0430,5,Pinned workload,10 users,Measured,,Week 5 - Security and Performance Testing/results/performance.csv :: 10 users / Aggregated
+N14,W5-LOAD-25,5,EX-0431,5,Pinned workload,25 users,Measured,,Week 5 - Security and Performance Testing/results/performance.csv :: 25 users / Aggregated
+N16,W3-U-M01,3,EX-0320,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/USABILITY_TESTING.md :: line 22
+N16,W3-U-M02,3,EX-0321,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/USABILITY_TESTING.md :: line 23
+N16,W3-U-M01,3,EX-0537,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: U-M01
+N16,W3-U-M02,3,EX-0538,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: U-M02
+N17,W3-A-M01,3,EX-0314,3,Baseline,,Not Run,,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 35
+N17,W3-A-M01,3,EX-0539,6,Final regression,deferred,Not Run,,Week 6 - Test Automation and Regression/logs/regression-results.json :: A-M01
