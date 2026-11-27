@@ -1,0 +1,141 @@
+chromium-desktop G01 Pass ["My Tasks","qa_chromium_desktop"]
+chromium-desktop G02 Pass "Invalid username or password."
+chromium-desktop G03 Pass "My Tasks"
+chromium-desktop G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+chromium-desktop G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+chromium-desktop G06 Pass ["Done","Upcoming","Done"]
+chromium-desktop G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+chromium-desktop G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+chromium-desktop G09 Pass [["2","1","0","0","1"],"My Tasks"]
+chromium-desktop G10 Pass ["Delete this task?",1,0,1]
+chromium-desktop G11 Pass ["/login","/login"]
+chromium-desktop C01 Pass {"innerWidth":1440,"documentWidth":1440,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":1440,"navRight":1408}
+chromium-desktop C02 Pass {"innerWidth":1440,"documentWidth":1440,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+chromium-desktop G12 Pass {"missing":true,"message":"Please fill out this field."}
+chromium-desktop G13 Pass ["Username must be 3-20 characters (letters, numbers, underscore).","Password must be at least 8 characters."]
+chromium-desktop G14 Fail ["Create an account",["Password must be at least 8 characters."]]
+chromium-desktop G15 Pass {"missing":true,"message":"Please fill out this field."}
+chromium-desktop G16 Fail {"heading":"My Tasks","errors":[],"blankRows":1}
+chromium-desktop G17 Fail {"heading":"My Tasks","errors":[],"blankRows":2}
+chromium-desktop G18 Fail "Overdue"
+chromium-desktop G19 Pass [{"nav":["PyTodo Pro","Tasks","Dashboard","Log out"],"navColor":"rgb(27, 58, 92)","background":"rgb(245, 246, 248)","headingSize":"32px"},{"nav":["PyTodo Pro","Tasks","Dashboard","Log out"],"navColor":"rgb(27, 58, 92)","background":"rgb(245, 246, 248)","headingSize":"32px"}]
+chromium-desktop U01 Fail ["No tasks match your filters.",true]
+chromium-desktop U02 Fail [1,0]
+chromium-desktop U03 Fail [["Tasks",null,"400","none","rgb(207, 226, 247)"],["Dashboard",null,"400","none","rgb(207, 226, 247)"],["Log out",null,"400","none","rgb(207, 226, 247)"]]
+chromium-desktop A-axe-login Fail {"violations":[{"rule":"label","nodes":2}],"incomplete":[]}
+chromium-desktop A-axe-register Fail {"violations":[{"rule":"label","nodes":2}],"incomplete":[]}
+chromium-desktop A-axe-empty-tasks Fail {"violations":[{"rule":"color-contrast","nodes":1},{"rule":"select-name","nodes":2}],"incomplete":[]}
+chromium-desktop A-axe-populated-tasks Fail {"violations":[{"rule":"color-contrast","nodes":1},{"rule":"select-name","nodes":2},{"rule":"target-size","nodes":2}],"incomplete":["color-contrast"]}
+chromium-desktop A-axe-dashboard Pass {"violations":[],"incomplete":[]}
+chromium-desktop A-axe-new-task Fail {"violations":[{"rule":"label","nodes":3},{"rule":"select-name","nodes":1}],"incomplete":[]}
+chromium-desktop A-axe-edit-task Fail {"violations":[{"rule":"label","nodes":3},{"rule":"select-name","nodes":1}],"incomplete":[]}
+chromium-desktop A08 Pass ["PyTodo Pro","username","password","Log in","Register","Log in","Register"]
+chromium-desktop A09 Pass {"field":"username","visible":true,"style":"auto","width":"1px","color":"rgb(16, 16, 16)"}
+chromium-desktop A10 Fail {"title":"Tasks — PyTodo Pro","lang":"en","headings":1,"nav":1,"main":0,"headers":["","Title","Category","Due Date","Urgency",""]}
+chromium-desktop A11 Fail {"innerWidth":320,"documentWidth":496,"viewportMeta":null,"horizontalScroll":true,"navRight":405}
+chromium-desktop A12 Fail [{"location":"/","innerWidth":768,"documentWidth":992,"viewportMeta":null,"horizontalScroll":true,"rootFont":"32px","offscreen":["Log out","Delete"]},{"location":"/tasks/new","innerWidth":768,"documentWidth":811,"viewportMeta":null,"horizontalScroll":true,"rootFont":"32px","offscreen":["Log out"]}]
+chromium-desktop A13 Fail "- button \"✓\""
+chromium-tablet G01 Pass ["My Tasks","qa_chromium_tablet"]
+chromium-tablet G02 Pass "Invalid username or password."
+chromium-tablet G03 Pass "My Tasks"
+chromium-tablet G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+chromium-tablet G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+chromium-tablet G06 Pass ["Done","Upcoming","Done"]
+chromium-tablet G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+chromium-tablet G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+chromium-tablet G09 Pass [["2","1","0","0","1"],"My Tasks"]
+chromium-tablet G10 Pass ["Delete this task?",1,0,1]
+chromium-tablet G11 Pass ["/login","/login"]
+chromium-tablet C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":768,"navRight":948}
+chromium-tablet C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+chromium-mobile G01 Pass ["My Tasks","qa_chromium_mobile"]
+chromium-mobile G02 Pass "Invalid username or password."
+chromium-mobile G03 Pass "My Tasks"
+chromium-mobile G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+chromium-mobile G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+chromium-mobile G06 Pass ["Done","Upcoming","Done"]
+chromium-mobile G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+chromium-mobile G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+chromium-mobile G09 Pass [["2","1","0","0","1"],"My Tasks"]
+chromium-mobile G10 Pass ["Delete this task?",1,0,1]
+chromium-mobile G11 Pass ["/login","/login"]
+chromium-mobile C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":390,"navRight":948}
+chromium-mobile C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+firefox-desktop G01 Pass ["My Tasks","qa_firefox_desktop"]
+firefox-desktop G02 Pass "Invalid username or password."
+firefox-desktop G03 Pass "My Tasks"
+firefox-desktop G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+firefox-desktop G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+firefox-desktop G06 Pass ["Done","Upcoming","Done"]
+firefox-desktop G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+firefox-desktop G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+firefox-desktop G09 Pass [["2","1","0","0","1"],"My Tasks"]
+firefox-desktop G10 Pass ["Delete this task?",1,0,1]
+firefox-desktop G11 Pass ["/login","/login"]
+firefox-desktop C01 Pass {"innerWidth":1440,"documentWidth":1440,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":1440,"navRight":1408}
+firefox-desktop C02 Pass {"innerWidth":1440,"documentWidth":1440,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+firefox-tablet G01 Pass ["My Tasks","qa_firefox_tablet"]
+firefox-tablet G02 Pass "Invalid username or password."
+firefox-tablet G03 Pass "My Tasks"
+firefox-tablet G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+firefox-tablet G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+firefox-tablet G06 Pass ["Done","Upcoming","Done"]
+firefox-tablet G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+firefox-tablet G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+firefox-tablet G09 Pass [["2","1","0","0","1"],"My Tasks"]
+firefox-tablet G10 Pass ["Delete this task?",1,0,1]
+firefox-tablet G11 Pass ["/login","/login"]
+firefox-tablet C01 Pass {"innerWidth":768,"documentWidth":768,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":768,"navRight":736}
+firefox-tablet C02 Pass {"innerWidth":768,"documentWidth":768,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+firefox-mobile G01 Pass ["My Tasks","qa_firefox_mobile"]
+firefox-mobile G02 Pass "Invalid username or password."
+firefox-mobile G03 Pass "My Tasks"
+firefox-mobile G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+firefox-mobile G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+firefox-mobile G06 Pass ["Done","Upcoming","Done"]
+firefox-mobile G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+firefox-mobile G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+firefox-mobile G09 Pass [["2","1","0","0","1"],"My Tasks"]
+firefox-mobile G10 Pass ["Delete this task?",1,0,1]
+firefox-mobile G11 Pass ["/login","/login"]
+firefox-mobile C01 Fail {"innerWidth":390,"documentWidth":563,"viewportMeta":null,"horizontalScroll":true,"configuredWidth":390,"navRight":460}
+firefox-mobile C02 Pass {"innerWidth":390,"documentWidth":390,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+webkit-desktop G01 Pass ["My Tasks","qa_webkit_desktop"]
+webkit-desktop G02 Pass "Invalid username or password."
+webkit-desktop G03 Pass "My Tasks"
+webkit-desktop G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+webkit-desktop G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+webkit-desktop G06 Pass ["Done","Upcoming","Done"]
+webkit-desktop G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+webkit-desktop G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+webkit-desktop G09 Pass [["2","1","0","0","1"],"My Tasks"]
+webkit-desktop G10 Pass ["Delete this task?",1,0,1]
+webkit-desktop G11 Pass ["/login","/login"]
+webkit-desktop C01 Pass {"innerWidth":1440,"documentWidth":1440,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":1440,"navRight":1408}
+webkit-desktop C02 Pass {"innerWidth":1440,"documentWidth":1440,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+webkit-tablet G01 Pass ["My Tasks","qa_webkit_tablet"]
+webkit-tablet G02 Pass "Invalid username or password."
+webkit-tablet G03 Pass "My Tasks"
+webkit-tablet G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+webkit-tablet G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+webkit-tablet G06 Pass ["Done","Upcoming","Done"]
+webkit-tablet G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+webkit-tablet G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+webkit-tablet G09 Pass [["2","1","0","0","1"],"My Tasks"]
+webkit-tablet G10 Pass ["Delete this task?",1,0,1]
+webkit-tablet G11 Pass ["/login","/login"]
+webkit-tablet C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":768,"navRight":948}
+webkit-tablet C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+webkit-mobile G01 Pass ["My Tasks","qa_webkit_mobile"]
+webkit-mobile G02 Pass "Invalid username or password."
+webkit-mobile G03 Pass "My Tasks"
+webkit-mobile G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+webkit-mobile G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+webkit-mobile G06 Pass ["Done","Upcoming","Done"]
+webkit-mobile G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+webkit-mobile G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+webkit-mobile G09 Pass [["2","1","0","0","1"],"My Tasks"]
+webkit-mobile G10 Pass ["Delete this task?",1,0,1]
+webkit-mobile G11 Pass ["/login","/login"]
+webkit-mobile C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":390,"navRight":948}
+webkit-mobile C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}

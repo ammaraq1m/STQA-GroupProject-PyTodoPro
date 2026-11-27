@@ -1,0 +1,2482 @@
+{
+  "started": "2026-11-27T10:29:20.966Z",
+  "os": "6.8.0-1070-azure",
+  "node": "v24.22.2",
+  "playwright": "1.65.1",
+  "axe": "4.14.1",
+  "configurations": [
+    {
+      "config": "chromium-desktop",
+      "engine": "chromium",
+      "version": "159.0.8154.6",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "isMobile": false,
+        "hasTouch": false,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36"
+    },
+    {
+      "config": "chromium-tablet",
+      "engine": "chromium",
+      "version": "159.0.8154.6",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36"
+    },
+    {
+      "config": "chromium-mobile",
+      "engine": "chromium",
+      "version": "159.0.8154.6",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/159.0.8154.6 Safari/537.36"
+    },
+    {
+      "config": "firefox-desktop",
+      "engine": "firefox",
+      "version": "159.0",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "isMobile": false,
+        "hasTouch": false,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
+    },
+    {
+      "config": "firefox-tablet",
+      "engine": "firefox",
+      "version": "159.0",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "isMobile": false,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
+    },
+    {
+      "config": "firefox-mobile",
+      "engine": "firefox",
+      "version": "159.0",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": false,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0"
+    },
+    {
+      "config": "webkit-desktop",
+      "engine": "webkit",
+      "version": "27.2",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "isMobile": false,
+        "hasTouch": false,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+    },
+    {
+      "config": "webkit-tablet",
+      "engine": "webkit",
+      "version": "27.2",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+    },
+    {
+      "config": "webkit-mobile",
+      "engine": "webkit",
+      "version": "27.2",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC",
+        "deviceScaleFactor": 1
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15"
+    }
+  ],
+  "cases": [
+    {
+      "config": "chromium-desktop",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_chromium_desktop"
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/chromium-desktop-G02.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/chromium-desktop-G04.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1440,
+        "documentWidth": 1440,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 1440,
+        "navRight": 1408
+      },
+      "evidence": "screenshots/compatibility/chromium-desktop-C01.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1440,
+        "documentWidth": 1440,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      }
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G12",
+      "group": "gui",
+      "expected": "A blank username is blocked by required-field validation.",
+      "procedure": "Open Register, fill only Password, submit.",
+      "status": "Pass",
+      "actual": {
+        "missing": true,
+        "message": "Please fill out this field."
+      }
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G13",
+      "group": "gui",
+      "expected": "Invalid username and seven-character password produce the relevant messages.",
+      "procedure": "Submit ab with a valid password, then use a valid username with 1234567.",
+      "status": "Pass",
+      "actual": [
+        "Username must be 3-20 characters (letters, numbers, underscore).",
+        "Password must be at least 8 characters."
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G14",
+      "group": "gui",
+      "expected": "An eight-character password meets the displayed minimum.",
+      "procedure": "Register a unique account using exactly 12345678.",
+      "status": "Fail",
+      "actual": [
+        "Create an account",
+        [
+          "Password must be at least 8 characters."
+        ]
+      ],
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   'Create an account',\n+   [\n+     'Password must be at least 8 characters.'\n+   ]\n-   'My Tasks',\n-   []\n  ]\n",
+      "evidence": "screenshots/gui/chromium-desktop-G14.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G15",
+      "group": "gui",
+      "expected": "An empty title is blocked by required-field validation.",
+      "procedure": "Open New Task, leave Title empty and click Create Task.",
+      "status": "Pass",
+      "actual": {
+        "missing": true,
+        "message": "Please fill out this field."
+      }
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G16",
+      "group": "gui",
+      "expected": "Spaces-only title is rejected with feedback.",
+      "procedure": "Enter three spaces into Title and click Create Task.",
+      "status": "Fail",
+      "actual": {
+        "heading": "My Tasks",
+        "errors": [],
+        "blankRows": 1
+      },
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(a.errors.length && a.heading !== 'My Tasks')\n",
+      "evidence": "screenshots/gui/chromium-desktop-G16.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G17",
+      "group": "gui",
+      "expected": "Spaces-only title is rejected with feedback.",
+      "procedure": "Enter three spaces into Title and click Save Changes.",
+      "status": "Fail",
+      "actual": {
+        "heading": "My Tasks",
+        "errors": [],
+        "blankRows": 2
+      },
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(a.errors.length && a.heading !== 'My Tasks')\n",
+      "evidence": "screenshots/gui/chromium-desktop-G17.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G18",
+      "group": "gui",
+      "expected": "A task due today shows Due Today.",
+      "procedure": "Create a Work task with today’s UTC date and read its badge.",
+      "status": "Fail",
+      "actual": "Overdue",
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ 'Overdue'\n- 'Due Today'\n",
+      "evidence": "screenshots/gui/chromium-desktop-G18.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "G19",
+      "group": "gui",
+      "expected": "Tasks and Dashboard use consistent navigation and page headings.",
+      "procedure": "Compare nav link text and computed nav, background and heading styling on Tasks and Dashboard.",
+      "status": "Pass",
+      "actual": [
+        {
+          "nav": [
+            "PyTodo Pro",
+            "Tasks",
+            "Dashboard",
+            "Log out"
+          ],
+          "navColor": "rgb(27, 58, 92)",
+          "background": "rgb(245, 246, 248)",
+          "headingSize": "32px"
+        },
+        {
+          "nav": [
+            "PyTodo Pro",
+            "Tasks",
+            "Dashboard",
+            "Log out"
+          ],
+          "navColor": "rgb(27, 58, 92)",
+          "background": "rgb(245, 246, 248)",
+          "headingSize": "32px"
+        }
+      ],
+      "evidence": "screenshots/gui/chromium-desktop-G19.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "U01",
+      "group": "usability",
+      "expected": "An empty task list gives a first-use explanation and visible creation action.",
+      "procedure": "Register a fresh user and inspect the empty state.",
+      "status": "Fail",
+      "actual": [
+        "No tasks match your filters.",
+        true
+      ],
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   'No tasks match your filters.',\n-   'No tasks yet.',\n    true\n  ]\n",
+      "evidence": "screenshots/usability/chromium-desktop-U01.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "U02",
+      "group": "usability",
+      "expected": "Creating a task gives explicit confirmation plus a visible new row.",
+      "procedure": "Create Feedback sample and inspect the task list for a success message.",
+      "status": "Fail",
+      "actual": [
+        1,
+        0
+      ],
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n    1,\n+   0\n-   1\n  ]\n",
+      "evidence": "screenshots/usability/chromium-desktop-U02.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "U03",
+      "group": "usability",
+      "expected": "Navigation identifies the active location beyond the page heading.",
+      "procedure": "Click Dashboard and inspect the active nav link for aria-current or distinctive styling.",
+      "status": "Fail",
+      "actual": [
+        [
+          "Tasks",
+          null,
+          "400",
+          "none",
+          "rgb(207, 226, 247)"
+        ],
+        [
+          "Dashboard",
+          null,
+          "400",
+          "none",
+          "rgb(207, 226, 247)"
+        ],
+        [
+          "Log out",
+          null,
+          "400",
+          "none",
+          "rgb(207, 226, 247)"
+        ]
+      ],
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(a[1][1] === 'page' || JSON.stringify(a[0].slice(2)) !== JSON.stringify(a[1].slice(2)))\n",
+      "evidence": "screenshots/usability/chromium-desktop-U03.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A-axe-login",
+      "group": "accessibility",
+      "expected": "Zero violations in the selected WCAG A/AA rules.",
+      "procedure": "Open login and scan the rendered DOM.",
+      "status": "Fail",
+      "actual": {
+        "violations": [
+          {
+            "rule": "label",
+            "nodes": 2
+          }
+        ],
+        "incomplete": []
+      },
+      "error": "Expected values to be strictly equal:\n\n1 !== 0\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A-axe-login.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A-axe-register",
+      "group": "accessibility",
+      "expected": "Zero violations in the selected WCAG A/AA rules.",
+      "procedure": "Open register and scan the rendered DOM.",
+      "status": "Fail",
+      "actual": {
+        "violations": [
+          {
+            "rule": "label",
+            "nodes": 2
+          }
+        ],
+        "incomplete": []
+      },
+      "error": "Expected values to be strictly equal:\n\n1 !== 0\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A-axe-register.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A-axe-empty-tasks",
+      "group": "accessibility",
+      "expected": "Zero violations in the selected WCAG A/AA rules.",
+      "procedure": "Open empty-tasks and scan the rendered DOM.",
+      "status": "Fail",
+      "actual": {
+        "violations": [
+          {
+            "rule": "color-contrast",
+            "nodes": 1
+          },
+          {
+            "rule": "select-name",
+            "nodes": 2
+          }
+        ],
+        "incomplete": []
+      },
+      "error": "Expected values to be strictly equal:\n\n2 !== 0\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A-axe-empty-tasks.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A-axe-populated-tasks",
+      "group": "accessibility",
+      "expected": "Zero violations in the selected WCAG A/AA rules.",
+      "procedure": "Open populated-tasks and scan the rendered DOM.",
+      "status": "Fail",
+      "actual": {
+        "violations": [
+          {
+            "rule": "color-contrast",
+            "nodes": 1
+          },
+          {
+            "rule": "select-name",
+            "nodes": 2
+          },
+          {
+            "rule": "target-size",
+            "nodes": 2
+          }
+        ],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      "error": "Expected values to be strictly equal:\n\n3 !== 0\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A-axe-populated-tasks.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A-axe-dashboard",
+      "group": "accessibility",
+      "expected": "Zero violations in the selected WCAG A/AA rules.",
+      "procedure": "Open dashboard and scan the rendered DOM.",
+      "status": "Pass",
+      "actual": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A-axe-new-task",
+      "group": "accessibility",
+      "expected": "Zero violations in the selected WCAG A/AA rules.",
+      "procedure": "Open new-task and scan the rendered DOM.",
+      "status": "Fail",
+      "actual": {
+        "violations": [
+          {
+            "rule": "label",
+            "nodes": 3
+          },
+          {
+            "rule": "select-name",
+            "nodes": 1
+          }
+        ],
+        "incomplete": []
+      },
+      "error": "Expected values to be strictly equal:\n\n2 !== 0\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A-axe-new-task.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A-axe-edit-task",
+      "group": "accessibility",
+      "expected": "Zero violations in the selected WCAG A/AA rules.",
+      "procedure": "Open edit-task and scan the rendered DOM.",
+      "status": "Fail",
+      "actual": {
+        "violations": [
+          {
+            "rule": "label",
+            "nodes": 3
+          },
+          {
+            "rule": "select-name",
+            "nodes": 1
+          }
+        ],
+        "incomplete": []
+      },
+      "error": "Expected values to be strictly equal:\n\n2 !== 0\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A-axe-edit-task.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A08",
+      "group": "accessibility",
+      "expected": "Keyboard users can traverse Log in in order, reverse direction and activate Register.",
+      "procedure": "Navigate to Log in, press Tab five times, Shift+Tab once, Tab then Enter.",
+      "status": "Pass",
+      "actual": [
+        "PyTodo Pro",
+        "username",
+        "password",
+        "Log in",
+        "Register",
+        "Log in",
+        "Register"
+      ]
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A09",
+      "group": "accessibility",
+      "expected": "Focused login input has a detectable focus outline.",
+      "procedure": "Open Log in and Tab twice. Measure focus-visible and outline and capture the focused form.",
+      "status": "Pass",
+      "actual": {
+        "field": "username",
+        "visible": true,
+        "style": "auto",
+        "width": "1px",
+        "color": "rgb(16, 16, 16)"
+      },
+      "evidence": "screenshots/accessibility/chromium-desktop-A09.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A10",
+      "group": "accessibility",
+      "expected": "Pages expose title, English language, H1, nav and main landmark.",
+      "procedure": "Open Tasks, inspect semantic elements plus the task table headers.",
+      "status": "Fail",
+      "actual": {
+        "title": "Tasks — PyTodo Pro",
+        "lang": "en",
+        "headings": 1,
+        "nav": 1,
+        "main": 0,
+        "headers": [
+          "",
+          "Title",
+          "Category",
+          "Due Date",
+          "Urgency",
+          ""
+        ]
+      },
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(a.title && a.lang === 'en' && a.headings === 1 && a.nav === 1 && a.main === 1)\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A10.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A11",
+      "group": "accessibility",
+      "expected": "At a 320 CSS px layout, navigation content fits the viewport.",
+      "procedure": "Set desktop context viewport to 320 × 800, open Tasks and measure nav content and document widths.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 320,
+        "documentWidth": 496,
+        "viewportMeta": null,
+        "horizontalScroll": true,
+        "navRight": 405
+      },
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(a.navRight <= a.innerWidth)\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A11.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A12",
+      "group": "accessibility",
+      "expected": "At 200% of the default root font size, task navigation and controls remain within the available page width.",
+      "procedure": "Set viewport to 768 × 1024 and root font size to 200%. Inspect task list and new task form.",
+      "status": "Fail",
+      "actual": [
+        {
+          "location": "/",
+          "innerWidth": 768,
+          "documentWidth": 992,
+          "viewportMeta": null,
+          "horizontalScroll": true,
+          "rootFont": "32px",
+          "offscreen": [
+            "Log out",
+            "Delete"
+          ]
+        },
+        {
+          "location": "/tasks/new",
+          "innerWidth": 768,
+          "documentWidth": 811,
+          "viewportMeta": null,
+          "horizontalScroll": true,
+          "rootFont": "32px",
+          "offscreen": [
+            "Log out"
+          ]
+        }
+      ],
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(a.every(item => !item.horizontalScroll && !item.offscreen.length))\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A12.png"
+    },
+    {
+      "config": "chromium-desktop",
+      "id": "A13",
+      "group": "accessibility",
+      "expected": "Task status toggle name identifies the action and task.",
+      "procedure": "Restore desktop size, open Tasks and inspect the completion button’s accessible name and ARIA state.",
+      "status": "Fail",
+      "actual": "- button \"✓\"",
+      "error": "The input did not match the regular expression /mark|reopen|complete/i. Input:\n\n'- button \"✓\"'\n",
+      "evidence": "screenshots/accessibility/chromium-desktop-A13.png"
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_chromium_tablet"
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 768,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 768\n",
+      "evidence": "screenshots/compatibility/chromium-tablet-C01.png"
+    },
+    {
+      "config": "chromium-tablet",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 768\n",
+      "evidence": "screenshots/compatibility/chromium-tablet-C02.png"
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_chromium_mobile"
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 390,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 390\n",
+      "evidence": "screenshots/compatibility/chromium-mobile-C01.png"
+    },
+    {
+      "config": "chromium-mobile",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 390\n",
+      "evidence": "screenshots/compatibility/chromium-mobile-C02.png"
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_firefox_desktop"
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1440,
+        "documentWidth": 1440,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 1440,
+        "navRight": 1408
+      },
+      "evidence": "screenshots/compatibility/firefox-desktop-C01.png"
+    },
+    {
+      "config": "firefox-desktop",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1440,
+        "documentWidth": 1440,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      }
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_firefox_tablet"
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 768,
+        "documentWidth": 768,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 768,
+        "navRight": 736
+      },
+      "evidence": "screenshots/compatibility/firefox-tablet-C01.png"
+    },
+    {
+      "config": "firefox-tablet",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 768,
+        "documentWidth": 768,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      }
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_firefox_mobile"
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 390,
+        "documentWidth": 563,
+        "viewportMeta": null,
+        "horizontalScroll": true,
+        "configuredWidth": 390,
+        "navRight": 460
+      },
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n",
+      "evidence": "screenshots/compatibility/firefox-mobile-C01.png"
+    },
+    {
+      "config": "firefox-mobile",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 390,
+        "documentWidth": 390,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "evidence": "screenshots/compatibility/firefox-mobile-C02.png"
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_webkit_desktop"
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1440,
+        "documentWidth": 1440,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 1440,
+        "navRight": 1408
+      },
+      "evidence": "screenshots/compatibility/webkit-desktop-C01.png"
+    },
+    {
+      "config": "webkit-desktop",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1440,
+        "documentWidth": 1440,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      }
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_webkit_tablet"
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 768,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 768\n",
+      "evidence": "screenshots/compatibility/webkit-tablet-C01.png"
+    },
+    {
+      "config": "webkit-tablet",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 768\n",
+      "evidence": "screenshots/compatibility/webkit-tablet-C02.png"
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_webkit_mobile"
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password."
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 390,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 390\n",
+      "evidence": "screenshots/compatibility/webkit-mobile-C01.png"
+    },
+    {
+      "config": "webkit-mobile",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 390\n",
+      "evidence": "screenshots/compatibility/webkit-mobile-C02.png"
+    }
+  ],
+  "finished": "2026-11-27T10:30:34.393Z"
+}

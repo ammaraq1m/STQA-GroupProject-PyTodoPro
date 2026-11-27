@@ -1,0 +1,104 @@
+pixel-7-portrait G01 Pass ["My Tasks","qa_chromium_d1"]
+pixel-7-portrait G02 Pass "Invalid username or password."
+pixel-7-portrait G03 Pass "My Tasks"
+pixel-7-portrait G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+pixel-7-portrait G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+pixel-7-portrait G06 Pass ["Done","Upcoming","Done"]
+pixel-7-portrait G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+pixel-7-portrait G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+pixel-7-portrait G09 Pass [["2","1","0","0","1"],"My Tasks"]
+pixel-7-portrait G10 Pass ["Delete this task?",1,0,1]
+pixel-7-portrait G11 Pass ["/login","/login"]
+pixel-7-portrait C01 Fail {"innerWidth":981,"documentWidth":981,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":412,"navRight":948}
+pixel-7-portrait C02 Fail {"innerWidth":981,"documentWidth":981,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+pixel-7-landscape G01 Pass ["My Tasks","qa_chromium_d2"]
+pixel-7-landscape G02 Pass "Invalid username or password."
+pixel-7-landscape G03 Pass "My Tasks"
+pixel-7-landscape G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+pixel-7-landscape G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+pixel-7-landscape G06 Pass ["Done","Upcoming","Done"]
+pixel-7-landscape G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+pixel-7-landscape G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+pixel-7-landscape G09 Pass [["2","1","0","0","1"],"My Tasks"]
+pixel-7-landscape G10 Pass ["Delete this task?",1,0,1]
+pixel-7-landscape G11 Pass ["/login","/login"]
+pixel-7-landscape C01 Fail {"innerWidth":981,"documentWidth":981,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":863,"navRight":948}
+pixel-7-landscape C02 Fail {"innerWidth":981,"documentWidth":981,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+galaxy-s24-portrait G01 Pass ["My Tasks","qa_chromium_d3"]
+galaxy-s24-portrait G02 Pass "Invalid username or password."
+galaxy-s24-portrait G03 Pass "My Tasks"
+galaxy-s24-portrait G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+galaxy-s24-portrait G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+galaxy-s24-portrait G06 Pass ["Done","Upcoming","Done"]
+galaxy-s24-portrait G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+galaxy-s24-portrait G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+galaxy-s24-portrait G09 Pass [["2","1","0","0","1"],"My Tasks"]
+galaxy-s24-portrait G10 Pass ["Delete this task?",1,0,1]
+galaxy-s24-portrait G11 Pass ["/login","/login"]
+galaxy-s24-portrait C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":360,"navRight":948}
+galaxy-s24-portrait C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+galaxy-s24-landscape G01 Pass ["My Tasks","qa_chromium_d4"]
+galaxy-s24-landscape G02 Pass "Invalid username or password."
+galaxy-s24-landscape G03 Pass "My Tasks"
+galaxy-s24-landscape G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+galaxy-s24-landscape G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+galaxy-s24-landscape G06 Pass ["Done","Upcoming","Done"]
+galaxy-s24-landscape G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+galaxy-s24-landscape G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+galaxy-s24-landscape G09 Pass [["2","1","0","0","1"],"My Tasks"]
+galaxy-s24-landscape G10 Pass ["Delete this task?",1,0,1]
+galaxy-s24-landscape G11 Pass ["/login","/login"]
+galaxy-s24-landscape C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":780,"navRight":948}
+galaxy-s24-landscape C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+iphone-15-portrait G01 Pass ["My Tasks","qa_webkit_d1"]
+iphone-15-portrait G02 Pass "Invalid username or password."
+iphone-15-portrait G03 Pass "My Tasks"
+iphone-15-portrait G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+iphone-15-portrait G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+iphone-15-portrait G06 Pass ["Done","Upcoming","Done"]
+iphone-15-portrait G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+iphone-15-portrait G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+iphone-15-portrait G09 Pass [["2","1","0","0","1"],"My Tasks"]
+iphone-15-portrait G10 Pass ["Delete this task?",1,0,1]
+iphone-15-portrait G11 Pass ["/login","/login"]
+iphone-15-portrait C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":393,"navRight":948}
+iphone-15-portrait C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+iphone-15-landscape G01 Pass ["My Tasks","qa_webkit_d2"]
+iphone-15-landscape G02 Pass "Invalid username or password."
+iphone-15-landscape G03 Pass "My Tasks"
+iphone-15-landscape G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+iphone-15-landscape G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+iphone-15-landscape G06 Pass ["Done","Upcoming","Done"]
+iphone-15-landscape G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+iphone-15-landscape G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+iphone-15-landscape G09 Pass [["2","1","0","0","1"],"My Tasks"]
+iphone-15-landscape G10 Pass ["Delete this task?",1,0,1]
+iphone-15-landscape G11 Pass ["/login","/login"]
+iphone-15-landscape C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":734,"navRight":948}
+iphone-15-landscape C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+ipad-pro-11-portrait G01 Pass ["My Tasks","qa_webkit_d3"]
+ipad-pro-11-portrait G02 Pass "Invalid username or password."
+ipad-pro-11-portrait G03 Pass "My Tasks"
+ipad-pro-11-portrait G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+ipad-pro-11-portrait G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+ipad-pro-11-portrait G06 Pass ["Done","Upcoming","Done"]
+ipad-pro-11-portrait G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+ipad-pro-11-portrait G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+ipad-pro-11-portrait G09 Pass [["2","1","0","0","1"],"My Tasks"]
+ipad-pro-11-portrait G10 Pass ["Delete this task?",1,0,1]
+ipad-pro-11-portrait G11 Pass ["/login","/login"]
+ipad-pro-11-portrait C01 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":834,"navRight":948}
+ipad-pro-11-portrait C02 Fail {"innerWidth":980,"documentWidth":980,"viewportMeta":null,"horizontalScroll":false,"cards":5}
+ipad-pro-11-landscape G01 Pass ["My Tasks","qa_webkit_d4"]
+ipad-pro-11-landscape G02 Pass "Invalid username or password."
+ipad-pro-11-landscape G03 Pass "My Tasks"
+ipad-pro-11-landscape G04 Pass ["○","Alpha planning","Work","2099-04-10","Upcoming","Edit\nDelete"]
+ipad-pro-11-landscape G05 Pass {"before":["Alpha planning","Week 3 fixture description","1","2099-04-10"],"displayed":["○","Alpha revised","Study","2099-04-12","Upcoming","Edit\nDelete"],"after":["Alpha revised","Updated description","3","2099-04-12"]}
+ipad-pro-11-landscape G06 Pass ["Done","Upcoming","Done"]
+ipad-pro-11-landscape G07 Pass [["Alpha revised"],["No tasks match your filters."]]
+ipad-pro-11-landscape G08 Pass [["Alpha revised"],[],["Alpha revised"],["Alpha revised"],["Beta errands"]]
+ipad-pro-11-landscape G09 Pass [["2","1","0","0","1"],"My Tasks"]
+ipad-pro-11-landscape G10 Pass ["Delete this task?",1,0,1]
+ipad-pro-11-landscape G11 Pass ["/login","/login"]
+ipad-pro-11-landscape C01 Pass {"innerWidth":1194,"documentWidth":1194,"viewportMeta":null,"horizontalScroll":false,"configuredWidth":1194,"navRight":1162}
+ipad-pro-11-landscape C02 Pass {"innerWidth":1194,"documentWidth":1194,"viewportMeta":null,"horizontalScroll":false,"cards":5}

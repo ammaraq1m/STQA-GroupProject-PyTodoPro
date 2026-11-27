@@ -1,0 +1,40 @@
+Isolated database: /tmp/pytodo-week3-d8rah8qf/test.sqlite3
+ * Serving Flask app 'app'
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/workspaces/STQA-GroupProject-PyTodoPro/Week 3 - GUI Compatibility Usability Accessibility Testing/tests/server.py", line 19, in <module>
+    target.app.run(host="127.0.0.1", port=int(sys.argv[1]), debug=False)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 625, in run
+    run_simple(t.cast(str, host), port, self, **options)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.14/site-packages/werkzeug/serving.py", line 1097, in run_simple
+    srv = make_server(
+        hostname,
+    ...<7 lines>...
+        fd=fd,
+    )
+  File "/home/codespace/.local/lib/python3.14/site-packages/werkzeug/serving.py", line 934, in make_server
+    return ThreadedWSGIServer(
+        host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+    )
+  File "/home/codespace/.local/lib/python3.14/site-packages/werkzeug/serving.py", line 754, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        server_address,  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        handler,
+        ^^^^^^^^
+        bind_and_activate=False,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/python/3.14.2/lib/python3.14/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+                                self.socket_type)
+                                ^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.14.2/lib/python3.14/socket.py", line 236, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted

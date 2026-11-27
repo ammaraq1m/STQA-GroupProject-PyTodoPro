@@ -1,0 +1,2 @@
+Error: Flask stopped during startup
+    at main (/workspaces/STQA-GroupProject-PyTodoPro/Week 3 - GUI Compatibility Usability Accessibility Testing/tests/run.cjs:369:73)

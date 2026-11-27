@@ -1,0 +1,6 @@
+{
+  "name": "pytodo-week3",
+  "private": true,
+  "scripts": {"test": "node run.cjs"},
+  "dependencies": {"axe-core": "4.14.1", "playwright": "1.65.1"}
+}

@@ -1,0 +1,1866 @@
+{
+  "started": "2026-11-27T10:48:35.849Z",
+  "os": "6.8.0-1070-azure",
+  "node": "v24.22.2",
+  "playwright": "1.65.1",
+  "axe": "4.14.1",
+  "configurations": [
+    {
+      "config": "pixel-7-portrait",
+      "engine": "chromium",
+      "descriptor": "Pixel 7",
+      "orientation": "portrait",
+      "version": "159.0.8154.6",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+        "viewport": {
+          "width": 412,
+          "height": 839
+        },
+        "screen": {
+          "width": 412,
+          "height": 915
+        },
+        "deviceScaleFactor": 2.625,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36"
+    },
+    {
+      "config": "pixel-7-landscape",
+      "engine": "chromium",
+      "descriptor": "Pixel 7 landscape",
+      "orientation": "landscape",
+      "version": "159.0.8154.6",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+        "viewport": {
+          "width": 863,
+          "height": 360
+        },
+        "screen": {
+          "width": 915,
+          "height": 412
+        },
+        "deviceScaleFactor": 2.625,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36"
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "engine": "chromium",
+      "descriptor": "Galaxy S24",
+      "orientation": "portrait",
+      "version": "159.0.8154.6",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-S921U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+        "viewport": {
+          "width": 360,
+          "height": 780
+        },
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-S921U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36"
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "engine": "chromium",
+      "descriptor": "Galaxy S24 landscape",
+      "orientation": "landscape",
+      "version": "159.0.8154.6",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-S921U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36",
+        "viewport": {
+          "width": 780,
+          "height": 360
+        },
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-S921U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.8154.6 Mobile Safari/537.36"
+    },
+    {
+      "config": "iphone-15-portrait",
+      "engine": "webkit",
+      "descriptor": "iPhone 15",
+      "orientation": "portrait",
+      "version": "27.2",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+        "viewport": {
+          "width": 393,
+          "height": 659
+        },
+        "screen": {
+          "width": 393,
+          "height": 852
+        },
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "config": "iphone-15-landscape",
+      "engine": "webkit",
+      "descriptor": "iPhone 15 landscape",
+      "orientation": "landscape",
+      "version": "27.2",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+        "viewport": {
+          "width": 734,
+          "height": 343
+        },
+        "screen": {
+          "width": 393,
+          "height": 852
+        },
+        "deviceScaleFactor": 3,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "engine": "webkit",
+      "descriptor": "iPad Pro 11",
+      "orientation": "portrait",
+      "version": "27.2",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+        "viewport": {
+          "width": 834,
+          "height": 1194
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1"
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "engine": "webkit",
+      "descriptor": "iPad Pro 11 landscape",
+      "orientation": "landscape",
+      "version": "27.2",
+      "options": {
+        "baseURL": "http://127.0.0.1:51793",
+        "userAgent": "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+        "viewport": {
+          "width": 1194,
+          "height": 834
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": true,
+        "hasTouch": true,
+        "locale": "en-US",
+        "timezoneId": "UTC"
+      },
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1"
+    }
+  ],
+  "cases": [
+    {
+      "config": "pixel-7-portrait",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_chromium_d1"
+      ]
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/pixel-7-portrait-G02.png"
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/pixel-7-portrait-G04.png"
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 981,
+        "documentWidth": 981,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 412,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n981 !== 412\n",
+      "evidence": "screenshots/compatibility/devices/pixel-7-portrait-C01.png"
+    },
+    {
+      "config": "pixel-7-portrait",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 981,
+        "documentWidth": 981,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n981 !== 412\n",
+      "evidence": "screenshots/compatibility/devices/pixel-7-portrait-C02.png"
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_chromium_d2"
+      ]
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/pixel-7-landscape-G02.png"
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/pixel-7-landscape-G04.png"
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 981,
+        "documentWidth": 981,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 863,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n981 !== 863\n",
+      "evidence": "screenshots/compatibility/devices/pixel-7-landscape-C01.png"
+    },
+    {
+      "config": "pixel-7-landscape",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 981,
+        "documentWidth": 981,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n981 !== 863\n",
+      "evidence": "screenshots/compatibility/devices/pixel-7-landscape-C02.png"
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_chromium_d3"
+      ]
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/galaxy-s24-portrait-G02.png"
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/galaxy-s24-portrait-G04.png"
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 360,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 360\n",
+      "evidence": "screenshots/compatibility/devices/galaxy-s24-portrait-C01.png"
+    },
+    {
+      "config": "galaxy-s24-portrait",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 360\n",
+      "evidence": "screenshots/compatibility/devices/galaxy-s24-portrait-C02.png"
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_chromium_d4"
+      ]
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/galaxy-s24-landscape-G02.png"
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/galaxy-s24-landscape-G04.png"
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 780,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 780\n",
+      "evidence": "screenshots/compatibility/devices/galaxy-s24-landscape-C01.png"
+    },
+    {
+      "config": "galaxy-s24-landscape",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 780\n",
+      "evidence": "screenshots/compatibility/devices/galaxy-s24-landscape-C02.png"
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_webkit_d1"
+      ]
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/iphone-15-portrait-G02.png"
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/iphone-15-portrait-G04.png"
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 393,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 393\n",
+      "evidence": "screenshots/compatibility/devices/iphone-15-portrait-C01.png"
+    },
+    {
+      "config": "iphone-15-portrait",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 393\n",
+      "evidence": "screenshots/compatibility/devices/iphone-15-portrait-C02.png"
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_webkit_d2"
+      ]
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/iphone-15-landscape-G02.png"
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/iphone-15-landscape-G04.png"
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 734,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 734\n",
+      "evidence": "screenshots/compatibility/devices/iphone-15-landscape-C01.png"
+    },
+    {
+      "config": "iphone-15-landscape",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 734\n",
+      "evidence": "screenshots/compatibility/devices/iphone-15-landscape-C02.png"
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_webkit_d3"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/ipad-pro-11-portrait-G02.png"
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/ipad-pro-11-portrait-G04.png"
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 834,
+        "navRight": 948
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 834\n",
+      "evidence": "screenshots/compatibility/devices/ipad-pro-11-portrait-C01.png"
+    },
+    {
+      "config": "ipad-pro-11-portrait",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Fail",
+      "actual": {
+        "innerWidth": 980,
+        "documentWidth": 980,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "error": "Expected values to be strictly equal:\n\n980 !== 834\n",
+      "evidence": "screenshots/compatibility/devices/ipad-pro-11-portrait-C02.png"
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G01",
+      "group": "gui",
+      "expected": "Registration opens My Tasks for the new user.",
+      "procedure": "From Log in click Register, enter a unique username and valid password, then submit.",
+      "status": "Pass",
+      "actual": [
+        "My Tasks",
+        "qa_webkit_d4"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G02",
+      "group": "gui",
+      "expected": "Incorrect credentials are rejected with a readable error.",
+      "procedure": "Log out, enter the registered username and a wrong password, then click Log in.",
+      "status": "Pass",
+      "actual": "Invalid username or password.",
+      "evidence": "screenshots/gui/devices/ipad-pro-11-landscape-G02.png"
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G03",
+      "group": "gui",
+      "expected": "Valid credentials restore the session and open My Tasks.",
+      "procedure": "Enter the registered username and correct password and submit.",
+      "status": "Pass",
+      "actual": "My Tasks"
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G04",
+      "group": "gui",
+      "expected": "New task appears with its title, category and date.",
+      "procedure": "Click + New Task, fill title, description, Work and 2099-04-10, then click Create Task.",
+      "status": "Pass",
+      "actual": [
+        "○",
+        "Alpha planning",
+        "Work",
+        "2099-04-10",
+        "Upcoming",
+        "Edit\nDelete"
+      ],
+      "evidence": "screenshots/gui/devices/ipad-pro-11-landscape-G04.png"
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G05",
+      "group": "gui",
+      "expected": "Edit form is prefilled and saves the updated title, category, date and description.",
+      "procedure": "Click Edit for Alpha planning, inspect prefill, replace all four fields and save, then reopen Edit.",
+      "status": "Pass",
+      "actual": {
+        "before": [
+          "Alpha planning",
+          "Week 3 fixture description",
+          "1",
+          "2099-04-10"
+        ],
+        "displayed": [
+          "○",
+          "Alpha revised",
+          "Study",
+          "2099-04-12",
+          "Upcoming",
+          "Edit\nDelete"
+        ],
+        "after": [
+          "Alpha revised",
+          "Updated description",
+          "3",
+          "2099-04-12"
+        ]
+      }
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G06",
+      "group": "gui",
+      "expected": "Completion can be toggled on, off and on again.",
+      "procedure": "Activate the Alpha revised completion button three times and check each badge.",
+      "status": "Pass",
+      "actual": [
+        "Done",
+        "Upcoming",
+        "Done"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G07",
+      "group": "gui",
+      "expected": "Title search matches a substring and gives a useful empty result.",
+      "procedure": "Create Beta errands under Personal. Search for revised, then for missing-title.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [
+          "No tasks match your filters."
+        ]
+      ]
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G08",
+      "group": "gui",
+      "expected": "Category, open/done status and combined criteria select the expected tasks.",
+      "procedure": "Clear search, select Study then Open then Done. Reset category and select Open.",
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha revised"
+        ],
+        [],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Alpha revised"
+        ],
+        [
+          "Beta errands"
+        ]
+      ]
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G09",
+      "group": "gui",
+      "expected": "Dashboard counters match 2 total, 1 open and 1 recently completed. Tasks returns to the list.",
+      "procedure": "Click Dashboard, read all five counters, then use Tasks in the navigation.",
+      "status": "Pass",
+      "actual": [
+        [
+          "2",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "My Tasks"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G10",
+      "group": "gui",
+      "expected": "Cancelling preserves the task and confirming removes it after reload.",
+      "procedure": "Click Delete for Beta errands, dismiss its dialog, then click Delete again and accept.",
+      "status": "Pass",
+      "actual": [
+        "Delete this task?",
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "G11",
+      "group": "gui",
+      "expected": "Logout opens Log in and a fresh dashboard request redirects there.",
+      "procedure": "Click Log out, then request /dashboard in the same browser context.",
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "/login"
+      ]
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "C01",
+      "group": "compatibility",
+      "expected": "Task list and navigation fit the configured CSS viewport.",
+      "procedure": "Open a populated Tasks page, measure document width and compare actual layout viewport to configured width.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1194,
+        "documentWidth": 1194,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "configuredWidth": 1194,
+        "navRight": 1162
+      },
+      "evidence": "screenshots/compatibility/devices/ipad-pro-11-landscape-C01.png"
+    },
+    {
+      "config": "ipad-pro-11-landscape",
+      "id": "C02",
+      "group": "compatibility",
+      "expected": "Dashboard cards stay within the configured CSS viewport.",
+      "procedure": "Open Dashboard and measure width and visibility of all five cards.",
+      "status": "Pass",
+      "actual": {
+        "innerWidth": 1194,
+        "documentWidth": 1194,
+        "viewportMeta": null,
+        "horizontalScroll": false,
+        "cards": 5
+      },
+      "evidence": "screenshots/compatibility/devices/ipad-pro-11-landscape-C02.png"
+    }
+  ],
+  "finished": "2026-11-27T10:49:40.753Z"
+}
