@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="239" viewBox="0 0 780 239" role="img" aria-label="Baseline and final outcomes (480 verdict records)">
+<rect width="780" height="239" fill="#ffffff"/>
+<text x="20" y="35" font-size="22" font-weight="bold" font-family="sans-serif" fill="#16283b">Baseline and final outcomes (480 verdict records)</text>
+<text x="20" y="72" fill="#16283b" font-family="sans-serif" font-size="14">Pass</text>
+<rect x="300" y="55" width="400.0" height="22" rx="3" fill="#227558"/>
+<text x="710.0" y="72" fill="#16283b" font-family="sans-serif" font-size="14">325</text>
+<text x="20" y="111" fill="#16283b" font-family="sans-serif" font-size="14">Fail</text>
+<rect x="300" y="94" width="118.15" height="22" rx="3" fill="#ad3c48"/>
+<text x="428.15" y="111" fill="#16283b" font-family="sans-serif" font-size="14">96</text>
+<text x="20" y="150" fill="#16283b" font-family="sans-serif" font-size="14">Blocked</text>
+<rect x="300" y="133" width="0.0" height="22" rx="3" fill="#886722"/>
+<text x="310.0" y="150" fill="#16283b" font-family="sans-serif" font-size="14">0</text>
+<text x="20" y="189" fill="#16283b" font-family="sans-serif" font-size="14">Not Run</text>
+<rect x="300" y="172" width="72.62" height="22" rx="3" fill="#56677b"/>
+<text x="382.62" y="189" fill="#16283b" font-family="sans-serif" font-size="14">59</text>
+</svg>

@@ -1,0 +1,30 @@
+﻿Defect ID,Affected feature,Primary module,Original affected module,Severity,Priority,Status
+DEF-001,Registration,Validation and date helpers,helpers.py / registrations,Medium,P3,Open — persistent in Week 6
+DEF-002,Task urgency,Validation and date helpers,helpers.py / task badges,Medium,P3,Open — persistent in Week 6
+DEF-003,Dashboard,Validation and date helpers,helpers.py / dashboards,Medium,P3,Open — persistent in Week 6
+DEF-004,Dashboard,Validation and date helpers,helpers.py / dashboards,Medium,P3,Open — persistent in Week 6
+DEF-005,Registration,Flask routes,app.py / registration and SQLite,Medium,P3,Open — persistent in Week 6
+DEF-006,API search,Flask routes,app.py / api_list_tasks,Critical,P1,Open — persistent in Week 6 defensive source review
+DEF-007,API task deletion,Flask routes,app.py / api_delete_task,High,P1,Open — persistent in Week 6 defensive source review
+DEF-008,API pagination,Flask routes,app.py / api_list_tasks,Low,P4,Open — persistent in Week 6
+DEF-009,Task due dates,Flask routes,app.py / API create and update,High,P2,Open — persistent in Week 6; update path added
+DEF-010,Web task titles,Flask routes,app.py / new_task and edit_task,Medium,P3,Open — persistent in Week 6 for create; edit last verified Week 3
+DEF-011,Task list empty state,Templates,templates/index.html,Low,P4,Open — confirmed
+DEF-012,Task creation feedback,Flask routes,app.py / new_task and task list,Low,P4,Open — confirmed
+DEF-013,Navigation,Templates,templates/base.html,Low,P4,Open — confirmed
+DEF-014,Form accessibility,Templates,"Login, register and task form templates",High,P2,Open — confirmed
+DEF-015,Filter accessibility,Templates,templates/index.html,Medium,P3,Open — confirmed
+DEF-016,Text contrast,CSS,static/style.css and task list,Medium,P3,Open — confirmed
+DEF-017,Task action controls,CSS,static/style.css and task list,Medium,P3,Open — confirmed
+DEF-018,Landmarks,Templates,templates/base.html,Low,P4,Open — confirmed
+DEF-019,Responsive layout,Templates,templates/base.html / static/style.css,High,P2,Open — confirmed
+DEF-020,Completion accessibility,Templates,templates/index.html,High,P2,Open — confirmed
+DEF-021,API request validation,Flask routes,app.py / API registration and create,High,P2,Open — persistent in Week 6 for numeric title; other variants last verified Week 4
+DEF-022,API task titles,Flask routes,app.py / api_update_task,Medium,P3,Open — persistent in Week 6
+DEF-023,API completion state,Flask routes,app.py / api_update_task,High,P2,Open — persistent in Week 6
+DEF-024,API request validation,Flask routes,app.py / api_update_task,Medium,P3,Open — persistent in Week 6
+DEF-025,Session cookies,Session configuration,Flask session configuration,Medium,P3,Open — persistent in Week 6
+DEF-026,Session signing,Session configuration,app.py / Flask configuration,High,P1,Open — persistent in Week 6 defensive source review
+DEF-027,Mutation audit,SQLite / audit,SQLite schema / task mutations,Medium,P3,Open — confirmed
+DEF-028,CSRF and logout,Flask routes,templates/index.html and base.html / mutation routes,High,P2,Open — persistent in Week 6 defensive source review
+DEF-029,Task title rendering,Templates,templates/index.html / task title cell,Medium,P3,Open — confirmed in Week 5 source review; runtime Not Run

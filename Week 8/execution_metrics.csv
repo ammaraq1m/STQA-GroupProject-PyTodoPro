@@ -1,0 +1,12 @@
+﻿Evidence group,Planned,Executed,Pass,Fail,Blocked,Not Run
+W1 black-box,42,42,32,10,0,0
+W2 white-box,26,26,22,4,0,0
+W3 engine matrix,141,141,115,26,0,0
+W3 device emulation,104,104,90,14,0,0
+W3 manual and templates,41,0,0,0,0,41
+W4 web/API/comparison,45,43,29,14,0,2
+W5 security,24,20,12,8,0,4
+W6 final regression,57,45,25,20,0,12
+Baseline and final,480,421,325,96,0,59
+W6 initial attempt,57,29,16,13,16,12
+All verdict records incl. initial,537,450,341,109,16,71

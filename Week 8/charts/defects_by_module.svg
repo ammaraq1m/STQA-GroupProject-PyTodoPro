@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="317" viewBox="0 0 780 317" role="img" aria-label="Open defects by primary module (29 defects)">
+<rect width="780" height="317" fill="#ffffff"/>
+<text x="20" y="35" font-size="22" font-weight="bold" font-family="sans-serif" fill="#16283b">Open defects by primary module (29 defects)</text>
+<text x="20" y="72" fill="#16283b" font-family="sans-serif" font-size="14">Flask routes</text>
+<rect x="300" y="55" width="400.0" height="22" rx="3" fill="#256a88"/>
+<text x="710.0" y="72" fill="#16283b" font-family="sans-serif" font-size="14">12</text>
+<text x="20" y="111" fill="#16283b" font-family="sans-serif" font-size="14">Templates</text>
+<rect x="300" y="94" width="266.67" height="22" rx="3" fill="#256a88"/>
+<text x="576.6700000000001" y="111" fill="#16283b" font-family="sans-serif" font-size="14">8</text>
+<text x="20" y="150" fill="#16283b" font-family="sans-serif" font-size="14">Validation and date helpers</text>
+<rect x="300" y="133" width="133.33" height="22" rx="3" fill="#256a88"/>
+<text x="443.33000000000004" y="150" fill="#16283b" font-family="sans-serif" font-size="14">4</text>
+<text x="20" y="189" fill="#16283b" font-family="sans-serif" font-size="14">CSS</text>
+<rect x="300" y="172" width="66.67" height="22" rx="3" fill="#256a88"/>
+<text x="376.67" y="189" fill="#16283b" font-family="sans-serif" font-size="14">2</text>
+<text x="20" y="228" fill="#16283b" font-family="sans-serif" font-size="14">Session configuration</text>
+<rect x="300" y="211" width="66.67" height="22" rx="3" fill="#256a88"/>
+<text x="376.67" y="228" fill="#16283b" font-family="sans-serif" font-size="14">2</text>
+<text x="20" y="267" fill="#16283b" font-family="sans-serif" font-size="14">SQLite / audit</text>
+<rect x="300" y="250" width="33.33" height="22" rx="3" fill="#256a88"/>
+<text x="343.33" y="267" fill="#16283b" font-family="sans-serif" font-size="14">1</text>
+</svg>

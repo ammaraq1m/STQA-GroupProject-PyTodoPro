@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="278" viewBox="0 0 780 278" role="img" aria-label="Requirement evidence (44 requirements)">
+<rect width="780" height="278" fill="#ffffff"/>
+<text x="20" y="35" font-size="22" font-weight="bold" font-family="sans-serif" fill="#16283b">Requirement evidence (44 requirements)</text>
+<text x="20" y="72" fill="#16283b" font-family="sans-serif" font-size="14">Failed evidence</text>
+<rect x="300" y="55" width="400.0" height="22" rx="3" fill="#256a88"/>
+<text x="710.0" y="72" fill="#16283b" font-family="sans-serif" font-size="14">23</text>
+<text x="20" y="111" fill="#16283b" font-family="sans-serif" font-size="14">Passing evidence</text>
+<rect x="300" y="94" width="191.3" height="22" rx="3" fill="#256a88"/>
+<text x="501.3" y="111" fill="#16283b" font-family="sans-serif" font-size="14">11</text>
+<text x="20" y="150" fill="#16283b" font-family="sans-serif" font-size="14">Measured</text>
+<rect x="300" y="133" width="17.39" height="22" rx="3" fill="#256a88"/>
+<text x="327.39" y="150" fill="#16283b" font-family="sans-serif" font-size="14">1</text>
+<text x="20" y="189" fill="#16283b" font-family="sans-serif" font-size="14">Mapped, Not Run only</text>
+<rect x="300" y="172" width="69.57" height="22" rx="3" fill="#256a88"/>
+<text x="379.57" y="189" fill="#16283b" font-family="sans-serif" font-size="14">4</text>
+<text x="20" y="228" fill="#16283b" font-family="sans-serif" font-size="14">No mapped case</text>
+<rect x="300" y="211" width="86.96" height="22" rx="3" fill="#256a88"/>
+<text x="396.96" y="228" fill="#16283b" font-family="sans-serif" font-size="14">5</text>
+</svg>

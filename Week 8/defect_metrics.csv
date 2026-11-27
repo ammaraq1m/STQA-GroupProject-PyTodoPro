@@ -1,0 +1,41 @@
+﻿Dimension,Category,Count
+Severity,Medium,14
+Severity,Critical,1
+Severity,High,9
+Severity,Low,5
+Priority,P3,14
+Priority,P1,3
+Priority,P4,5
+Priority,P2,7
+Primary module,Validation and date helpers,4
+Primary module,Flask routes,12
+Primary module,Templates,8
+Primary module,CSS,2
+Primary module,Session configuration,2
+Primary module,SQLite / audit,1
+Affected feature,Registration,2
+Affected feature,Task urgency,1
+Affected feature,Dashboard,2
+Affected feature,API search,1
+Affected feature,API task deletion,1
+Affected feature,API pagination,1
+Affected feature,Task due dates,1
+Affected feature,Web task titles,1
+Affected feature,Task list empty state,1
+Affected feature,Task creation feedback,1
+Affected feature,Navigation,1
+Affected feature,Form accessibility,1
+Affected feature,Filter accessibility,1
+Affected feature,Text contrast,1
+Affected feature,Task action controls,1
+Affected feature,Landmarks,1
+Affected feature,Responsive layout,1
+Affected feature,Completion accessibility,1
+Affected feature,API request validation,2
+Affected feature,API task titles,1
+Affected feature,API completion state,1
+Affected feature,Session cookies,1
+Affected feature,Session signing,1
+Affected feature,Mutation audit,1
+Affected feature,CSRF and logout,1
+Affected feature,Task title rendering,1

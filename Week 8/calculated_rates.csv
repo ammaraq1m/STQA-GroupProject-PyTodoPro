@@ -1,0 +1,48 @@
+﻿Metric,Numerator,Denominator,Percent,Formula
+W1 black-box execution rate,42,42,100.0,Executed / planned verdict records
+W1 black-box pass rate,32,42,76.19,Pass / executed
+W1 black-box failure rate,10,42,23.81,Fail / executed
+W2 white-box execution rate,26,26,100.0,Executed / planned verdict records
+W2 white-box pass rate,22,26,84.62,Pass / executed
+W2 white-box failure rate,4,26,15.38,Fail / executed
+W3 engine matrix execution rate,141,141,100.0,Executed / planned verdict records
+W3 engine matrix pass rate,115,141,81.56,Pass / executed
+W3 engine matrix failure rate,26,141,18.44,Fail / executed
+W3 device emulation execution rate,104,104,100.0,Executed / planned verdict records
+W3 device emulation pass rate,90,104,86.54,Pass / executed
+W3 device emulation failure rate,14,104,13.46,Fail / executed
+W4 web/API/comparison execution rate,43,45,95.56,Executed / planned verdict records
+W4 web/API/comparison pass rate,29,43,67.44,Pass / executed
+W4 web/API/comparison failure rate,14,43,32.56,Fail / executed
+W5 security execution rate,20,24,83.33,Executed / planned verdict records
+W5 security pass rate,12,20,60.0,Pass / executed
+W5 security failure rate,8,20,40.0,Fail / executed
+W6 final regression execution rate,45,57,78.95,Executed / planned verdict records
+W6 final regression pass rate,25,45,55.56,Pass / executed
+W6 final regression failure rate,20,45,44.44,Fail / executed
+Baseline and final execution rate,421,480,87.71,Executed / planned verdict records
+Baseline and final pass rate,325,421,77.2,Pass / executed
+Baseline and final failure rate,96,421,22.8,Fail / executed
+W6 initial attempt execution rate,29,57,50.88,Executed / planned verdict records
+W6 initial attempt pass rate,16,29,55.17,Pass / executed
+W6 initial attempt failure rate,13,29,44.83,Fail / executed
+All verdict records incl. initial execution rate,450,537,83.8,Executed / planned verdict records
+All verdict records incl. initial pass rate,341,450,75.78,Pass / executed
+All verdict records incl. initial failure rate,109,450,24.22,Fail / executed
+W3 manual and templates execution rate,0,41,0.0,Executed / planned verdict records
+Unique verdict-case execution rate,174,221,78.73,Designs with Pass or Fail / verdict designs
+Unique all-design evidence coverage,178,225,79.11,Designs with verdict or measurement / all designs
+Requirement design coverage,39,44,88.64,Requirements mapped to designs / all requirements
+Requirement verdict coverage,34,44,77.27,Requirements with Pass or Fail evidence / all requirements
+Requirement execution coverage,35,44,79.55,Requirements with verdict or measurement / all requirements
+Explicit requirement execution coverage,12,12,100.0,Explicit requirements with verdict or measurement / explicit requirements
+Inferred requirement execution coverage,23,32,71.88,Inferred requirements with verdict or measurement / inferred requirements
+Automation coverage (repository assertions),106,225,47.11,Repository assertion designs / all designs
+Automation coverage (repository including load),110,225,48.89,Repository assertion and measurement designs / all designs
+Automation coverage (historical including load),178,225,79.11,Repository and report-only automated designs / all designs
+Helper statement coverage,31,31,100.0,Statements hit / measured statements
+Helper branch coverage,18,18,100.0,Branches hit / measured branches
+Reused regression verdict stability,39,39,100.0,Identical verdicts / reused cases
+Reused regression persistent failures,17,39,43.59,Reused cases still failing / reused cases
+Week 5 pinned request failure rate,0,2460,0.0,Failed requests / timed requests
+Week 5 preliminary request failure rate,0,2460,0.0,Failed requests / timed requests

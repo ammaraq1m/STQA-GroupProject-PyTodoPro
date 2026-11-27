@@ -1,0 +1,48 @@
+﻿Test Case ID,Technique/Test Type,Objective,Requirement IDs,Evidence,Automation status
+W3-A-M01,Accessibility,Use NVDA/Firefox and VoiceOver/Safari to navigate landmarks and task rows and to submit invalid forms.,N04; N17,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 35,Manual
+W3-A-M02,Accessibility,Use actual browser zoom and Firefox text-only zoom through 200%. Repeat keyboard task navigation and inspect focus at each step.,N04; N05,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 36,Manual
+W3-A-M03,Accessibility,Inspect glyph and boundary contrast for the task toggle and review any axe incomplete findings.,N05,Week 3 - GUI Compatibility Usability Accessibility Testing/ACCESSIBILITY_TESTING.md :: line 37,Manual
+W3-C-M01,Compatibility,"Run G01–G11, check date picker and confirm dialog, then compare Tasks and Dashboard in both orientations against C01–C02.",N02,Week 3 - GUI Compatibility Usability Accessibility Testing/COMPATIBILITY_TESTING.md :: line 30,Manual
+W3-C-M02,Compatibility,"Run G01–G11 using touch and software keyboard. Check text size, Task actions and horizontal scrolling.",N02,Week 3 - GUI Compatibility Usability Accessibility Testing/COMPATIBILITY_TESTING.md :: line 31,Manual
+W3-C-M03,Compatibility,Repeat C01–C02 in portrait and landscape and verify task form and touch target usability.,N02,Week 3 - GUI Compatibility Usability Accessibility Testing/COMPATIBILITY_TESTING.md :: line 32,Manual
+W3-U-M01,Usability,"Ask first-time users to create, find, complete and delete a sample task without prompting.",N16,Week 3 - GUI Compatibility Usability Accessibility Testing/USABILITY_TESTING.md :: line 22,Manual
+W3-U-M02,Usability,Ask users to recover from invalid registration and find a task via combined filters.,N16,Week 3 - GUI Compatibility Usability Accessibility Testing/USABILITY_TESTING.md :: line 23,Manual
+W3-ACC-01,Accessibility / historical checklist,Keyboard access,N04,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 24",Manual
+W3-ACC-02,Accessibility / historical checklist,Focus indicator,N04,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 25",Manual
+W3-ACC-03,Accessibility / historical checklist,Colour contrast,N05,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 26",Manual
+W3-ACC-04,Accessibility / historical checklist,Form labels,N03,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 27",Manual
+W3-ACC-05,Accessibility / historical checklist,Alternative text,N03,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 28",Manual
+W3-ACC-06,Accessibility / historical checklist,Text resizing,N05,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 29",Manual
+W3-ACC-07,Accessibility / historical checklist,Semantic HTML,N04,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 30",Manual
+W3-ACC-08,Accessibility / historical checklist,Error identification,N04,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/ACCESSIBILITY_TESTING.md :: line 31",Manual
+W3-GUI-01,Gui / historical checklist,Login form,F05,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 24",Manual
+W3-GUI-02,Gui / historical checklist,Login form,F06,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 25",Manual
+W3-GUI-03,Gui / historical checklist,Registration,F01; F02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 26",Manual
+W3-GUI-04,Gui / historical checklist,Task creation,F08,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 27",Manual
+W3-GUI-05,Gui / historical checklist,Task creation,F09,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 28",Manual
+W3-GUI-06,Gui / historical checklist,Task editing,F08,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 29",Manual
+W3-GUI-07,Gui / historical checklist,Task completion,F14,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 30",Manual
+W3-GUI-08,Gui / historical checklist,Task deletion,F15,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 31",Manual
+W3-GUI-09,Gui / historical checklist,Navigation,F19,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 32",Manual
+W3-GUI-10,Gui / historical checklist,Logout,F05,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 33",Manual
+W3-GUI-11,Gui / historical checklist,Labels,N01,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 34",Manual
+W3-GUI-12,Gui / historical checklist,Visual consistency,N01,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/GUI_TESTING.md :: line 35",Manual
+W3-USA-01,Usability / historical checklist,Navigation,N01,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 24",Manual
+W3-USA-02,Usability / historical checklist,Feedback,N01,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 25",Manual
+W3-USA-03,Usability / historical checklist,Consistency,N01,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 26",Manual
+W3-USA-04,Usability / historical checklist,Error prevention,F09; F15,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 27",Manual
+W3-USA-05,Usability / historical checklist,Understandability,F06,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 28",Manual
+W3-USA-06,Usability / historical checklist,Efficiency,N01,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/USABILITY_TESTING.md :: line 29",Manual
+W3-COM-01,Compatibility / historical checklist,Compatibility on Chrome,N02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 26",Manual
+W3-COM-02,Compatibility / historical checklist,Compatibility on Edge,N02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 27",Manual
+W3-COM-03,Compatibility / historical checklist,Compatibility on Firefox,N02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 28",Manual
+W3-COM-04,Compatibility / historical checklist,Compatibility on Safari,N02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 29",Manual
+W3-COM-05,Compatibility / historical checklist,Compatibility on Chrome,N02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 30",Manual
+W3-COM-06,Compatibility / historical checklist,Compatibility on Chrome,N02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 31",Manual
+W3-COM-07,Compatibility / historical checklist,Compatibility on Chrome,N02,"Week 2 - White Box Testing/Week 3 GUI, Accesibility, Usability and Accesibility Testing/COMPATIBILITY_TESTING.md :: line 32",Manual
+W4-A31,REST API,Known adversarial search input regression,N08,Week 4 - Web and API Testing/API_TESTING.md :: line 62,Deferred runtime
+W4-A32,REST API,Known non-owner deletion regression,F21,Week 4 - Web and API Testing/API_TESTING.md :: line 63,Deferred runtime
+W5-N01,Security deferred,Adversarial search regression (Week 4 A31),N08,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 30,Deferred runtime
+W5-N02,Security deferred,Destructive non-owner delete regression (Week 4 A32),F21,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 31,Deferred runtime
+W5-N03,Security deferred,Browser execution of untrusted title content,N12,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 32,Deferred runtime
+W5-N04,Security deferred,Deployed HTTPS and transport settings,N07; N13,Week 5 - Security and Performance Testing/SECURITY_TESTING.md :: line 33,Deferred runtime
