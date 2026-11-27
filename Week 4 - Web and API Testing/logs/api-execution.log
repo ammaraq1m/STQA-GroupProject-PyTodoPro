@@ -1,0 +1,212 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-9.2.0, pluggy-1.7.0 -- /home/codespace/.python/current/bin/python
+rootdir: /workspaces/STQA-GroupProject-PyTodoPro
+plugins: platformdirs-4.14.0, anyio-4.15.1
+collecting ... collected 31 items
+
+Week 4 - Web and API Testing/tests/test_api.py::test_A01_registration PASSED [  3%]
+Week 4 - Web and API Testing/tests/test_api.py::test_registration_validation[A02] PASSED [  6%]
+Week 4 - Web and API Testing/tests/test_api.py::test_registration_validation[A03] PASSED [  9%]
+Week 4 - Web and API Testing/tests/test_api.py::test_registration_validation[A04] PASSED [ 12%]
+Week 4 - Web and API Testing/tests/test_api.py::test_registration_validation[A05] PASSED [ 16%]
+Week 4 - Web and API Testing/tests/test_api.py::test_registration_validation[A06] FAILED [ 19%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A07_password_boundary FAILED [ 22%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A08_duplicate FAILED [ 25%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A09_session PASSED  [ 29%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A10_invalid_login PASSED [ 32%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A11_categories PASSED [ 35%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A12_auth_matrix PASSED [ 38%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A13_create_get PASSED [ 41%]
+Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A14] PASSED [ 45%]
+Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A15] PASSED [ 48%]
+Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A16] FAILED [ 51%]
+Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A17] PASSED [ 54%]
+Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A18] FAILED [ 58%]
+Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A19] FAILED [ 61%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A20_update_reopen_delete PASSED [ 64%]
+Week 4 - Web and API Testing/tests/test_api.py::test_update_validation[A21] FAILED [ 67%]
+Week 4 - Web and API Testing/tests/test_api.py::test_update_validation[A22] FAILED [ 70%]
+Week 4 - Web and API Testing/tests/test_api.py::test_update_validation[A23] FAILED [ 74%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A24_owner_isolation PASSED [ 77%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A25_no_match PASSED [ 80%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A26_pagination PASSED [ 83%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A27_negative_page_size FAILED [ 87%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A28_filter PASSED   [ 90%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A29_dashboard PASSED [ 93%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A30_due_today FAILED [ 96%]
+Week 4 - Web and API Testing/tests/test_api.py::test_A33_peer_read_update_denied PASSED [100%]
+
+=================================== FAILURES ===================================
+______________________ test_registration_validation[A06] _______________________
+Week 4 - Web and API Testing/tests/test_api.py:135: in test_registration_validation
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 500, "expected": 400}, {"check": "JSON error", "actual": null, "expected": "JSON error message"}]
+E   assert not [{'check': 'HTTP status', 'actual': 500, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}]
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:838 Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 318, in api_register
+    username = (data.get("username") or "").strip()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+__________________________ test_A07_password_boundary __________________________
+Week 4 - Web and API Testing/tests/test_api.py:144: in test_A07_password_boundary
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 400, "expected": 201}, {"check": "users written", "actual": 0, "expected": 1}]
+E   assert not [{'check': 'HTTP status', 'actual': 400, 'expected': 201}, {'check': 'users written', 'actual': 0, 'expected': 1}]
+______________________________ test_A08_duplicate ______________________________
+Week 4 - Web and API Testing/tests/test_api.py:154: in test_A08_duplicate
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "duplicate rejected with HTTP 400/409", "actual": false, "expected": true}, {"check": "users written", "actual": 2, "expected": 1}]
+E   assert not [{'check': 'duplicate rejected with HTTP 400/409', 'actual': False, 'expected': True}, {'check': 'users written', 'actual': 2, 'expected': 1}]
+_________________________ test_create_validation[A16] __________________________
+Week 4 - Web and API Testing/tests/test_api.py:225: in test_create_validation
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 500, "expected": 400}, {"check": "JSON error", "actual": null, "expected": "JSON error message"}]
+E   assert not [{'check': 'HTTP status', 'actual': 500, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}]
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:838 Exception on /api/tasks [POST]
+Traceback (most recent call last):
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 405, in api_create_task
+    title = (data.get("title") or "").strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+_________________________ test_create_validation[A18] __________________________
+Week 4 - Web and API Testing/tests/test_api.py:225: in test_create_validation
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 500, "expected": 400}, {"check": "JSON error", "actual": null, "expected": "JSON error message"}, {"check": "SQLite task title and date rows", "actual": [["Invalid date fixture", "not-a-date"]], "expected": []}]
+E   assert not [{'check': 'HTTP status', 'actual': 500, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}, {'check': 'SQLite task title and date rows', 'actual': [['Invalid date fixture', 'not-a-date']], 'expected': []}]
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:838 Exception on /api/tasks [POST]
+Traceback (most recent call last):
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 420, in api_create_task
+    return jsonify(row_to_task(row, get_category_name(db, row["category_id"]))), 201
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 94, in row_to_task
+    "urgency": compute_urgency(row["due_date"]) if not row["done"] else "Done",
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/workspaces/STQA-GroupProject-PyTodoPro/helpers.py", line 31, in compute_urgency
+    due = datetime.strptime(due_date_str, "%Y-%m-%d").date()
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.14.2/lib/python3.14/_strptime.py", line 815, in _strptime_datetime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.14.2/lib/python3.14/_strptime.py", line 555, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data 'not-a-date' does not match format '%Y-%m-%d'
+_________________________ test_create_validation[A19] __________________________
+Week 4 - Web and API Testing/tests/test_api.py:225: in test_create_validation
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 500, "expected": 400}, {"check": "JSON error", "actual": null, "expected": "JSON error message"}]
+E   assert not [{'check': 'HTTP status', 'actual': 500, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}]
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:838 Exception on /api/tasks [POST]
+Traceback (most recent call last):
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 405, in api_create_task
+    title = (data.get("title") or "").strip()
+             ^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+_________________________ test_update_validation[A21] __________________________
+Week 4 - Web and API Testing/tests/test_api.py:257: in test_update_validation
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 200, "expected": 400}, {"check": "JSON error", "actual": null, "expected": "JSON error message"}, {"check": "SQLite unchanged", "actual": [["   ", 0, null]], "expected": [["Alpha planning", 0, null]]}]
+E   assert not [{'check': 'HTTP status', 'actual': 200, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}, {'check': 'SQLite unchanged', 'actual': [['   ', 0, None]], 'expected': [['Alpha planning', 0, None]]}]
+_________________________ test_update_validation[A22] __________________________
+Week 4 - Web and API Testing/tests/test_api.py:257: in test_update_validation
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 200, "expected": 400}, {"check": "JSON error", "actual": null, "expected": "JSON error message"}, {"check": "SQLite unchanged", "actual": [["Alpha planning", 1, "2026-11-27 11:18:45"]], "expected": [["Alpha planning", 0, null]]}]
+E   assert not [{'check': 'HTTP status', 'actual': 200, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}, {'check': 'SQLite unchanged', 'actual': [['Alpha planning', 1, '2026-11-27 11:18:45']], 'expected': [['Alpha planning', 0, None]]}]
+_________________________ test_update_validation[A23] __________________________
+Week 4 - Web and API Testing/tests/test_api.py:257: in test_update_validation
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "HTTP status", "actual": 200, "expected": 400}, {"check": "JSON error", "actual": null, "expected": "JSON error message"}]
+E   assert not [{'check': 'HTTP status', 'actual': 200, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}]
+_________________________ test_A27_negative_page_size __________________________
+Week 4 - Web and API Testing/tests/test_api.py:307: in test_A27_negative_page_size
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "status or bounded response", "actual": false, "expected": true}]
+E   assert not [{'check': 'status or bounded response', 'actual': False, 'expected': True}]
+______________________________ test_A30_due_today ______________________________
+Week 4 - Web and API Testing/tests/test_api.py:341: in test_A30_due_today
+    s.verify()
+Week 4 - Web and API Testing/tests/test_api.py:59: in verify
+    assert not failed, json.dumps(failed, ensure_ascii=False)
+E   AssertionError: [{"check": "urgency label", "actual": "Overdue", "expected": "Due Today"}]
+E   assert not [{'check': 'urgency label', 'actual': 'Overdue', 'expected': 'Due Today'}]
+- generated xml file: /workspaces/STQA-GroupProject-PyTodoPro/Week 4 - Web and API Testing/logs/api-junit.xml -
+=========================== short test summary info ============================
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_registration_validation[A06]
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_A07_password_boundary
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_A08_duplicate - A...
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A16]
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A18]
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_create_validation[A19]
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_update_validation[A21]
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_update_validation[A22]
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_update_validation[A23]
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_A27_negative_page_size
+FAILED Week 4 - Web and API Testing/tests/test_api.py::test_A30_due_today - A...
+======================== 11 failed, 20 passed in 4.64s =========================

@@ -1,0 +1,1 @@
+{"name":"pytodo-week4","private":true,"scripts":{"test":"node web.cjs"},"dependencies":{"playwright":"1.65.1"}}
