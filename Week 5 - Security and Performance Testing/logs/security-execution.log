@@ -1,0 +1,113 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-9.2.0, pluggy-1.7.0 -- /home/codespace/.python/current/bin/python
+rootdir: /workspaces/STQA-GroupProject-PyTodoPro
+plugins: platformdirs-4.14.0, anyio-4.15.1
+collecting ... collected 20 items
+
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S01_invalid_login_generic PASSED [  5%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S02_protected_routes PASSED [ 10%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S03_login_logout_cookie PASSED [ 15%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S04_password_hashes PASSED [ 20%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S05_cookie_httponly PASSED [ 25%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S06_cookie_deployment_flags FAILED [ 30%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S07_owner_scoped_reads PASSED [ 35%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S08_peer_read_update_denied PASSED [ 40%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S09_owner_delete PASSED [ 45%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S10_credentials_absent_from_responses PASSED [ 50%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S11_required_title PASSED [ 55%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S12_type_validation FAILED [ 60%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S13_error_body_does_not_disclose_internals PASSED [ 65%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S14_ordinary_search PASSED [ 70%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S15_search_source_review FAILED [ 75%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S16_delete_source_review FAILED [ 80%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S17_session_signing_configuration FAILED [ 85%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S18_auditable_task_mutation FAILED [ 90%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S19_web_mutation_form_source_review FAILED [ 95%]
+Week 5 - Security and Performance Testing/tests/test_security.py::test_S20_pagination_limit FAILED [100%]
+
+=================================== FAILURES ===================================
+_______________________ test_S06_cookie_deployment_flags _______________________
+Week 5 - Security and Performance Testing/tests/test_security.py:134: in test_S06_cookie_deployment_flags
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "Secure flag", "actual": false, "expected": true}, {"assertion": "explicit SameSite policy", "actual": false, "expected": true}]
+E   assert not [{'assertion': 'Secure flag', 'actual': False, 'expected': True}, {'assertion': 'explicit SameSite policy', 'actual': False, 'expected': True}]
+___________________________ test_S12_type_validation ___________________________
+Week 5 - Security and Performance Testing/tests/test_security.py:197: in test_S12_type_validation
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "validation code", "actual": 500, "expected": 400}, {"assertion": "JSON error response", "actual": false, "expected": true}]
+E   assert not [{'assertion': 'validation code', 'actual': 500, 'expected': 400}, {'assertion': 'JSON error response', 'actual': False, 'expected': True}]
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:838 Exception on /api/tasks [POST]
+Traceback (most recent call last):
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/codespace/.local/lib/python3.14/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/workspaces/STQA-GroupProject-PyTodoPro/app.py", line 405, in api_create_task
+    title = (data.get("title") or "").strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+________________________ test_S15_search_source_review _________________________
+Week 5 - Security and Performance Testing/tests/test_security.py:225: in test_S15_search_source_review
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "search term bound without query interpolation", "actual": true, "expected": false}]
+E   assert not [{'assertion': 'search term bound without query interpolation', 'actual': True, 'expected': False}]
+________________________ test_S16_delete_source_review _________________________
+Week 5 - Security and Performance Testing/tests/test_security.py:234: in test_S16_delete_source_review
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "delete handler looks up session owner for authorization", "actual": false, "expected": true}]
+E   assert not [{'assertion': 'delete handler looks up session owner for authorization', 'actual': False, 'expected': True}]
+____________________ test_S17_session_signing_configuration ____________________
+Week 5 - Security and Performance Testing/tests/test_security.py:243: in test_S17_session_signing_configuration
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "session signing key is not assigned a literal in app source", "actual": true, "expected": false}]
+E   assert not [{'assertion': 'session signing key is not assigned a literal in app source', 'actual': True, 'expected': False}]
+_______________________ test_S18_auditable_task_mutation _______________________
+Week 5 - Security and Performance Testing/tests/test_security.py:255: in test_S18_auditable_task_mutation
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "persistent audit table exists in application SQLite", "actual": false, "expected": true}]
+E   assert not [{'assertion': 'persistent audit table exists in application SQLite', 'actual': False, 'expected': True}]
+___________________ test_S19_web_mutation_form_source_review ___________________
+Week 5 - Security and Performance Testing/tests/test_security.py:265: in test_S19_web_mutation_form_source_review
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "task-list mutation forms include CSRF token field", "actual": false, "expected": true}, {"assertion": "logout uses an explicit POST form", "actual": false, "expected": true}]
+E   assert not [{'assertion': 'task-list mutation forms include CSRF token field', 'actual': False, 'expected': True}, {'assertion': 'logout uses an explicit POST form', 'actual': False, 'expected': True}]
+__________________________ test_S20_pagination_limit ___________________________
+Week 5 - Security and Performance Testing/tests/test_security.py:277: in test_S20_pagination_limit
+    check.verify()
+Week 5 - Security and Performance Testing/tests/test_security.py:56: in verify
+    assert not mismatches, json.dumps(mismatches)
+E   AssertionError: [{"assertion": "negative page size rejected or bounded", "actual": false, "expected": true}]
+E   assert not [{'assertion': 'negative page size rejected or bounded', 'actual': False, 'expected': True}]
+- generated xml file: /workspaces/STQA-GroupProject-PyTodoPro/Week 5 - Security and Performance Testing/logs/security-junit.xml -
+=========================== short test summary info ============================
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S06_cookie_deployment_flags
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S12_type_validation
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S15_search_source_review
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S16_delete_source_review
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S17_session_signing_configuration
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S18_auditable_task_mutation
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S19_web_mutation_form_source_review
+FAILED Week 5 - Security and Performance Testing/tests/test_security.py::test_S20_pagination_limit
+========================= 8 failed, 12 passed in 4.06s =========================

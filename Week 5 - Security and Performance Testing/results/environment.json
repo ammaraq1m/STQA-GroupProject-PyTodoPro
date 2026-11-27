@@ -1,0 +1,33 @@
+{
+  "captured_utc": "2026-11-27T11:38:04.877396+00:00",
+  "platform": "Linux-6.8.0-1070-azure-x86_64-with-glibc2.39",
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo",
+  "cpu_model": "AMD EPYC 7763 64-Core Processor",
+  "affinity_cpus": 2,
+  "cgroup_cpu_max": "max 100000",
+  "cgroup_memory_max": "max",
+  "host_ram_mib": 7942,
+  "host_available_mib": 4023,
+  "python": "3.14.2",
+  "sqlite": "3.45.1",
+  "locust": "2.47.0",
+  "flask": "3.0.3",
+  "werkzeug": "3.1.9",
+  "psutil": "7.2.2",
+  "matplotlib": "3.11.2",
+  "database_bytes": 167936,
+  "fixture_rows": {
+    "users": 25,
+    "tasks": 1500,
+    "categories": 4
+  },
+  "workloads": [
+    1,
+    5,
+    10,
+    25
+  ],
+  "seconds_per_stage": 60,
+  "spawn_rate": 2,
+  "pace_seconds": 1
+}

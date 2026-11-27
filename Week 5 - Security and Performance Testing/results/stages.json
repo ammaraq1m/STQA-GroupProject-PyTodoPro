@@ -1,0 +1,34 @@
+[
+  {
+    "users": 1,
+    "status": "Completed",
+    "seconds": 60.0,
+    "authenticated": 1,
+    "reason": null,
+    "errors": []
+  },
+  {
+    "users": 5,
+    "status": "Completed",
+    "seconds": 60.001,
+    "authenticated": 5,
+    "reason": null,
+    "errors": []
+  },
+  {
+    "users": 10,
+    "status": "Completed",
+    "seconds": 60.001,
+    "authenticated": 10,
+    "reason": null,
+    "errors": []
+  },
+  {
+    "users": 25,
+    "status": "Completed",
+    "seconds": 60.001,
+    "authenticated": 25,
+    "reason": null,
+    "errors": []
+  }
+]

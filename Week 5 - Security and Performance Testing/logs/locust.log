@@ -1,0 +1,13 @@
+2026-11-27T11:38:04.903383+00:00 preflight: {'users': 25, 'tasks': 1500, 'categories': 4}, 167936 bytes, 2 CPUs
+2026-11-27T11:38:05.340338+00:00 stage 1: ramping at 2 users/s
+2026-11-27T11:38:08.542260+00:00 stage 1: measuring
+2026-11-27T11:39:08.543384+00:00 stage 1: 60.00s, 60 requests, 0 failures, stop=None
+2026-11-27T11:39:08.570983+00:00 stage 5: ramping at 2 users/s
+2026-11-27T11:39:13.785104+00:00 stage 5: measuring
+2026-11-27T11:40:13.786534+00:00 stage 5: 60.00s, 300 requests, 0 failures, stop=None
+2026-11-27T11:40:13.794122+00:00 stage 10: ramping at 2 users/s
+2026-11-27T11:40:21.215687+00:00 stage 10: measuring
+2026-11-27T11:41:21.217071+00:00 stage 10: 60.00s, 600 requests, 0 failures, stop=None
+2026-11-27T11:41:21.225110+00:00 stage 25: ramping at 2 users/s
+2026-11-27T11:41:36.669303+00:00 stage 25: measuring
+2026-11-27T11:42:36.671278+00:00 stage 25: 60.00s, 1500 requests, 0 failures, stop=None
