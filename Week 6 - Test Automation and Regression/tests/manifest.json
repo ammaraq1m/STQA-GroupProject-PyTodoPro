@@ -1,0 +1,56 @@
+{
+  "api": {
+    "A01": "test_A01_registration",
+    "A07": "test_A07_password_boundary",
+    "A08": "test_A08_duplicate",
+    "A09": "test_A09_session",
+    "A10": "test_A10_invalid_login",
+    "A12": "test_A12_auth_matrix",
+    "A13": "test_A13_create_get",
+    "A15": "test_create_validation[A15]",
+    "A16": "test_create_validation[A16]",
+    "A18": "test_create_validation[A18]",
+    "A20": "test_A20_update_reopen_delete",
+    "A21": "test_update_validation[A21]",
+    "A22": "test_update_validation[A22]",
+    "A23": "test_update_validation[A23]",
+    "A26": "test_A26_pagination",
+    "A27": "test_A27_negative_page_size",
+    "A28": "test_A28_filter",
+    "A29": "test_A29_dashboard",
+    "A30": "test_A30_due_today",
+    "A33": "test_A33_peer_read_update_denied"
+  },
+  "security": {
+    "S04": "test_S04_password_hashes",
+    "S05": "test_S05_cookie_httponly",
+    "S06": "test_S06_cookie_deployment_flags",
+    "S15": "test_S15_search_source_review",
+    "S16": "test_S16_delete_source_review",
+    "S17": "test_S17_session_signing_configuration",
+    "S19": "test_S19_web_mutation_form_source_review"
+  },
+  "new": {
+    "GAP01": "test_dashboard_completion_window[GAP01]",
+    "GAP02": "test_dashboard_completion_window[GAP02]",
+    "GAP03": "test_dashboard_completion_window[GAP03]",
+    "GAP04": "test_dashboard_completion_window[GAP04]",
+    "GAP05": "test_update_due_date_atomicity",
+    "GAP06": "test_web_peer_edit_denied"
+  },
+  "browser": ["W01", "W02", "W03", "W04", "W05", "W06", "W07", "W08", "I01", "I02", "I03", "I04"],
+  "deferred": {
+    "C-M01": "Physical iPhone and Safari verification",
+    "C-M02": "Physical Android and Chrome verification",
+    "C-M03": "Physical tablet verification",
+    "U-M01": "Uncoached first-use participant workflow",
+    "U-M02": "Participant error recovery and filter understanding",
+    "A-M01": "Screen reader names, landmarks and announcements",
+    "A-M02": "Native text zoom and visual keyboard inspection",
+    "A-M03": "Manual completion glyph and boundary contrast",
+    "A31": "Adversarial search runtime regression (Week 5 N01)",
+    "A32": "Non-owner deletion runtime regression (Week 5 N02)",
+    "N03": "Executable browser-content regression (Week 5)",
+    "N04": "Deployed HTTPS and transport behaviour (Week 5)"
+  }
+}

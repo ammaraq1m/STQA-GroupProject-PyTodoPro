@@ -1,0 +1,1799 @@
+{
+  "started": "2026-11-27T11:51:16.402032+00:00",
+  "processes": {
+    "pytest": {
+      "exitCode": 1,
+      "wallSeconds": 6.728
+    },
+    "browser": {
+      "exitCode": 1,
+      "wallSeconds": 13.452
+    }
+  },
+  "sourceSha256": {
+    "Week 4 - Web and API Testing/tests/test_api.py": "9a59a5c258dd412b1503e685c7fe842bbf91e7650113b50941bab38f5cf5c797",
+    "Week 4 - Web and API Testing/tests/server.py": "739c24126d28fb47bfb1a668d0a87b77041884e1b26faa34c6e136b11cdf3103",
+    "Week 4 - Web and API Testing/tests/web.cjs": "694c6bf9aad4cfc717994706c6e11be6f637c5d6d3cc19838b8a3a3e6a349f31",
+    "Week 5 - Security and Performance Testing/tests/test_security.py": "1c14309c02b076938cdc3ed3376385472a98735667e3e085eeda2108ca09889e",
+    "Week 6 - Test Automation and Regression/tests/test_gaps.py": "10715c448e1bc8c5f9642cb1043553a314bc866a6ed8ac6714603005e49d106d"
+  },
+  "browser": {
+    "node": "v24.22.2",
+    "playwright": "1.65.1",
+    "browser": "159.0.8154.6",
+    "options": {
+      "baseURL": "http://127.0.0.1:51794",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "locale": "en-US",
+      "timezoneId": "UTC"
+    },
+    "fatal": null
+  },
+  "cases": [
+    {
+      "id": "A01",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A01_registration",
+      "status": "Pass",
+      "durationSeconds": 0.318,
+      "assertions": [
+        {
+          "check": "registration response",
+          "actual": {
+            "id": 1,
+            "username": "qa_owner"
+          },
+          "expected": {
+            "id": 1,
+            "username": "qa_owner"
+          }
+        },
+        {
+          "check": "session cookie issued",
+          "actual": true,
+          "expected": true
+        },
+        {
+          "check": "SQLite persisted username",
+          "actual": "qa_owner",
+          "expected": "qa_owner"
+        },
+        {
+          "check": "SQLite stored password hash verifies",
+          "actual": true,
+          "expected": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A07",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A07_password_boundary",
+      "status": "Fail",
+      "durationSeconds": 0.007,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 400,
+          "expected": 201
+        },
+        {
+          "check": "users written",
+          "actual": 0,
+          "expected": 1
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"HTTP status\", \"actual\": 400, \"expected\": 201}, {\"check\": \"users written\", \"actual\": 0, \"expected\": 1}]\nassert not [{'check': 'HTTP status', 'actual': 400, 'expected': 201}, {'check': 'users written', 'actual': 0, 'expected': 1}]"
+    },
+    {
+      "id": "A08",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A08_duplicate",
+      "status": "Fail",
+      "durationSeconds": 0.299,
+      "assertions": [
+        {
+          "check": "duplicate rejected with HTTP 400/409",
+          "actual": false,
+          "expected": true
+        },
+        {
+          "check": "users written",
+          "actual": 2,
+          "expected": 1
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"duplicate rejected with HTTP 400/409\", \"actual\": false, \"expected\": true}, {\"check\": \"users written\", \"actual\": 2, \"expected\": 1}]\nassert not [{'check': 'duplicate rejected with HTTP 400/409', 'actual': False, 'expected': True}, {'check': 'users written', 'actual': 2, 'expected': 1}]"
+    },
+    {
+      "id": "A09",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A09_session",
+      "status": "Pass",
+      "durationSeconds": 0.349,
+      "assertions": [
+        {
+          "check": "login response",
+          "actual": [
+            200,
+            {
+              "id": 1,
+              "username": "qa_owner"
+            }
+          ],
+          "expected": [
+            200,
+            {
+              "id": 1,
+              "username": "qa_owner"
+            }
+          ]
+        },
+        {
+          "check": "session authorized",
+          "actual": [
+            200,
+            []
+          ],
+          "expected": [
+            200,
+            []
+          ]
+        },
+        {
+          "check": "logout redirects",
+          "actual": 302,
+          "expected": 302
+        },
+        {
+          "check": "cookie removed",
+          "actual": true,
+          "expected": true
+        },
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "authentication required",
+          "expected": "authentication required"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A10",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A10_invalid_login",
+      "status": "Pass",
+      "durationSeconds": 0.284,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "invalid credentials",
+          "expected": "invalid credentials"
+        },
+        {
+          "check": "signed out",
+          "actual": true,
+          "expected": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A12",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A12_auth_matrix",
+      "status": "Pass",
+      "durationSeconds": 0.008,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "authentication required",
+          "expected": "authentication required"
+        },
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "authentication required",
+          "expected": "authentication required"
+        },
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "authentication required",
+          "expected": "authentication required"
+        },
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "authentication required",
+          "expected": "authentication required"
+        },
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "authentication required",
+          "expected": "authentication required"
+        },
+        {
+          "check": "HTTP status",
+          "actual": 401,
+          "expected": 401
+        },
+        {
+          "check": "JSON error",
+          "actual": "authentication required",
+          "expected": "authentication required"
+        },
+        {
+          "check": "no task writes",
+          "actual": 0,
+          "expected": 0
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A13",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A13_create_get",
+      "status": "Pass",
+      "durationSeconds": 0.132,
+      "assertions": [
+        {
+          "check": "detail equals creation",
+          "actual": [
+            200,
+            {
+              "category": "Work",
+              "category_id": 1,
+              "completed_at": null,
+              "created_at": "2026-11-27T11:51:18.753455",
+              "description": "Fixture",
+              "done": false,
+              "due_date": "2099-04-10",
+              "id": 1,
+              "title": "Alpha planning",
+              "urgency": "Upcoming"
+            }
+          ],
+          "expected": [
+            200,
+            {
+              "category": "Work",
+              "category_id": 1,
+              "completed_at": null,
+              "created_at": "2026-11-27T11:51:18.753455",
+              "description": "Fixture",
+              "done": false,
+              "due_date": "2099-04-10",
+              "id": 1,
+              "title": "Alpha planning",
+              "urgency": "Upcoming"
+            }
+          ]
+        },
+        {
+          "check": "task fields",
+          "actual": [
+            "Alpha planning",
+            "Work",
+            "Fixture",
+            "2099-04-10",
+            false,
+            "Upcoming",
+            null
+          ],
+          "expected": [
+            "Alpha planning",
+            "Work",
+            "Fixture",
+            "2099-04-10",
+            false,
+            "Upcoming",
+            null
+          ]
+        },
+        {
+          "check": "SQLite row",
+          "actual": [
+            [
+              1,
+              "Alpha planning",
+              1,
+              "Fixture",
+              "2099-04-10",
+              0
+            ]
+          ],
+          "expected": [
+            [
+              1,
+              "Alpha planning",
+              1,
+              "Fixture",
+              "2099-04-10",
+              0
+            ]
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A15",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_create_validation[A15]",
+      "status": "Pass",
+      "durationSeconds": 0.13,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 400,
+          "expected": 400
+        },
+        {
+          "check": "JSON error",
+          "actual": "title is required",
+          "expected": "title is required"
+        },
+        {
+          "check": "SQLite task title and date rows",
+          "actual": [],
+          "expected": []
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A16",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_create_validation[A16]",
+      "status": "Fail",
+      "durationSeconds": 0.128,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 500,
+          "expected": 400
+        },
+        {
+          "check": "JSON error",
+          "actual": null,
+          "expected": "JSON error message"
+        },
+        {
+          "check": "SQLite task title and date rows",
+          "actual": [],
+          "expected": []
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"HTTP status\", \"actual\": 500, \"expected\": 400}, {\"check\": \"JSON error\", \"actual\": null, \"expected\": \"JSON error message\"}]\nassert not [{'check': 'HTTP status', 'actual': 500, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}]"
+    },
+    {
+      "id": "A18",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_create_validation[A18]",
+      "status": "Fail",
+      "durationSeconds": 0.149,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 500,
+          "expected": 400
+        },
+        {
+          "check": "JSON error",
+          "actual": null,
+          "expected": "JSON error message"
+        },
+        {
+          "check": "SQLite task title and date rows",
+          "actual": [
+            [
+              "Invalid date fixture",
+              "not-a-date"
+            ]
+          ],
+          "expected": []
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"HTTP status\", \"actual\": 500, \"expected\": 400}, {\"check\": \"JSON error\", \"actual\": null, \"expected\": \"JSON error message\"}, {\"check\": \"SQLite task title and date rows\", \"actual\": [[\"Invalid date fixture\", \"not-a-date\"]], \"expected\": []}]\n[+1 more line; full report in element text]"
+    },
+    {
+      "id": "A20",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A20_update_reopen_delete",
+      "status": "Pass",
+      "durationSeconds": 0.155,
+      "assertions": [
+        {
+          "check": "completion response",
+          "actual": [
+            200,
+            "Revision",
+            "Keep me",
+            true,
+            true
+          ],
+          "expected": [
+            200,
+            "Revision",
+            "Keep me",
+            true,
+            true
+          ]
+        },
+        {
+          "check": "SQLite completion",
+          "actual": [
+            [
+              "Revision",
+              1,
+              "2026-11-27 11:51:19"
+            ]
+          ],
+          "expected": [
+            [
+              "Revision",
+              1,
+              "2026-11-27 11:51:19"
+            ]
+          ]
+        },
+        {
+          "check": "reopened response",
+          "actual": [
+            200,
+            false,
+            null
+          ],
+          "expected": [
+            200,
+            false,
+            null
+          ]
+        },
+        {
+          "check": "delete response",
+          "actual": [
+            200,
+            {
+              "result": "ok"
+            }
+          ],
+          "expected": [
+            200,
+            {
+              "result": "ok"
+            }
+          ]
+        },
+        {
+          "check": "HTTP status",
+          "actual": 404,
+          "expected": 404
+        },
+        {
+          "check": "JSON error",
+          "actual": "not found",
+          "expected": "not found"
+        },
+        {
+          "check": "SQLite task count",
+          "actual": 0,
+          "expected": 0
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A21",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_update_validation[A21]",
+      "status": "Fail",
+      "durationSeconds": 0.135,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 200,
+          "expected": 400
+        },
+        {
+          "check": "JSON error",
+          "actual": null,
+          "expected": "JSON error message"
+        },
+        {
+          "check": "SQLite unchanged",
+          "actual": [
+            [
+              "   ",
+              0,
+              null
+            ]
+          ],
+          "expected": [
+            [
+              "Alpha planning",
+              0,
+              null
+            ]
+          ]
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"HTTP status\", \"actual\": 200, \"expected\": 400}, {\"check\": \"JSON error\", \"actual\": null, \"expected\": \"JSON error message\"}, {\"check\": \"SQLite unchanged\", \"actual\": [[\"   \", 0, null]], \"expected\": [[\"Alpha planning\", 0, null]]}]\n[+1 more line; full report in element text]"
+    },
+    {
+      "id": "A22",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_update_validation[A22]",
+      "status": "Fail",
+      "durationSeconds": 0.13,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 200,
+          "expected": 400
+        },
+        {
+          "check": "JSON error",
+          "actual": null,
+          "expected": "JSON error message"
+        },
+        {
+          "check": "SQLite unchanged",
+          "actual": [
+            [
+              "Alpha planning",
+              1,
+              "2026-11-27 11:51:19"
+            ]
+          ],
+          "expected": [
+            [
+              "Alpha planning",
+              0,
+              null
+            ]
+          ]
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"HTTP status\", \"actual\": 200, \"expected\": 400}, {\"check\": \"JSON error\", \"actual\": null, \"expected\": \"JSON error message\"}, {\"check\": \"SQLite unchanged\", \"actual\": [[\"Alpha planning\", 1, \"2026-11-27 11:51:19\"]], \"expected\": [[\"Alpha planning\", 0, null]]}]\n[+1 more line; full report in element text]"
+    },
+    {
+      "id": "A23",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_update_validation[A23]",
+      "status": "Fail",
+      "durationSeconds": 0.132,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 200,
+          "expected": 400
+        },
+        {
+          "check": "JSON error",
+          "actual": null,
+          "expected": "JSON error message"
+        },
+        {
+          "check": "SQLite unchanged",
+          "actual": [
+            [
+              "Alpha planning",
+              0,
+              null
+            ]
+          ],
+          "expected": [
+            [
+              "Alpha planning",
+              0,
+              null
+            ]
+          ]
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"HTTP status\", \"actual\": 200, \"expected\": 400}, {\"check\": \"JSON error\", \"actual\": null, \"expected\": \"JSON error message\"}]\nassert not [{'check': 'HTTP status', 'actual': 200, 'expected': 400}, {'check': 'JSON error', 'actual': None, 'expected': 'JSON error message'}]"
+    },
+    {
+      "id": "A26",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A26_pagination",
+      "status": "Pass",
+      "durationSeconds": 0.162,
+      "assertions": [
+        {
+          "check": "page status and titles",
+          "actual": [
+            200,
+            [
+              "Sample 11",
+              "Sample 10",
+              "Sample 9",
+              "Sample 8",
+              "Sample 7",
+              "Sample 6",
+              "Sample 5",
+              "Sample 4",
+              "Sample 3",
+              "Sample 2"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "Sample 11",
+              "Sample 10",
+              "Sample 9",
+              "Sample 8",
+              "Sample 7",
+              "Sample 6",
+              "Sample 5",
+              "Sample 4",
+              "Sample 3",
+              "Sample 2"
+            ]
+          ]
+        },
+        {
+          "check": "page status and titles",
+          "actual": [
+            200,
+            [
+              "Sample 11",
+              "Sample 10"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "Sample 11",
+              "Sample 10"
+            ]
+          ]
+        },
+        {
+          "check": "page status and titles",
+          "actual": [
+            200,
+            [
+              "Sample 9",
+              "Sample 8"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "Sample 9",
+              "Sample 8"
+            ]
+          ]
+        },
+        {
+          "check": "page status and titles",
+          "actual": [
+            200,
+            []
+          ],
+          "expected": [
+            200,
+            []
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A27",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A27_negative_page_size",
+      "status": "Fail",
+      "durationSeconds": 0.183,
+      "assertions": [
+        {
+          "check": "status or bounded response",
+          "actual": false,
+          "expected": true
+        },
+        {
+          "check": "SQLite fixture retained",
+          "actual": 12,
+          "expected": 12
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"status or bounded response\", \"actual\": false, \"expected\": true}]\nassert not [{'check': 'status or bounded response', 'actual': False, 'expected': True}]"
+    },
+    {
+      "id": "A28",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A28_filter",
+      "status": "Pass",
+      "durationSeconds": 0.167,
+      "assertions": [
+        {
+          "check": "q=Alpha",
+          "actual": [
+            200,
+            [
+              "Alpha home",
+              "Alpha planning"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "Alpha home",
+              "Alpha planning"
+            ]
+          ]
+        },
+        {
+          "check": "category=Work&status=open",
+          "actual": [
+            200,
+            [
+              "Beta planning"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "Beta planning"
+            ]
+          ]
+        },
+        {
+          "check": "category=Work&status=done&q=Alpha",
+          "actual": [
+            200,
+            [
+              "Alpha planning"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "Alpha planning"
+            ]
+          ]
+        },
+        {
+          "check": "q=missing",
+          "actual": [
+            200,
+            []
+          ],
+          "expected": [
+            200,
+            []
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A29",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A29_dashboard",
+      "status": "Pass",
+      "durationSeconds": 0.143,
+      "assertions": [
+        {
+          "check": "dashboard counters",
+          "actual": [
+            200,
+            {
+              "completed_this_week": 1,
+              "due_soon": 1,
+              "open": 2,
+              "overdue": 1,
+              "total": 3
+            }
+          ],
+          "expected": [
+            200,
+            {
+              "total": 3,
+              "open": 2,
+              "overdue": 1,
+              "due_soon": 1,
+              "completed_this_week": 1
+            }
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "A30",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A30_due_today",
+      "status": "Fail",
+      "durationSeconds": 0.136,
+      "assertions": [
+        {
+          "check": "urgency label",
+          "actual": "Overdue",
+          "expected": "Due Today"
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"urgency label\", \"actual\": \"Overdue\", \"expected\": \"Due Today\"}]\nassert not [{'check': 'urgency label', 'actual': 'Overdue', 'expected': 'Due Today'}]"
+    },
+    {
+      "id": "A33",
+      "group": "api",
+      "source": "reused",
+      "selector": "test_api.py::test_A33_peer_read_update_denied",
+      "status": "Pass",
+      "durationSeconds": 0.251,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 404,
+          "expected": 404
+        },
+        {
+          "check": "JSON error",
+          "actual": "not found",
+          "expected": "not found"
+        },
+        {
+          "check": "HTTP status",
+          "actual": 404,
+          "expected": 404
+        },
+        {
+          "check": "JSON error",
+          "actual": "not found",
+          "expected": "not found"
+        },
+        {
+          "check": "owner still reads original",
+          "actual": [
+            200,
+            {
+              "category": null,
+              "category_id": null,
+              "completed_at": null,
+              "created_at": "2026-11-27T11:51:20.865801",
+              "description": "",
+              "done": false,
+              "due_date": null,
+              "id": 1,
+              "title": "Owner task",
+              "urgency": "No due date"
+            }
+          ],
+          "expected": [
+            200,
+            {
+              "category": null,
+              "category_id": null,
+              "completed_at": null,
+              "created_at": "2026-11-27T11:51:20.865801",
+              "description": "",
+              "done": false,
+              "due_date": null,
+              "id": 1,
+              "title": "Owner task",
+              "urgency": "No due date"
+            }
+          ]
+        },
+        {
+          "check": "SQLite owner and title unchanged",
+          "actual": [
+            [
+              1,
+              "Owner task"
+            ]
+          ],
+          "expected": [
+            [
+              1,
+              "Owner task"
+            ]
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "S04",
+      "group": "security",
+      "source": "reused",
+      "selector": "test_security.py::test_S04_password_hashes",
+      "status": "Pass",
+      "durationSeconds": 0.562,
+      "assertions": [
+        {
+          "assertion": "two distinct salted hashes verify and differ from plaintext",
+          "actual": true,
+          "expected": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "S05",
+      "group": "security",
+      "source": "reused",
+      "selector": "test_security.py::test_S05_cookie_httponly",
+      "status": "Pass",
+      "durationSeconds": 0.136,
+      "assertions": [
+        {
+          "assertion": "session cookie HttpOnly",
+          "actual": true,
+          "expected": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "S06",
+      "group": "security",
+      "source": "reused",
+      "selector": "test_security.py::test_S06_cookie_deployment_flags",
+      "status": "Fail",
+      "durationSeconds": 0.132,
+      "assertions": [
+        {
+          "assertion": "Secure flag",
+          "actual": false,
+          "expected": true
+        },
+        {
+          "assertion": "explicit SameSite policy",
+          "actual": false,
+          "expected": true
+        }
+      ],
+      "error": "AssertionError: [{\"assertion\": \"Secure flag\", \"actual\": false, \"expected\": true}, {\"assertion\": \"explicit SameSite policy\", \"actual\": false, \"expected\": true}]\nassert not [{'assertion': 'Secure flag', 'actual': False, 'expected': True}, {'assertion': 'explicit SameSite policy', 'actual': False, 'expected': True}]"
+    },
+    {
+      "id": "S15",
+      "group": "security",
+      "source": "reused",
+      "selector": "test_security.py::test_S15_search_source_review",
+      "status": "Fail",
+      "durationSeconds": 0.012,
+      "assertions": [
+        {
+          "assertion": "search term bound without query interpolation",
+          "actual": true,
+          "expected": false
+        }
+      ],
+      "error": "AssertionError: [{\"assertion\": \"search term bound without query interpolation\", \"actual\": true, \"expected\": false}]\nassert not [{'assertion': 'search term bound without query interpolation', 'actual': True, 'expected': False}]"
+    },
+    {
+      "id": "S16",
+      "group": "security",
+      "source": "reused",
+      "selector": "test_security.py::test_S16_delete_source_review",
+      "status": "Fail",
+      "durationSeconds": 0.012,
+      "assertions": [
+        {
+          "assertion": "delete handler looks up session owner for authorization",
+          "actual": false,
+          "expected": true
+        }
+      ],
+      "error": "AssertionError: [{\"assertion\": \"delete handler looks up session owner for authorization\", \"actual\": false, \"expected\": true}]\nassert not [{'assertion': 'delete handler looks up session owner for authorization', 'actual': False, 'expected': True}]"
+    },
+    {
+      "id": "S17",
+      "group": "security",
+      "source": "reused",
+      "selector": "test_security.py::test_S17_session_signing_configuration",
+      "status": "Fail",
+      "durationSeconds": 0.011,
+      "assertions": [
+        {
+          "assertion": "session signing key is not assigned a literal in app source",
+          "actual": true,
+          "expected": false
+        }
+      ],
+      "error": "AssertionError: [{\"assertion\": \"session signing key is not assigned a literal in app source\", \"actual\": true, \"expected\": false}]\nassert not [{'assertion': 'session signing key is not assigned a literal in app source', 'actual': True, 'expected': False}]"
+    },
+    {
+      "id": "S19",
+      "group": "security",
+      "source": "reused",
+      "selector": "test_security.py::test_S19_web_mutation_form_source_review",
+      "status": "Fail",
+      "durationSeconds": 0.007,
+      "assertions": [
+        {
+          "assertion": "task-list mutation forms include CSRF token field",
+          "actual": false,
+          "expected": true
+        },
+        {
+          "assertion": "logout uses an explicit POST form",
+          "actual": false,
+          "expected": true
+        }
+      ],
+      "error": "AssertionError: [{\"assertion\": \"task-list mutation forms include CSRF token field\", \"actual\": false, \"expected\": true}, {\"assertion\": \"logout uses an explicit POST form\", \"actual\": false, \"expected\": true}]\nassert not [{'assertion': 'task-list mutation forms include CSRF token field', 'actual': False, 'expected': True}, {'assertion': 'logout uses an explicit POST form', 'actual': False, 'expected': True}]"
+    },
+    {
+      "id": "GAP01",
+      "group": "new",
+      "source": "new",
+      "selector": "test_gaps.py::test_dashboard_completion_window[GAP01]",
+      "status": "Fail",
+      "durationSeconds": 0.143,
+      "assertions": [
+        {
+          "check": "seeded age in seconds",
+          "actual": 0.0,
+          "expected": 0.0
+        },
+        {
+          "check": "API completed-this-week count",
+          "actual": [
+            200,
+            0
+          ],
+          "expected": [
+            200,
+            1
+          ]
+        },
+        {
+          "check": "HTML dashboard status and all five counters",
+          "actual": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"API completed-this-week count\", \"actual\": [200, 0], \"expected\": [200, 1]}, {\"check\": \"HTML dashboard status and all five counters\", \"actual\": [200, [\"1\", \"0\", \"0\", \"0\", \"0\"]], \"expected\": [200, [\"1\", \"0\", \"0\", \"0\", \"1\"]]}]\nassert not [{'check': 'API completed-this-week count', 'actual': [200, 0], 'expected': [200, 1]}, {'check': 'HTML dashboard status and all five counters', 'actual': [200, ['1', '0', '0', '0', '0']], 'expected': [200, ['1', '0', '0', '0', '1']]}]"
+    },
+    {
+      "id": "GAP02",
+      "group": "new",
+      "source": "new",
+      "selector": "test_gaps.py::test_dashboard_completion_window[GAP02]",
+      "status": "Fail",
+      "durationSeconds": 0.176,
+      "assertions": [
+        {
+          "check": "seeded age in seconds",
+          "actual": 604800.0,
+          "expected": 604800.0
+        },
+        {
+          "check": "API completed-this-week count",
+          "actual": [
+            200,
+            0
+          ],
+          "expected": [
+            200,
+            1
+          ]
+        },
+        {
+          "check": "HTML dashboard status and all five counters",
+          "actual": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"API completed-this-week count\", \"actual\": [200, 0], \"expected\": [200, 1]}, {\"check\": \"HTML dashboard status and all five counters\", \"actual\": [200, [\"1\", \"0\", \"0\", \"0\", \"0\"]], \"expected\": [200, [\"1\", \"0\", \"0\", \"0\", \"1\"]]}]\nassert not [{'check': 'API completed-this-week count', 'actual': [200, 0], 'expected': [200, 1]}, {'check': 'HTML dashboard status and all five counters', 'actual': [200, ['1', '0', '0', '0', '0']], 'expected': [200, ['1', '0', '0', '0', '1']]}]"
+    },
+    {
+      "id": "GAP03",
+      "group": "new",
+      "source": "new",
+      "selector": "test_gaps.py::test_dashboard_completion_window[GAP03]",
+      "status": "Pass",
+      "durationSeconds": 0.151,
+      "assertions": [
+        {
+          "check": "seeded age in seconds",
+          "actual": 604801.0,
+          "expected": 604801.0
+        },
+        {
+          "check": "API completed-this-week count",
+          "actual": [
+            200,
+            0
+          ],
+          "expected": [
+            200,
+            0
+          ]
+        },
+        {
+          "check": "HTML dashboard status and all five counters",
+          "actual": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "GAP04",
+      "group": "new",
+      "source": "new",
+      "selector": "test_gaps.py::test_dashboard_completion_window[GAP04]",
+      "status": "Pass",
+      "durationSeconds": 0.145,
+      "assertions": [
+        {
+          "check": "seeded age in seconds",
+          "actual": -1.0,
+          "expected": -1.0
+        },
+        {
+          "check": "API completed-this-week count",
+          "actual": [
+            200,
+            0
+          ],
+          "expected": [
+            200,
+            0
+          ]
+        },
+        {
+          "check": "HTML dashboard status and all five counters",
+          "actual": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "expected": [
+            200,
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "GAP05",
+      "group": "new",
+      "source": "new",
+      "selector": "test_gaps.py::test_update_due_date_atomicity",
+      "status": "Fail",
+      "durationSeconds": 0.175,
+      "assertions": [
+        {
+          "check": "HTTP status",
+          "actual": 500,
+          "expected": 400
+        },
+        {
+          "check": "JSON error",
+          "actual": null,
+          "expected": "JSON error message"
+        },
+        {
+          "check": "SQLite retains the previous due date",
+          "actual": [
+            [
+              "not-a-date"
+            ]
+          ],
+          "expected": [
+            [
+              "2099-04-10"
+            ]
+          ]
+        },
+        {
+          "check": "task is still readable with original date",
+          "actual": [
+            500,
+            null
+          ],
+          "expected": [
+            200,
+            "2099-04-10"
+          ]
+        }
+      ],
+      "error": "AssertionError: [{\"check\": \"HTTP status\", \"actual\": 500, \"expected\": 400}, {\"check\": \"JSON error\", \"actual\": null, \"expected\": \"JSON error message\"}, {\"check\": \"SQLite retains the previous due date\", \"actual\": [[\"not-a-date\"]], \"expected\": [[\"2099-04-10\"]]}, {\"check\": \"task is still readable with original date\", \"actual\": [500, null], \"expected\": [200, \"2099-04-10\"]}]\n[+1 more line; full report in element text]"
+    },
+    {
+      "id": "GAP06",
+      "group": "new",
+      "source": "new",
+      "selector": "test_gaps.py::test_web_peer_edit_denied",
+      "status": "Pass",
+      "durationSeconds": 0.272,
+      "assertions": [
+        {
+          "check": "peer receives redirect to own list",
+          "actual": [
+            302,
+            "/"
+          ],
+          "expected": [
+            302,
+            "/"
+          ]
+        },
+        {
+          "check": "owner title absent from denial response",
+          "actual": false,
+          "expected": false
+        },
+        {
+          "check": "peer receives redirect to own list",
+          "actual": [
+            302,
+            "/"
+          ],
+          "expected": [
+            302,
+            "/"
+          ]
+        },
+        {
+          "check": "owner title absent from denial response",
+          "actual": false,
+          "expected": false
+        },
+        {
+          "check": "owner still reaches edit form",
+          "actual": 200,
+          "expected": 200
+        },
+        {
+          "check": "owner and title unchanged",
+          "actual": [
+            [
+              1,
+              "Owner fixture"
+            ]
+          ],
+          "expected": [
+            [
+              1,
+              "Owner fixture"
+            ]
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "W01",
+      "group": "browser",
+      "objective": "Visitor redirects to login, valid registration signs in, valid login restores access after logout.",
+      "steps": "Request Dashboard anonymously. Register, log out, log in and open Dashboard.",
+      "expected": [
+        "/login",
+        "My Tasks",
+        "/login",
+        "Dashboard"
+      ],
+      "status": "Pass",
+      "actual": [
+        "/login",
+        "My Tasks",
+        "/login",
+        "Dashboard"
+      ],
+      "evidence": "screenshots/web/W01.png",
+      "durationSeconds": 1.0786019050000002,
+      "source": "reused",
+      "selector": "web.cjs::W01"
+    },
+    {
+      "id": "W02",
+      "group": "browser",
+      "objective": "Invalid username, short password and wrong login receive readable validation feedback.",
+      "steps": "Submit a two-character username, then a seven-character password, then sign in with an incorrect password.",
+      "expected": [
+        "Username must be 3-20 characters (letters, numbers, underscore).",
+        "Password must be at least 8 characters.",
+        "Invalid username or password."
+      ],
+      "status": "Pass",
+      "actual": [
+        "Username must be 3-20 characters (letters, numbers, underscore).",
+        "Password must be at least 8 characters.",
+        "Invalid username or password."
+      ],
+      "evidence": "screenshots/web/W02.png",
+      "durationSeconds": 1.211131681,
+      "source": "reused",
+      "selector": "web.cjs::W02"
+    },
+    {
+      "id": "W03",
+      "group": "browser",
+      "objective": "Browser prevents required-field submission.",
+      "steps": "On Register leave Username blank. On New Task leave Title blank. Click the submit controls and inspect validity and POST traffic.",
+      "expected": [
+        true,
+        0,
+        true,
+        0
+      ],
+      "status": "Pass",
+      "actual": [
+        true,
+        0,
+        true,
+        0
+      ],
+      "evidence": "screenshots/web/W03.png",
+      "durationSeconds": 0.9749932980000003,
+      "source": "reused",
+      "selector": "web.cjs::W03"
+    },
+    {
+      "id": "W04",
+      "group": "browser",
+      "objective": "Create, edit, complete, reopen and delete a task.",
+      "steps": "Create an open task, edit its title, complete and reopen it, cancel deletion, then confirm deletion.",
+      "expected": [
+        "Revised",
+        "Done",
+        "Upcoming",
+        "Delete this task?",
+        1,
+        0
+      ],
+      "status": "Pass",
+      "actual": [
+        "Revised",
+        "Done",
+        "Upcoming",
+        "Delete this task?",
+        1,
+        0
+      ],
+      "evidence": "screenshots/web/W04.png",
+      "durationSeconds": 1.544138113,
+      "source": "reused",
+      "selector": "web.cjs::W04"
+    },
+    {
+      "id": "W05",
+      "group": "browser",
+      "objective": "Title search and combined category/status filters return only matching tasks.",
+      "steps": "Create Work/Alpha plan and Personal/Alpha home, complete Alpha plan, search Alpha, then apply Work and Done.",
+      "expected": [
+        [
+          "Alpha home",
+          "Alpha plan"
+        ],
+        [
+          "Alpha plan"
+        ],
+        [
+          "Alpha plan"
+        ]
+      ],
+      "status": "Pass",
+      "actual": [
+        [
+          "Alpha home",
+          "Alpha plan"
+        ],
+        [
+          "Alpha plan"
+        ],
+        [
+          "Alpha plan"
+        ]
+      ],
+      "evidence": "screenshots/web/W05.png",
+      "durationSeconds": 1.4458172250000008,
+      "source": "reused",
+      "selector": "web.cjs::W05"
+    },
+    {
+      "id": "W06",
+      "group": "browser",
+      "objective": "Dashboard counts task states and dates accurately and links back to Tasks.",
+      "steps": "Create an overdue task, a task due tomorrow and a completed task, then review counters.",
+      "expected": [
+        [
+          "3",
+          "2",
+          "1",
+          "1",
+          "1"
+        ],
+        "My Tasks"
+      ],
+      "status": "Pass",
+      "extraEvidence": "screenshots/web/qa_w06-dashboard.png",
+      "actual": [
+        [
+          "3",
+          "2",
+          "1",
+          "1",
+          "1"
+        ],
+        "My Tasks"
+      ],
+      "evidence": "screenshots/web/W06.png",
+      "durationSeconds": 1.4154619470000007,
+      "source": "reused",
+      "selector": "web.cjs::W06"
+    },
+    {
+      "id": "W07",
+      "group": "browser",
+      "objective": "Registration accepts passwords at the advertised eight-character minimum.",
+      "steps": "Submit a fresh username with an eight-character password.",
+      "expected": [
+        "My Tasks",
+        []
+      ],
+      "status": "Fail",
+      "actual": [
+        "Create an account",
+        [
+          "Password must be at least 8 characters."
+        ]
+      ],
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   'Create an account',\n+   [\n+     'Password must be at least 8 characters.'\n+   ]\n-   'My Tasks',\n-   []\n  ]\n",
+      "evidence": "screenshots/web/W07.png",
+      "durationSeconds": 0.3261286049999999,
+      "source": "reused",
+      "selector": "web.cjs::W07"
+    },
+    {
+      "id": "W08",
+      "group": "browser",
+      "objective": "The web server rejects a missing title even without the browser required check.",
+      "steps": "Sign in and submit a form request omitting Title. Inspect the resulting task list.",
+      "expected": [
+        true,
+        0
+      ],
+      "status": "Fail",
+      "actual": [
+        false,
+        1
+      ],
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   false,\n+   1\n-   true,\n-   0\n  ]\n",
+      "evidence": "screenshots/web/W08.png",
+      "durationSeconds": 0.5411050029999988,
+      "source": "reused",
+      "selector": "web.cjs::W08"
+    },
+    {
+      "id": "I01",
+      "group": "browser",
+      "objective": "API registration and task creation are visible in the browser session.",
+      "steps": "Register and create a Work task through the API in the browser context. Open My Tasks.",
+      "expected": [
+        201,
+        201,
+        "qa_i01",
+        [
+          "API to UI"
+        ],
+        "Work"
+      ],
+      "status": "Pass",
+      "actual": [
+        201,
+        201,
+        "qa_i01",
+        [
+          "API to UI"
+        ],
+        "Work"
+      ],
+      "evidence": "screenshots/comparison/I01.png",
+      "durationSeconds": 0.3373264309999995,
+      "source": "reused",
+      "selector": "web.cjs::I01"
+    },
+    {
+      "id": "I02",
+      "group": "browser",
+      "objective": "Web create and complete appear in API list and dashboard. API update and deletion appear in the UI.",
+      "steps": "Create and complete UI to API in the browser. Read API list/dashboard, reopen and rename via API, reload, then delete through the API.",
+      "expected": [
+        200,
+        "UI to API",
+        true,
+        200,
+        1,
+        200,
+        "API revision",
+        "Upcoming",
+        200,
+        []
+      ],
+      "status": "Pass",
+      "extraEvidence": "screenshots/comparison/qa_i02-updated.png",
+      "actual": [
+        200,
+        "UI to API",
+        true,
+        200,
+        1,
+        200,
+        "API revision",
+        "Upcoming",
+        200,
+        []
+      ],
+      "evidence": "screenshots/comparison/I02.png",
+      "durationSeconds": 0.9794142850000007,
+      "source": "reused",
+      "selector": "web.cjs::I02"
+    },
+    {
+      "id": "I03",
+      "group": "browser",
+      "objective": "Web and API task creation both reject a whitespace-only title.",
+      "steps": "Enter three spaces in the web form, then send the same title in an API create request. Inspect the list and API error.",
+      "expected": [
+        400,
+        "title is required",
+        0
+      ],
+      "status": "Fail",
+      "actual": [
+        400,
+        "title is required",
+        1
+      ],
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n    400,\n    'title is required',\n+   1\n-   0\n  ]\n",
+      "evidence": "screenshots/comparison/I03.png",
+      "durationSeconds": 0.6848786789999994,
+      "source": "reused",
+      "selector": "web.cjs::I03"
+    },
+    {
+      "id": "I04",
+      "group": "browser",
+      "objective": "Web logout clears the API session in the same browser context.",
+      "steps": "Register through the web, query API tasks, log out through the web and query the API again.",
+      "expected": [
+        200,
+        401,
+        "authentication required",
+        "/login"
+      ],
+      "status": "Pass",
+      "actual": [
+        200,
+        401,
+        "authentication required",
+        "/login"
+      ],
+      "evidence": "screenshots/comparison/I04.png",
+      "durationSeconds": 0.5067486640000006,
+      "source": "reused",
+      "selector": "web.cjs::I04"
+    },
+    {
+      "id": "C-M01",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Physical iPhone and Safari verification",
+      "durationSeconds": null
+    },
+    {
+      "id": "C-M02",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Physical Android and Chrome verification",
+      "durationSeconds": null
+    },
+    {
+      "id": "C-M03",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Physical tablet verification",
+      "durationSeconds": null
+    },
+    {
+      "id": "U-M01",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Uncoached first-use participant workflow",
+      "durationSeconds": null
+    },
+    {
+      "id": "U-M02",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Participant error recovery and filter understanding",
+      "durationSeconds": null
+    },
+    {
+      "id": "A-M01",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Screen reader names, landmarks and announcements",
+      "durationSeconds": null
+    },
+    {
+      "id": "A-M02",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Native text zoom and visual keyboard inspection",
+      "durationSeconds": null
+    },
+    {
+      "id": "A-M03",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Manual completion glyph and boundary contrast",
+      "durationSeconds": null
+    },
+    {
+      "id": "A31",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Adversarial search runtime regression (Week 5 N01)",
+      "durationSeconds": null
+    },
+    {
+      "id": "A32",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Non-owner deletion runtime regression (Week 5 N02)",
+      "durationSeconds": null
+    },
+    {
+      "id": "N03",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Executable browser-content regression (Week 5)",
+      "durationSeconds": null
+    },
+    {
+      "id": "N04",
+      "group": "deferred",
+      "source": "deferred",
+      "status": "Not Run",
+      "reason": "Deployed HTTPS and transport behaviour (Week 5)",
+      "durationSeconds": null
+    }
+  ],
+  "finished": "2026-11-27T11:51:36.602675+00:00",
+  "wallSeconds": 20.201
+}

@@ -1,0 +1,17 @@
+{
+  "started": "2026-11-27T11:50:51.356Z",
+  "playwright": "1.65.1",
+  "node": "v24.22.2",
+  "options": {
+    "baseURL": "http://127.0.0.1:51794",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "locale": "en-US",
+    "timezoneId": "UTC"
+  },
+  "cases": [],
+  "fatal": "Flask exited during startup",
+  "finished": "2026-11-27T11:50:51.585Z"
+}
